@@ -1,3 +1,7 @@
+CC-BY-4.0
+
+Copyright (c) 2016 James Strawson
+
 Attribution 4.0 International
 
 =======================================================================
