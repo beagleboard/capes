@@ -1,0 +1,127 @@
+Partlist
+
+Exported from SD-101D Robotics Cape.brd at 5/12/17 4:58 AM
+
+EAGLE Version 8.2.0 Copyright (c) 1988-2017 Autodesk, Inc.
+
+Assembly variant: 
+
+Part        Value                         Package               Library                    Position (inch)       Orientation
+
+5VREG       AP1509SOIC-8-TIGHT            SO08-TIGHT            Strawson_Eagle_Lib         (0.785 0.64)          R270
+6VREG       AOZ1284                       SO08-EXPOSED          Strawson_Eagle_Lib         (1.955 1.215)         R180
+ADC         JST_SH_6                      JST_SH_6              Strawson_Eagle_Lib         (2.245 0.355)         R90
+BAL         BQ29209                       8-SON_3X3MM           Strawson_Eagle_Lib         (1.895 1.785)         R0
+BBB_HEADERS BEAGLEBONE_OUTLINE            BEAGLEBONE_SHIELD     Strawson_Eagle_Lib         (0 2.15)              R270
+BMP         BMP280                        BMP280                Strawson_Eagle_Lib         (1.1 0.64)            R180
+C1          0.1uF                         0402-CAP              Strawson_Eagle_Lib         (1.955 1.885)         R0
+C2          0.1uF                         0402-CAP              Strawson_Eagle_Lib         (2.535 0.705)         R90
+C3          10uF 25V                      0805                  SparkFun-Capacitors        (0.75 0.475)          R180
+C4          1uF                           0402-CAP              Strawson_Eagle_Lib         (1.305 1.355)         R180
+C5          10uF 25V                      0805                  SparkFun-Capacitors        (0.855 0.47)          R90
+C6          0.1uF                         0402-CAP              Strawson_Eagle_Lib         (1.54 0.71)           R270
+C7          10uF 25V                      0805                  SparkFun-Capacitors        (0.97 1.615)          R90
+C8          0.1uF                         0402-CAP              Strawson_Eagle_Lib         (1.54 0.63)           R90
+C9          0.1uF                         0402-CAP              Strawson_Eagle_Lib         (1.44 0.795)          R0
+C10         1uF                           0402-CAP              Strawson_Eagle_Lib         (1.215 1.435)         R180
+C11         100uF 16V                     PANASONIC_D           adafruit                   (2.895 0.865)         R180
+C12         10uF 25V                      0805                  SparkFun-Capacitors        (1.04 1.615)          R90
+C13         0.1uF                         0402-CAP              Strawson_Eagle_Lib         (1.175 0.635)         R90
+C14         0.1uF                         0402-CAP              Strawson_Eagle_Lib         (1.215 1.475)         R0
+C15         0.1uF                         0402-CAP              Strawson_Eagle_Lib         (1.925 1.415)         R180
+C16         10uF 25V                      0805                  SparkFun-Capacitors        (0.825 0.26)          R180
+C17         0.1uF                         0402-CAP              Strawson_Eagle_Lib         (1.865 1.65)          R90
+C18         0.1uF                         0402-CAP              Strawson_Eagle_Lib         (1.91 1.65)           R90
+C19         0.1uF                         0402-CAP              Strawson_Eagle_Lib         (1.985 1.785)         R90
+C20         10uF 25V                      0805                  SparkFun-Capacitors        (2.39 1.35)           R180
+C21         0.1uF                         0402-CAP              Strawson_Eagle_Lib         (1.98 1.025)          R90
+C22         0.1uF                         0402-CAP              Strawson_Eagle_Lib         (2.1 1.335)           R180
+C23         10uF 25V                      0805                  SparkFun-Capacitors        (2.035 1.015)         R90
+C24         0.1uF                         0402-CAP              Strawson_Eagle_Lib         (1.84 1)              R90
+C25         10uF 25V                      0805                  SparkFun-Capacitors        (1.345 1.43)          R180
+C26         10uF 25V                      0805                  SparkFun-Capacitors        (1.345 1.5)           R180
+CHG         GRN                           LED-0603              SparkFun-LED               (0.92 1.73)           R90
+CHGIC       MP2615                        MP2615                Strawson_Eagle_Lib         (1.07 1.435)          R270
+D1                                        SOD-123               adafruit                   (0.775 0.785)         R0
+D2                                        SOD-123               adafruit                   (0.885 1.355)         R0
+D3                                        SOD-123               adafruit                   (0.89 0.865)          R0
+D4          RED                           LED-0603              SparkFun-LED               (0.805 1.73)          R180
+D5          GREEN                         LED-0603              SparkFun-LED               (0.74 1.73)           R180
+D6          GREEN                         LED-0603              SparkFun-LED               (0.675 1.73)          R180
+D7          GREEN                         LED-0603              SparkFun-LED               (0.61 1.73)           R180
+D9                                        DO-214AA              Strawson_Eagle_Lib         (2.485 1.15)          R270
+DSM2        JST_ZH_3                      JST_ZH_3              Strawson_Eagle_Lib         (1.48 0.435)          R270
+E1          JST_SH_4                      JST_SH_4_SMD          Strawson_Eagle_Lib         (2.505 0.485)         R90
+E2          JST_SH_4                      JST_SH_4_SMD          Strawson_Eagle_Lib         (3.295 1.42)          R0
+E3          JST_SH_4                      JST_SH_4_SMD          Strawson_Eagle_Lib         (3.295 1.61)          R0
+E4          JST_SH_4                      JST_SH_4_SMD          Strawson_Eagle_Lib         (1.025 0.42)          R90
+GPS         JST_SH_6                      JST_SH_6              Strawson_Eagle_Lib         (1.615 0.355)         R90
+GRN         GRN                           LED-0603              SparkFun-LED               (0.21 1.735)          R180
+H1          TB6621FNG                     SSOP24                SparkFun                   (2.865 0.54)          R90
+H2          TB6621FNG                     SSOP24                SparkFun                   (3.23 1.04)           R0
+I2C1        JST_SH_4                      JST_SH_4_SMD          Strawson_Eagle_Lib         (1.265 0.42)          R90
+IMU         MPU-9250                      QFN24G-0.4-3X3MM      Strawson_Eagle_Lib         (1.425 0.695)         R90
+JACK        5.5x2.1mm                     DCJ0303               Strawson_Eagle_Lib         (1.185 1.1)           R270
+L1          6.8uH                         TAIYO_NRS             Strawson_Eagle_Lib         (0.52 0.67)           R270
+L2          6.8uH                         TAIYO_NRS             Strawson_Eagle_Lib         (1.23 1.69)           R0
+L3          3.3uH                         8X8MM_INDUCTOR        Strawson_Eagle_Lib         (2.235 1.14)          R270
+LIPO                                      JST_XH_3-PIN          Strawson_Eagle_Lib         (2.405 1.78)          R270
+M1          JST_ZH_2                      JST_ZH_2              Strawson_Eagle_Lib         (3.33 0.51)           R270
+M2          JST_ZH_2                      JST_ZH_2              Strawson_Eagle_Lib         (3.18 0.51)           R270
+M3          JST_ZH_2                      JST_ZH_2              Strawson_Eagle_Lib         (3.18 0.7)            R270
+M4          JST_ZH_2                      JST_ZH_2              Strawson_Eagle_Lib         (3.33 0.7)            R270
+MODE        SWITCH-MOMENTARY-2-SMD-1101NE TACTILE-SWITCH-1101NE SparkFun-Electromechanical (0.26 1.975)          R270
+PAUSE       SWITCH-MOMENTARY-2-SMD-1101NE TACTILE-SWITCH-1101NE SparkFun-Electromechanical (0.385 1.725)         R90
+POWER       SWITCH-MOMENTARY-2-SMD-1101NE TACTILE-SWITCH-1101NE SparkFun-Electromechanical (0.23 0.23)           R90
+PROT        S-8261                        SOT-236               Strawson_Eagle_Lib         (1.91 1.51)           R270
+PWR         JST_SH_4                      JST_SH_4_SMD          Strawson_Eagle_Lib         (0.47 0.345)          R270
+Q3          MOSFET-N                      SO08-TIGHT            Strawson_Eagle_Lib         (2.135 1.525)         R180
+R1          47k                           0402-RES              Strawson_Eagle_Lib         (1.62 0.78)           R270
+R3          1k                            0402-RES              Strawson_Eagle_Lib         (0.885 1.65)          R90
+R4          0.1                           0603-RES              SparkFun-Resistors         (1.31 1.855)          R180
+R5          10k                           0402-RES              Strawson_Eagle_Lib         (1.215 1.355)         R0
+R6          10k                           0402-RES              Strawson_Eagle_Lib         (1.215 1.395)         R180
+R7          4.7k                          0402-RES              Strawson_Eagle_Lib         (1.035 1.82)          R180
+R8          10k                           0402-RES              Strawson_Eagle_Lib         (1.035 1.78)          R0
+R10         4.7k                          0402-RES              Strawson_Eagle_Lib         (1.26 0.645)          R0
+R11         4.7k                          0402-RES              Strawson_Eagle_Lib         (1.26 0.68)           R180
+R12         4.7k                          0402-RES              Strawson_Eagle_Lib         (1.135 0.375)         R90
+R13         4.7k                          0402-RES              Strawson_Eagle_Lib         (1.36 0.37)           R270
+R14         4.7k                          0402-RES              Strawson_Eagle_Lib         (1.66 0.78)           R90
+R19         47k                           0402-RES              Strawson_Eagle_Lib         (2.77 0.285)          R270
+R21         261                           0402-RES              Strawson_Eagle_Lib         (0.255 1.6)           R90
+R22         261                           0402-RES              Strawson_Eagle_Lib         (0.255 1.725)         R90
+R25         4.7k                          0402-RES              Strawson_Eagle_Lib         (2.81 0.285)          R90
+R27         160                           0402-RES              Strawson_Eagle_Lib         (1.995 1.65)          R90
+R28         160                           0402-RES              Strawson_Eagle_Lib         (1.825 1.65)          R90
+R29         261                           0402-RES              Strawson_Eagle_Lib         (0.73 1.6)            R270
+R30         261                           0402-RES              Strawson_Eagle_Lib         (1.955 1.65)          R90
+R31         261                           0402-RES              Strawson_Eagle_Lib         (0.785 1.6)           R270
+R32         261                           0402-RES              Strawson_Eagle_Lib         (0.61 1.6)            R270
+R33         261                           0402-RES              Strawson_Eagle_Lib         (0.675 1.6)           R270
+R34         160                           0402-RES              Strawson_Eagle_Lib         (1.87 1.885)          R0
+R36         4.7k                          0402-RES              Strawson_Eagle_Lib         (2.66 1.06)           R0
+R37         4.7k                          0402-RES              Strawson_Eagle_Lib         (2.66 1.16)           R0
+R38         4.7k                          0402-RES              Strawson_Eagle_Lib         (2.66 1.26)           R0
+R39         4.7k                          0402-RES              Strawson_Eagle_Lib         (2.66 1.36)           R0
+R40         4.7k                          0402-RES              Strawson_Eagle_Lib         (2.66 1.46)           R0
+R41         4.7k                          0402-RES              Strawson_Eagle_Lib         (2.66 1.56)           R0
+R42         4.7k                          0402-RES              Strawson_Eagle_Lib         (2.66 1.655)          R0
+R43         4.7k                          0402-RES              Strawson_Eagle_Lib         (2.68 1.765)          R270
+R44         1k                            0402-RES              Strawson_Eagle_Lib         (1.82 1.46)           R270
+R45         47k                           0402-RES              Strawson_Eagle_Lib         (1.84 1.085)          R90
+R46         1K                            0402-RES              Strawson_Eagle_Lib         (2.455 1.295)         R0
+R47         100k                          0402-RES              Strawson_Eagle_Lib         (1.835 1.335)         R270
+R48         10k                           0402-RES              Strawson_Eagle_Lib         (1.9 1.025)           R90
+R49         65k                           0402-RES              Strawson_Eagle_Lib         (1.94 1.025)          R270
+R50         4.7k                          0402-RES              Strawson_Eagle_Lib         (2.66 1.11)           R0
+R51         4.7k                          0402-RES              Strawson_Eagle_Lib         (2.66 1.21)           R0
+R52         4.7k                          0402-RES              Strawson_Eagle_Lib         (2.66 1.31)           R0
+R53         4.7k                          0402-RES              Strawson_Eagle_Lib         (2.66 1.41)           R0
+RED         RED                           LED-0603              SparkFun-LED               (0.21 1.61)           R180
+RESET       SWITCH-MOMENTARY-2-SMD-1101NE TACTILE-SWITCH-1101NE SparkFun-Electromechanical (0.23 0.605)          R90
+SPI1.1      JST_SH_6                      JST_SH_6              Strawson_Eagle_Lib         (2.035 0.355)         R90
+SPI1.2      JST_SH_6                      JST_SH_6              Strawson_Eagle_Lib         (1.825 0.355)         R90
+U$1         SERVO_HEADERS_8X              3X8_0.1"_HEADER       Strawson_Eagle_Lib         (2.85 1.76)           R0
+UART1       JST_SH_4                      JST_SH_4_SMD          Strawson_Eagle_Lib         (1.955 0.775)         R0
+UART5       JST_SH_4                      JST_SH_4_SMD          Strawson_Eagle_Lib         (2.255 0.775)         R0
