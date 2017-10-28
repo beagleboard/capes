@@ -1,151 +1,143 @@
 Index,Register,BeagleBone,Blue rev A2,PocketBeagle,0 (Name),1,2,3,4,5,6,7,ZCZ/BSP,BSM
-1,800,P8.25 / eMMC d0,-eMMC_DAT0,,gpmc d0,mmc 1 d0,-,-,-,-,-,gpio 1.00,U7,R3
-2,804,P8.24 / eMMC d1,-eMMC_DAT1,,gpmc d1,mmc 1 d1,-,-,-,-,-,gpio 1.01,V7,R2
-3,808,P8.05 / eMMC d2,-eMMC_DAT2,,gpmc d2,mmc 1 d2,-,-,-,-,-,gpio 1.02,R8,R1
-4,80C,P8.06 / eMMC d3,-eMMC_DAT3,,gpmc d3,mmc 1 d3,-,-,-,-,-,gpio 1.03,T8,T3
-5,810,P8.23 / eMMC d4,-eMMC_DAT4,,gpmc d4,mmc 1 d4,-,-,-,-,-,gpio 1.04,U8,T2
-6,814,P8.22 / eMMC d5,-eMMC_DAT5,,gpmc d5,mmc 1 d5,-,-,-,-,-,gpio 1.05,V8,T1
-7,818,P8.03 / eMMC d6,-eMMC_DAT6,,gpmc d6,mmc 1 d6,-,-,-,-,-,gpio 1.06,R9,P4
-8,81C,P8.04 / eMMC d7,-eMMC_DAT7,,gpmc d7,mmc 1 d7,-,-,-,-,-,gpio 1.07,T9,R4
-9,820,P8.19,MPWM_3,,gpmc d8,lcd d23,mmc 1 d0,mmc 2 d4,pwm 2 out A,pru mii 0 txclk,-,gpio 0.22,U10,T4
-10,824,P8.13,MPWM_4,P2.03 / GPIO23,gpmc d9,lcd d22,mmc 1 d1,mmc 2 d5,pwm 2 out B,pru mii 0 col,-,gpio 0.23,T10,P5
-11,828,P8.14,BAT100,P1.34 / GPIO26,gpmc d10,lcd d21,mmc 1 d2,mmc 2 d6,pwm 2 tripzone,pru mii 0 txen,-,gpio 0.26,T11,R5
-12,82C,P8.17,BAT25,P2.19 / GPIO27,gpmc d11,lcd d20,mmc 1 d3,mmc 2 d7,pwm sync out,pru mii 0 txd3,-,gpio 0.27,U12,T5
-13,830,P8.12,E3_3 / EQEP_2A,P2.24 / GPIO44,gpmc d12,lcd d19,mmc 1 d4,mmc 2 d0,qep 2 in A,pru mii 0 txd2,pru 0 out 14,gpio 1.12,T12,P6
-14,834,P8.11,E3_4 / EQEP_2B,P2.33 / GPIO45,gpmc d13,lcd d18,mmc 1 d5,mmc 2 d1,qep 2 in B,pru mii 0 txd1,pru 0 out 15,gpio 1.13,R12,R6
-15,838,P8.16,E4_3,P2.22 / GPIO46,gpmc d14,lcd d17,mmc 1 d6,mmc 2 d2,qep 2 index,pru mii 0 txd0,pru 0 in 14,gpio 1.14,V13,T6
-16,83C,P8.15,E4_4,P2.18 / GPIO47,gpmc d15,lcd d16,mmc 1 d7,mmc 2 d3,qep 2 strobe,pru eCAP,pru 0 in 15,gpio 1.15,U13,P7
-17,840,P9.15 / P9.15a,MDIR_2A,,gpmc a0,mii 1 txen,rgmii 1 txctl,rmii 1 txen,gpmc a16,pru mii 1 txclk,pwm 1 tripzone,gpio 1.16,R13,T12
-18,844,P9.23,,,gpmc a1,mii 1 rxdv,rgmii 1 rxctl,mmc 2 d0,gpmc a17,pru mii 1 txd3,pwm sync out,gpio 1.17,V14,R12
-19,848,P9.14,MPWM_1,P2.01 / PWM1A,gpmc a2,mii 1 txd3,rgmii 1 txd3,mmc 2 d1,gpmc a18,pru mii 1 txd2,pwm 1 out A,gpio 1.18,U14,P12
-20,84C,P9.16,MPWM_2,,gpmc a3,mii 1 txd2,rgmii 1 txd2,mmc 2 d2,gpmc a19,pru mii 1 txd1,pwm 1 out B,gpio 1.19,T14,T13
-21,850,eMMC reset,-eMMC_RST,P2.10 / GPIO52,gpmc a4,mii 1 txd1,rgmii 1 txd1,rmii 1 txd1,gpmc a20,pru mii 1 txd0,qep 1 in A,gpio 1.20,R14,R13
-22,854,user led 0,USR0,user led 0,gpmc a5,mii 1 txd0,rgmii 1 txd0,rmii 1 txd0,gpmc a21,pru mii 1 rxd3,qep 1 in B,gpio 1.21,V15,P13
-23,858,user led 1,USR1,user led 1,gpmc a6,mii 1 txclk,rgmii 1 txclk,mmc 2 d4,gpmc a22,pru mii 1 rxd2,qep 1 index,gpio 1.22,U15,T14
-24,85C,user led 2,USR2,user led 2,gpmc a7,mii 1 rxclk,rgmii 1 rxclk,mmc 2 d5,gpmc a23,pru mii 1 rxd1,qep 1 strobe,gpio 1.23,T15,R14
-25,860,user led 3,USR3,user led 3,gpmc a8,mii 1 rxd3,rgmii 1 rxd3,mmc 2 d6,gpmc a24,pru mii 1 rxd0,asp 0 tx clk,gpio 1.24,V16,P14
-26,864,-hdmi irq,,P2.06 / GPIO57,gpmc a9,mii 1 rxd2,rgmii 1 rxd2,mmc 2 d7,gpmc a25,pru mii 1 rxclk,asp 0 tx fs,gpio 1.25,U16,T15
-27,868,-usb A vbus overcurrent,,P2.04 / GPIO58,gpmc a10,mii 1 rxd1,rgmii 1 rxd1,rmii 1 rxd1,gpmc a26,pru mii 1 rxdv,asp 0 data 0,gpio 1.26,T16,R15
+91,968,-×,,P2.27 / SPI1-MISO,uart 0 cts,uart 4 rxd,can 1 tx,i²c 1 sda,spi 1 data 0,timer 7,pru edc sync 0 out,gpio 1.08,E18,C12
+136,A1C,-×,,,usb 0 vbus out en,-,-,-,-,-,-,gpio 0.18,F16,
+139,A28,-×,,,usb 1 charge en,-,-,-,-,-,-,-,,
 28,86C,-audio osc enable,,P2.02 / GPIO59,gpmc a11,mii 1 rxd0,rgmii 1 rxd0,rmii 1 rxd0,gpmc a27,pru mii 1 rxer,asp 0 data 1,gpio 1.27,V17,T16
-29,870,P9.11,DSM_3 / UART4_RX,P2.05 / UART4_RX,gpmc wait 0,mii 1 crs,gpmc cs 4,rmii 1 crs/rxdv,mmc 1 cd,pru mii 1 col,uart 4 rxd,gpio 0.30,T17,P15
-30,874,P9.13,MDIR_1B,P2.07 / UART4_TX,gpmc wp,mii 1 rxer,gpmc cs 5,rmii 1 rxer,mmc 2 cd,pru mii 1 txen,uart 4 txd,gpio 0.31,U17,R16
-31,878,P9.12,,P2.08 / GPIO60,gpmc be1,mii 1 col,gpmc cs 6,mmc 2 d3,gpmc dir,pru mii 1 rxlink,asp 0 rx clk,gpio 1.28,U18,N14
-32,87C,P8.26,BAT75,,gpmc cs 0,-,-,-,-,-,-,gpio 1.29,V6,P3
-33,880,P8.21 / eMMC clk,-eMMC_CLK,,gpmc cs 1,gpmc clk,mmc 1 clk,pru edio in 6,pru edio out 6,pru 1 out 12,pru 1 in 12,gpio 1.30,U9,P2
-34,884,P8.20 / eMMC cmd,-eMMC_CMD,,gpmc cs 2,gpmc be1,mmc 1 cmd,pru edio in 7,pru edio out 7,pru 1 out 13,pru 1 in 13,gpio 1.31,V9,P1
-35,888,P9.15 / P9.15b,MDIR_1A,P2.20 / GPIO64,gpmc cs 3,gpmc a3,rmii 1 crs/rxdv,mmc 2 cmd,pru mii 0 crs,pru mdio data,jtag emu 4,gpio 2.00,T13,R7
-36,88C,P8.18,,P2.17 / GPIO65,gpmc clk,lcd mclk,gpmc wait 1,mmc 2 clk,pru mii 1 crs,pru mdio clock,asp 0 rx fs,gpio 2.01,V12,T7
-37,890,P8.07,RED,,gpmc adv/ale,-,timer 4,-,-,-,-,gpio 2.02,R7,M1
-38,894,P8.08,GREEN,,gpmc oe/re,-,timer 7,-,-,-,-,gpio 2.03,T7,N1
-39,898,P8.10,MODE,,gpmc we,-,timer 6,-,-,-,-,gpio 2.04,U6,N2
-40,89C,P8.09,PAUSE,EEPROM-WP / GPIO69,gpmc be0/cle,-,timer 5,-,-,-,-,gpio 2.05,T6,N3
-41,8A0,P8.45 / hdmi / sysboot 0,MDIR_4A,sysboot 0,lcd d0,gpmc a0,pru mii 0 txclk,pwm 2 out A,-,pru 1 out 0,pru 1 in 0,gpio 2.06,R1,G3
-42,8A4,P8.46 / hdmi / sysboot 1,MDIR_4B,sysboot 1,lcd d1,gpmc a1,pru mii 0 txen,pwm 2 out B,-,pru 1 out 1,pru 1 in 1,gpio 2.07,R2,G2
-43,8A8,P8.43 / hdmi / sysboot 2,MDIR_3B,sysboot 2,lcd d2,gpmc a2,pru mii 0 txd3,pwm 2 tripzone,-,pru 1 out 2,pru 1 in 2,gpio 2.08,R3,G1
-44,8AC,P8.44 / hdmi / sysboot 3,MDIR_3A,sysboot 3,lcd d3,gpmc a3,pru mii 0 txd2,pwm sync out,-,pru 1 out 3,pru 1 in 3,gpio 2.09,R4,
-45,8B0,P8.41 / hdmi / sysboot 4,SERVO_7,sysboot 4,lcd d4,gpmc a4,pru mii 0 txd1,qep 2 in A,-,pru 1 out 4,pru 1 in 4,gpio 2.10,T1,
-46,8B4,P8.42 / hdmi / sysboot 5,SERVO_8,sysboot 5,lcd d5,gpmc a5,pru mii 0 txd0,qep 2 in B,-,pru 1 out 5,pru 1 in 5,gpio 2.11,T2,
-47,8B8,P8.39 / hdmi / sysboot 6,SERVO_5,sysboot 6,lcd d6,gpmc a6,pru edio in 6,qep 2 index,pru edio out 6,pru 1 out 6,pru 1 in 6,gpio 2.12,T3,
-48,8BC,P8.40 / hdmi / sysboot 7,SERVO_6,sysboot 7,lcd d7,gpmc a7,pru edio in 7,qep 2 strobe,pru edio out 7,pru 1 out 7,pru 1 in 7,gpio 2.13,T4,
-49,8C0,P8.37 / hdmi / sysboot 8,UT5_4 / UART5_TX,sysboot 8,lcd d8,gpmc a12,pwm 1 tripzone,asp 0 tx clk,uart 5 txd,pru mii 0 rxd3,uart 2 cts,gpio 2.14,U1,
-50,8C4,P8.38 / hdmi / sysboot 9,UT5_3 / UART5_RX,sysboot 9,lcd d9,gpmc a13,pwm sync out,asp 0 tx fs,uart 5 rxd,pru mii 0 rxd2,uart 2 rts,gpio 2.15,U2,
-51,8C8,P8.36 / hdmi / sysboot 10,SERVO_PWR_EN,sysboot 10,lcd d10,gpmc a14,pwm 1 out A,asp 0 data 0,-,pru mii 0 rxd1,uart 3 cts,gpio 2.16,U3,
-52,8CC,P8.34 / hdmi / sysboot 11,MDIR_2B,sysboot 11,lcd d11,gpmc a15,pwm 1 out B,asp 0 rx hclk,asp 0 data 2,pru mii 0 rxd0,uart 3 rts,gpio 2.17,U4,
-53,8D0,P8.35 / hdmi / sysboot 12,E2_3 / EQEP_1A,sysboot 12,lcd d12,gpmc a16,qep 1 in A,asp 0 rx clk,asp 0 data 2,pru mii 0 rxlink,uart 4 cts,gpio 0.08,V2,
-54,8D4,P8.33 / hdmi / sysboot 13,E2_4 / EQEP_1B,sysboot 13,lcd d13,gpmc a17,qep 1 in B,asp 0 rx fs,asp 0 data 3,pru mii 0 rxer,uart 4 rts,gpio 0.09,V3,
-55,8D8,P8.31 / hdmi / sysboot 14,,sysboot 14,lcd d14,gpmc a18,qep 1 index,asp 0 data 1,uart 5 rxd,pru mii 0 rxclk,uart 5 cts,gpio 0.10,V4,
-56,8DC,P8.32 / hdmi / sysboot 15,BAT50,sysboot 15,lcd d15,gpmc a19,qep 1 strobe,asp 0 tx hclk,asp 0 data 3,pru mii 0 rxdv,uart 5 rts,gpio 0.11,T5,
-57,8E0,P8.27 / hdmi,SERVO_1,P2.35 / AIN5 / GPIO86,lcd vsync,gpmc a8,gpmc a1,pru edio in 2,pru edio out 2,pru 1 out 8,pru 1 in 8,gpio 2.22,U5,F3
-58,8E4,P8.29 / hdmi,SERVO_3,P1.02 / AIN6 / GPIO87,lcd hsync,gpmc a9,gpmc a2,pru edio in 3,pru edio out 3,pru 1 out 9,pru 1 in 9,gpio 2.23,R5,F2
-59,8E8,P8.28 / hdmi,SERVO_2,P1.35 / PRU1.10,lcd pclk,gpmc a10,pru mii 0 crs,pru edio in 4,pru edio out 4,pru 1 out 10,pru 1 in 10,gpio 2.24,V5,F1
-60,8EC,P8.30 / hdmi,SERVO_4,P1.04 / PRU1.11,lcd oe/acb,gpmc a11,pru mii 1 crs,pru edio in 5,pru edio out 5,pru 1 out 11,pru 1 in 11,gpio 2.25,R6,E1
-61,8F0,-μSD d3,-MMC0_DAT3,-MMC0_DAT3,mmc 0 d3,gpmc a20,uart 4 cts,timer 5,uart 1 dcd,pru 0 out 8,pru 0 in 8,gpio 2.26,F17,C15
-62,8F4,-μSD d2,-MMC0_DAT2,-MMC0_DAT2,mmc 0 d2,gpmc a21,uart 4 rts,timer 6,uart 1 dsr,pru 0 out 9,pru 0 in 9,gpio 2.27,F18,C16
-63,8F8,-μSD d1,-MMC0_DAT1,-MMC0_DAT1,mmc 0 d1,gpmc a22,uart 5 cts,uart 3 rxd,uart 1 dtr,pru 0 out 10,pru 0 in 10,gpio 2.28,G15,A15
-64,8FC,-μSD d0,-MMC0_DAT0,-MMC0_DAT0,mmc 0 d0,gpmc a23,uart 5 rts,uart 3 txd,uart 1 ri,pru 0 out 11,pru 0 in 11,gpio 2.29,G16,A16
-65,900,-μSD clk,-MMC0_CLK,-MMC0_CLK,mmc 0 clk,gpmc a24,uart 3 cts,uart 2 rxd,can 1 tx,pru 0 out 12,pru 0 in 12,gpio 2.30,G17,B15
-66,904,-μSD cmd,-MMC0_CMD,-MMC0_CMD,mmc 0 cmd,gpmc a25,uart 3 rts,uart 2 txd,can 1 rx,pru 0 out 13,pru 0 in 13,gpio 2.31,G18,B16
+84,94C,-eth mdc,-BT_RTS,,mdio clk,timer 5,uart 5 txd,uart 3 rts,mmc 0 wp,mmc 1 clk,mmc 2 clk,gpio 0.01,M18,
+83,948,-eth mdio,-BT_CTS,,mdio data,timer 6,uart 5 rxd,uart 3 cts,mmc 0 cd,mmc 1 cmd,mmc 2 cmd,gpio 0.00,M17,
 67,908,-eth mii col,-WL_SDIO_D3,,mii 0 col,rmii 1 refclk,spi 1 clk,uart 5 rxd,asp 1 data 2,mmc 2 d3,asp 0 data 2,gpio 3.00,H16,
 68,90C,-eth mii crs,,,mii 0 crs,rmii 0 crs/rxdv,spi 1 data 0,i²c 1 sda,asp 1 tx clk,uart 5 cts,uart 2 rxd,gpio 3.01,H17,
-69,910,-eth mii rx err,,,mii 0 rxer,rmii 0 rxer,spi 1 data 1,i²c 1 scl,asp 1 tx fs,uart 5 rts,uart 2 txd,gpio 3.02,J15,
-70,914,-eth mii tx en,-WL_SDIO_CMD,,mii 0 txen,rmii 0 txen,rgmii 0 txctl,timer 4,asp 1 data 0,qep 0 index,mmc 2 cmd,gpio 3.03,J16,
-71,918,-eth mii rx dv,-WL_SDIO_D0,,mii 0 rxdv,lcd mclk,rgmii 0 rxctl,uart 5 txd,asp 1 tx clk,mmc 2 d0,asp 0 rx clk,gpio 3.04,J17,
-72,91C,-eth mii tx d3,-WL_SDIO_D1,,mii 0 txd3,can 0 tx,rgmii 0 txd3,uart 4 rxd,asp 1 tx fs,mmc 2 d1,asp 0 rx fs,gpio 0.16,J18,
-73,920,-eth mii tx d2,-WL_SDIO_D2,,mii 0 txd2,can 0 rx,rgmii 0 txd2,uart 4 txd,asp 1 data 0,mmc 2 d2,asp 0 tx hclk,gpio 0.17,K15,
-74,924,-eth mii tx d1,,,mii 0 txd1,rmii 0 txd1,rgmii 0 txd1,asp 1 rx fs,asp 1 data 1,qep 0 in A,mmc 1 cmd,gpio 0.21,K16,
-75,928,-eth mii tx d0,-BT_EN / GPIO28,,mii 0 txd0,rmii 0 txd0,rgmii 0 txd0,asp 1 data 2,asp 1 rx clk,qep 0 in B,mmc 1 clk,gpio 0.28,K17,
-76,92C,-eth mii tx clk,-WL_EN / GPIO105,,mii 0 txclk,uart 2 rxd,rgmii 0 txclk,mmc 0 d7,mmc 1 d0,uart 1 dcd,asp 0 tx clk,gpio 3.09,K18,
 77,930,-eth mii rx clk,-WLBT_BUF_OE / GPIO106,,mii 0 rxclk,uart 2 txd,rgmii 0 rxclk,mmc 0 d6,mmc 1 d1,uart 1 dsr,asp 0 tx fs,gpio 3.10,L18,
-78,934,-eth mii rx d3,-BT_RX,,mii 0 rxd3,uart 3 rxd,rgmii 0 rxd3,mmc 0 d5,mmc 1 d2,uart 1 dtr,asp 0 data 0,gpio 2.18,L17,
-79,938,-eth mii rx d2,-BT_TX,,mii 0 rxd2,uart 3 txd,rgmii 0 rxd2,mmc 0 d4,mmc 1 d3,uart 1 ri,asp 0 data 1,gpio 2.19,L16,
-80,93C,-eth mii rx d1,-WL_SDIO_CLK,,mii 0 rxd1,rmii 0 rxd1,rgmii 0 rxd1,asp 1 data 3,asp 1 rx fs,qep 0 strobe,mmc 2 clk,gpio 2.20,L15,
 81,940,-eth mii rx d0,,,mii 0 rxd0,rmii 0 rxd0,rgmii 0 rxd0,asp 1 tx hclk,asp 1 rx hclk,asp 1 rx clk,asp 0 data 3,gpio 2.21,M16,
+80,93C,-eth mii rx d1,-WL_SDIO_CLK,,mii 0 rxd1,rmii 0 rxd1,rgmii 0 rxd1,asp 1 data 3,asp 1 rx fs,qep 0 strobe,mmc 2 clk,gpio 2.20,L15,
+79,938,-eth mii rx d2,-BT_TX,,mii 0 rxd2,uart 3 txd,rgmii 0 rxd2,mmc 0 d4,mmc 1 d3,uart 1 ri,asp 0 data 1,gpio 2.19,L16,
+78,934,-eth mii rx d3,-BT_RX,,mii 0 rxd3,uart 3 rxd,rgmii 0 rxd3,mmc 0 d5,mmc 1 d2,uart 1 dtr,asp 0 data 0,gpio 2.18,L17,
+71,918,-eth mii rx dv,-WL_SDIO_D0,,mii 0 rxdv,lcd mclk,rgmii 0 rxctl,uart 5 txd,asp 1 tx clk,mmc 2 d0,asp 0 rx clk,gpio 3.04,J17,
+69,910,-eth mii rx err,,,mii 0 rxer,rmii 0 rxer,spi 1 data 1,i²c 1 scl,asp 1 tx fs,uart 5 rts,uart 2 txd,gpio 3.02,J15,
+76,92C,-eth mii tx clk,-WL_EN / GPIO105,,mii 0 txclk,uart 2 rxd,rgmii 0 txclk,mmc 0 d7,mmc 1 d0,uart 1 dcd,asp 0 tx clk,gpio 3.09,K18,
+75,928,-eth mii tx d0,-BT_EN / GPIO28,,mii 0 txd0,rmii 0 txd0,rgmii 0 txd0,asp 1 data 2,asp 1 rx clk,qep 0 in B,mmc 1 clk,gpio 0.28,K17,
+74,924,-eth mii tx d1,,,mii 0 txd1,rmii 0 txd1,rgmii 0 txd1,asp 1 rx fs,asp 1 data 1,qep 0 in A,mmc 1 cmd,gpio 0.21,K16,
+73,920,-eth mii tx d2,-WL_SDIO_D2,,mii 0 txd2,can 0 rx,rgmii 0 txd2,uart 4 txd,asp 1 data 0,mmc 2 d2,asp 0 tx hclk,gpio 0.17,K15,
+72,91C,-eth mii tx d3,-WL_SDIO_D1,,mii 0 txd3,can 0 tx,rgmii 0 txd3,uart 4 rxd,asp 1 tx fs,mmc 2 d1,asp 0 rx fs,gpio 0.16,J18,
+70,914,-eth mii tx en,-WL_SDIO_CMD,,mii 0 txen,rmii 0 txen,rgmii 0 txctl,timer 4,asp 1 data 0,qep 0 index,mmc 2 cmd,gpio 3.03,J16,
 82,944,-eth unused,-WLAN_IRQ / GPIO29,,rmii 0 refclk,dma event 2,spi 1 cs 0,uart 5 txd,asp 1 data 3,mmc 0 pow,asp 1 tx hclk,gpio 0.29,H18,
-83,948,-eth mdio,-BT_CTS,,mdio data,timer 6,uart 5 rxd,uart 3 cts,mmc 0 cd,mmc 1 cmd,mmc 2 cmd,gpio 0.00,M17,
-84,94C,-eth mdc,-BT_RTS,,mdio clk,timer 5,uart 5 txd,uart 3 rts,mmc 0 wp,mmc 1 clk,mmc 2 clk,gpio 0.01,M18,
-85,950,P9.22 / spi boot clk,GPS_3 / UART2_RX,P1.08 / SPI0-CLK,spi 0 clk,uart 2 rxd,i²c 2 sda,pwm 0 out A,uart pru cts,pru edio sof,jtag emu 2,gpio 0.02,A17,A13
-86,954,P9.21 / spi boot in,GPS_4 / UART2_TX,P1.10 / SPI0-MISO,spi 0 data 0,uart 2 txd,i²c 2 scl,pwm 0 out B,uart pru rts,pru edio latch,jtag emu 3,gpio 0.03,B17,B13
-87,958,P9.18 / spi boot out,I2C_4 / I2C1_SDA,P1.12 / SPI0-MOSI,spi 0 data 1,mmc 1 wp,i²c 1 sda,pwm 0 tripzone,uart pru rxd,pru edio in 0,pru edio out 0,gpio 0.04,B16,B14
-88,95C,P9.17 / spi boot cs,I2C_3 / I2C1_SCL,P1.06 / SPI0-CS,spi 0 cs 0,mmc 2 wp,i²c 1 scl,pwm sync in,uart pru txd,pru edio in 1,pru edio out 1,gpio 0.05,A16,A14
-89,960,-μSD cd / jtag emu4,-MMC0_SDCD,-MMC0-CD,spi 0 cs 1,uart 3 rxd,eCAP 1,mmc 0 pow,dma event 2,mmc 0 cd,jtag emu 4,gpio 0.06,C15,C14
-90,964,P9.42 / P9.42a,,P2.29 / SPI1-CLK,eCAP 0,uart 3 txd,spi 1 cs 1,pru eCAP,spi 1 clk,mmc 0 wp,dma event 2,gpio 0.07,C18,C5
-91,968,-×,,P2.27 / SPI1-MISO,uart 0 cts,uart 4 rxd,can 1 tx,i²c 1 sda,spi 1 data 0,timer 7,pru edc sync 0 out,gpio 1.08,E18,C12
-92,96C,-TP9,S1.1_6 / SPI1_SS1,P2.25 / SPI1-MOSI,uart 0 rts,uart 4 txd,can 1 rx,i²c 1 scl,spi 1 data 1,spi 1 cs 0,pru edc sync 1 out,gpio 1.09,E17,C13
-93,970,console in,UT0_3 / UART0_RX,P1.32 / UART0-RX,uart 0 rxd,spi 1 cs 0,can 0 tx,i²c 2 sda,eCAP 2,pru 1 out 14,pru 1 in 14,gpio 1.10,E15,A12
-94,974,console out,UT0_4 / UART0_TX,P1.30 / UART0-TX,uart 0 txd,spi 1 cs 1,can 0 rx,i²c 2 scl,eCAP 1,pru 1 out 15,pru 1 in 15,gpio 1.11,E16,B12
-95,978,P9.20 / cape i²c sda,-I2C2_SDA,P1.26 / I2C2-SDA,uart 1 cts,timer 6,can 0 tx,i²c 2 sda,spi 1 cs 0,uart pru cts,pru edc latch 0,gpio 0.12,D18,B10
-96,97C,P9.19 / cape i²c scl,-I2C2_SCL,P1.28 / I2C2-SCL,uart 1 rts,timer 5,can 0 rx,i²c 2 scl,spi 1 cs 1,uart pru rts,pru edc latch 1,gpio 0.13,D17,A10
-97,980,P9.26,UT1_3 / UART1_RX,P2.11 / I2C1-SDA,uart 1 rxd,mmc 1 wp,can 1 tx,i²c 1 sda,-,uart pru rxd,pru 1 in 16,gpio 0.14,D16,A11
-98,984,P9.24,UT1_4 / UART1_TX,P2.09 / I2C1-SCL,uart 1 txd,mmc 2 wp,can 1 rx,i²c 1 scl,-,uart pru txd,pru 0 in 16,gpio 0.15,D15,B11
-99,988,-local i²c sda,-I2C0_SDA,-I2C0-SDA,i²c 0 sda,timer 4,uart 2 cts,eCAP 2,-,-,-,gpio 3.05,C17,C11
-100,98C,-local i²c scl,-I2C0_SCL,-I2C0-SCL,i²c 0 scl,timer 7,uart 2 rts,eCAP 1,-,-,-,gpio 3.06,C16,C10
-101,990,P9.31 / hdmi audio clk,S1.1_5 / S1.2_5 / SPI1_SCK,P1.36 / PWM0A,asp 0 tx clk,pwm 0 out A,-,spi 1 clk,mmc 0 cd,pru 0 out 0,pru 0 in 0,gpio 3.14,A13,A1
-102,994,P9.29 / hdmi audio fs,S1.1_4 / S1.2_4 / SPI1_MISO,P1.33 / PRU0.1,asp 0 tx fs,pwm 0 out B,-,spi 1 data 0,mmc 1 cd,pru 0 out 1,pru 0 in 1,gpio 3.15,B13,A2
-103,998,P9.30,S1.1_3 / S1.2_3 / SPI1_MOSI,P2.32 / PRU0.2,asp 0 data 0,pwm 0 tripzone,-,spi 1 data 1,mmc 2 cd,pru 0 out 2,pru 0 in 2,gpio 3.16,D12,B2
-104,99C,P9.28 / hdmi audio data,MDIR_1A,P2.30 / PRU0.3,asp 0 rx hclk,pwm sync in,asp 0 data 2,spi 1 cs 0,eCAP 2,pru 0 out 3,pru 0 in 3,gpio 3.17,C12,B1
-105,9A0,P9.42 / P9.42b,E1_3 / EQEP_0A,P1.31 / PRU0.4,asp 0 rx clk,qep 0 in A,asp 0 data 2,asp 1 tx clk,mmc 0 wp,pru 0 out 4,pru 0 in 4,gpio 3.18,B12,A3
-106,9A4,P9.27,,P2.34 / PRU0.5,asp 0 rx fs,qep 0 in B,asp 0 data 3,asp 1 tx fs,jtag emu 2,pru 0 out 5,pru 0 in 5,gpio 3.19,C13,B3
-107,9A8,P9.41 / P9.41a / jtag emu3 ,,P2.28 / PRU0.6,asp 0 data 1,qep 0 index,-,asp 1 data 0,jtag emu 3,pru 0 out 6,pru 0 in 6,gpio 3.20,D13,C3
-108,9AC,P9.25 / audio osc,-IMU-INT,P1.29 / PRU0.7,asp 0 tx hclk,qep 0 strobe,asp 0 data 3,asp 1 data 1,jtag emu 4,pru 0 out 7,pru 0 in 7,gpio 3.21,A14,C4
+140,A2C,-gnd,,P1.13 / USB1-ID,usb 1 id,-,-,-,-,-,-,-,P17,L14
 109,9B0,-hdmi cec / jtag emu2,SPI1_SS2 / S1.2_6,P2.31 / SPI1-CS,dma event 0,-,timer 4,clkout 0,spi 1 cs 1,pru 1 in 16,jtag emu 2,gpio 0.19,A15,A4
-110,9B4,P9.41 / P9.41b / jtag emu3,-MOT_STBY,P1.20 / PRU0.16,dma event 1,-,timer clkin,clkout 1,timer 7,pru 0 in 16,jtag emu 3,gpio 0.20,D14,B4
-111,9B8,-reset,RESET,P2.26 / NRESET,reset in/out,-,-,-,-,-,-,-,A10,R11
-112,9BC,-pmic,,,por,-,-,-,-,-,-,-,B15,P11
-113,9C0,-pmic irq,,,mpu irq,-,-,-,-,-,-,-,B18,D4
-114,9C4,-xtal,-XTAL,-XTAL,osc 0 in,-,-,-,-,-,-,-,,P16
-115,9C8,-xtal,-XTAL,-XTAL,osc 0 out,-,-,-,-,-,-,-,,N16
-116,9CC,-xtal,-XTAL,-XTAL,osc 0 gnd,-,-,-,-,-,-,-,,N15
+26,864,-hdmi irq,,P2.06 / GPIO57,gpmc a9,mii 1 rxd2,rgmii 1 rxd2,mmc 2 d7,gpmc a25,pru mii 1 rxclk,asp 0 tx fs,gpio 1.25,U16,T15
 117,9D0,-jtag,-JTAG,-JTAG,jtag tms,-,-,-,-,-,-,-,C11,D2
 118,9D4,-jtag,-JTAG,-JTAG,jtag tdi,-,-,-,-,-,-,-,B11,C1
 119,9D8,-jtag,-JTAG,-JTAG,jtag tdo,-,-,-,-,-,-,-,A11,C2
 120,9DC,-jtag,-JTAG,-JTAG,jtag tck,-,-,-,-,-,-,-,A12,D1
-121,9E0,-jtag,-JTAG,-JTAG,jtag trst,-,-,-,-,-,-,-,B10,D3
-122,9E4,-jtag emu0,-JTAG,-JTAG,emu 0,-,-,-,-,-,-,gpio 3.07,C14,E2
-123,9E8,-jtag emu1,-JTAG,-JTAG,emu 1,-,-,-,-,-,-,gpio 3.08,B14,E3
-124,9EC,-rtc xtal,,,osc 1 (rtc) in,-,-,-,-,-,-,-,,
-125,9F0,-rtc xtal,,,osc 1 (rtc) out,-,-,-,-,-,-,-,,
-126,9F4,-rtc xtal,,,rtc gnd,-,-,-,-,-,-,-,,
+121,9E+00,-jtag,-JTAG,-JTAG,jtag trst,-,-,-,-,-,-,-,B10,D3
+122,9E+04,-jtag emu0,-JTAG,-JTAG,emu 0,-,-,-,-,-,-,gpio 3.07,C14,E2
+123,9E+08,-jtag emu1,-JTAG,-JTAG,emu 1,-,-,-,-,-,-,gpio 3.08,B14,E3
+100,98C,-local i²c scl,-I2C0_SCL,-I2C0-SCL,i²c 0 scl,timer 7,uart 2 rts,eCAP 1,-,-,-,gpio 3.06,C16,C10
+99,988,-local i²c sda,-I2C0_SDA,-I2C0-SDA,i²c 0 sda,timer 4,uart 2 cts,eCAP 2,-,-,-,gpio 3.05,C17,C11
+112,9BC,-pmic,,,por,-,-,-,-,-,-,-,B15,P11
 127,9F8,-pmic,,,rtc por,-,-,-,-,-,-,-,B5,N5
 128,9FC,-pmic,,,power en,-,-,-,-,-,-,-,,
 129,A00,-pmic,,,wakeup,-,-,-,-,-,-,-,,
 130,A04,-pmic,,,rtc ldo en,-,-,-,-,-,-,-,,
-131,A08,-usb B,,,usb 0 d−,-,-,-,-,-,-,-,,
-132,A0C,-usb B,,,usb 0 d+,-,-,-,-,-,-,-,,
-133,A10,-x,,,usb 0 charge en,-,-,-,-,-,-,-,,
-134,A14,-usb B id,,,usb 0 id,-,-,-,-,-,-,-,,
-135,A18,-usb B vbus,,,usb 0 vbus in,-,-,-,-,-,-,-,,
-136,A1C,-×,,,usb 0 vbus out en,-,-,-,-,-,-,gpio 0.18,F16,
+113,9C0,-pmic irq,,,mpu irq,-,-,-,-,-,-,-,B18,D4
+111,9B8,-reset,RESET,P2.26 / NRESET,reset in/out,-,-,-,-,-,-,-,A10,R11
+124,9EC,-rtc xtal,,,osc 1 (rtc) in,-,-,-,-,-,-,-,,
+125,9F0,-rtc xtal,,,osc 1 (rtc) out,-,-,-,-,-,-,-,,
+126,9F4,-rtc xtal,,,rtc gnd,-,-,-,-,-,-,-,,
+92,96C,-TP9,S1.1_6 / SPI1_SS1,P2.25 / SPI1-MOSI,uart 0 rts,uart 4 txd,can 1 rx,i²c 1 scl,spi 1 data 1,spi 1 cs 0,pru edc sync 1 out,gpio 1.09,E17,C13
 137,A20,-usb A,,P1.09 / USB1-DN,usb 1 d−,-,-,-,-,-,-,-,R18,L16
 138,A24,-usb A,,P1.11 / USB1-DP,usb 1 d+,-,-,-,-,-,-,-,R17,L15
-139,A28,-×,,,usb 1 charge en,-,-,-,-,-,-,-,,
-140,A2C,-gnd,,P1.13 / USB1-ID,usb 1 id,-,-,-,-,-,-,-,P17,L14
 141,A30,-usb A vbus,,P1.05 / USB1-VBUS,usb 1 vbus in,-,-,-,-,-,-,-,T18,M15
 142,A34,-usb A vbus en,,P1.03 / USB1-DRVVBUS,usb 1 vbus out en,-,-,-,-,-,-,gpio 3.13,F15,M14
+27,868,-usb A vbus overcurrent,,P2.04 / GPIO58,gpmc a10,mii 1 rxd1,rgmii 1 rxd1,rmii 1 rxd1,gpmc a26,pru mii 1 rxdv,asp 0 data 0,gpio 1.26,T16,R15
+131,A08,-usb B,,,usb 0 d−,-,-,-,-,-,-,-,,
+132,A0C,-usb B,,,usb 0 d+,-,-,-,-,-,-,-,,
+134,A14,-usb B id,,,usb 0 id,-,-,-,-,-,-,-,,
+135,A18,-usb B vbus,,,usb 0 vbus in,-,-,-,-,-,-,-,,
+133,A10,-x,,,usb 0 charge en,-,-,-,-,-,-,-,,
+114,9C4,-xtal,-XTAL,-XTAL,osc 0 in,-,-,-,-,-,-,-,,P16
+115,9C8,-xtal,-XTAL,-XTAL,osc 0 out,-,-,-,-,-,-,-,,N16
+116,9CC,-xtal,-XTAL,-XTAL,osc 0 gnd,-,-,-,-,-,-,-,,N15
+89,960,-μSD cd / jtag emu4,-MMC0_SDCD,-MMC0-CD,spi 0 cs 1,uart 3 rxd,eCAP 1,mmc 0 pow,dma event 2,mmc 0 cd,jtag emu 4,gpio 0.06,C15,C14
+65,900,-μSD clk,-MMC0_CLK,-MMC0_CLK,mmc 0 clk,gpmc a24,uart 3 cts,uart 2 rxd,can 1 tx,pru 0 out 12,pru 0 in 12,gpio 2.30,G17,B15
+66,904,-μSD cmd,-MMC0_CMD,-MMC0_CMD,mmc 0 cmd,gpmc a25,uart 3 rts,uart 2 txd,can 1 rx,pru 0 out 13,pru 0 in 13,gpio 2.31,G18,B16
+64,8FC,-μSD d0,-MMC0_DAT0,-MMC0_DAT0,mmc 0 d0,gpmc a23,uart 5 rts,uart 3 txd,uart 1 ri,pru 0 out 11,pru 0 in 11,gpio 2.29,G16,A16
+63,8F8,-μSD d1,-MMC0_DAT1,-MMC0_DAT1,mmc 0 d1,gpmc a22,uart 5 cts,uart 3 rxd,uart 1 dtr,pru 0 out 10,pru 0 in 10,gpio 2.28,G15,A15
+62,8F4,-μSD d2,-MMC0_DAT2,-MMC0_DAT2,mmc 0 d2,gpmc a21,uart 4 rts,timer 6,uart 1 dsr,pru 0 out 9,pru 0 in 9,gpio 2.27,F18,C16
+61,8F0,-μSD d3,-MMC0_DAT3,-MMC0_DAT3,mmc 0 d3,gpmc a20,uart 4 cts,timer 5,uart 1 dcd,pru 0 out 8,pru 0 in 8,gpio 2.26,F17,C15
+93,970,console in,UT0_3 / UART0_RX,P1.32 / UART0-RX,uart 0 rxd,spi 1 cs 0,can 0 tx,i²c 2 sda,eCAP 2,pru 1 out 14,pru 1 in 14,gpio 1.10,E15,A12
+94,974,console out,UT0_4 / UART0_TX,P1.30 / UART0-TX,uart 0 txd,spi 1 cs 1,can 0 rx,i²c 2 scl,eCAP 1,pru 1 out 15,pru 1 in 15,gpio 1.11,E16,B12
+21,850,eMMC reset,-eMMC_RST,P2.10 / GPIO52,gpmc a4,mii 1 txd1,rgmii 1 txd1,rmii 1 txd1,gpmc a20,pru mii 1 txd0,qep 1 in A,gpio 1.20,R14,R13
 ,,P8.01 / P8.02 / P9.01 / P9.02 / P9.43 / P9.44 / P9.45 / P9.46,UT0_1 / UT1_1 / UT5_1 / CAN_1 / DSM2_2 / I2C_1 / GP0_1 / GP1_1 / GPS_2 / GPS_6 / S1.1_1 / S1.2_1 / E1_1 / E2_1 / E3_1 / E4_1 / PWR_1 / PWR_2 / GND,P1.15 / P1.16 / P1.22 / P2.15 / P2.21 / GND,GND,,,,,,,,,
+7,818,P8.03 / eMMC d6,-eMMC_DAT6,,gpmc d6,mmc 1 d6,-,-,-,-,-,gpio 1.06,R9,P4
+8,81C,P8.04 / eMMC d7,-eMMC_DAT7,,gpmc d7,mmc 1 d7,-,-,-,-,-,gpio 1.07,T9,R4
+3,808,P8.05 / eMMC d2,-eMMC_DAT2,,gpmc d2,mmc 1 d2,-,-,-,-,-,gpio 1.02,R8,R1
+4,80C,P8.06 / eMMC d3,-eMMC_DAT3,,gpmc d3,mmc 1 d3,-,-,-,-,-,gpio 1.03,T8,T3
+37,890,P8.07,RED,,gpmc adv/ale,-,timer 4,-,-,-,-,gpio 2.02,R7,M1
+38,894,P8.08,GREEN,,gpmc oe/re,-,timer 7,-,-,-,-,gpio 2.03,T7,N1
+40,89C,P8.09,PAUSE,EEPROM-WP / GPIO69,gpmc be0/cle,-,timer 5,-,-,-,-,gpio 2.05,T6,N3
+39,898,P8.10,MODE,,gpmc we,-,timer 6,-,-,-,-,gpio 2.04,U6,N2
+14,834,P8.11,E3_4 / EQEP_2B,P2.33 / GPIO45,gpmc d13,lcd d18,mmc 1 d5,mmc 2 d1,qep 2 in B,pru mii 0 txd1,pru 0 out 15,gpio 1.13,R12,R6
+13,830,P8.12,E3_3 / EQEP_2A,P2.24 / GPIO44,gpmc d12,lcd d19,mmc 1 d4,mmc 2 d0,qep 2 in A,pru mii 0 txd2,pru 0 out 14,gpio 1.12,T12,P6
+10,824,P8.13,MPWM_4,P2.03 / GPIO23,gpmc d9,lcd d22,mmc 1 d1,mmc 2 d5,pwm 2 out B,pru mii 0 col,-,gpio 0.23,T10,P5
+11,828,P8.14,BAT100,P1.34 / GPIO26,gpmc d10,lcd d21,mmc 1 d2,mmc 2 d6,pwm 2 tripzone,pru mii 0 txen,-,gpio 0.26,T11,R5
+16,83C,P8.15,E4_4,P2.18 / GPIO47,gpmc d15,lcd d16,mmc 1 d7,mmc 2 d3,qep 2 strobe,pru eCAP,pru 0 in 15,gpio 1.15,U13,P7
+15,838,P8.16,E4_3,P2.22 / GPIO46,gpmc d14,lcd d17,mmc 1 d6,mmc 2 d2,qep 2 index,pru mii 0 txd0,pru 0 in 14,gpio 1.14,V13,T6
+12,82C,P8.17,BAT25,P2.19 / GPIO27,gpmc d11,lcd d20,mmc 1 d3,mmc 2 d7,pwm sync out,pru mii 0 txd3,-,gpio 0.27,U12,T5
+36,88C,P8.18,,P2.17 / GPIO65,gpmc clk,lcd mclk,gpmc wait 1,mmc 2 clk,pru mii 1 crs,pru mdio clock,asp 0 rx fs,gpio 2.01,V12,T7
+9,820,P8.19,MPWM_3,,gpmc d8,lcd d23,mmc 1 d0,mmc 2 d4,pwm 2 out A,pru mii 0 txclk,-,gpio 0.22,U10,T4
+34,884,P8.20 / eMMC cmd,-eMMC_CMD,,gpmc cs 2,gpmc be1,mmc 1 cmd,pru edio in 7,pru edio out 7,pru 1 out 13,pru 1 in 13,gpio 1.31,V9,P1
+33,880,P8.21 / eMMC clk,-eMMC_CLK,,gpmc cs 1,gpmc clk,mmc 1 clk,pru edio in 6,pru edio out 6,pru 1 out 12,pru 1 in 12,gpio 1.30,U9,P2
+6,814,P8.22 / eMMC d5,-eMMC_DAT5,,gpmc d5,mmc 1 d5,-,-,-,-,-,gpio 1.05,V8,T1
+5,810,P8.23 / eMMC d4,-eMMC_DAT4,,gpmc d4,mmc 1 d4,-,-,-,-,-,gpio 1.04,U8,T2
+2,804,P8.24 / eMMC d1,-eMMC_DAT1,,gpmc d1,mmc 1 d1,-,-,-,-,-,gpio 1.01,V7,R2
+1,800,P8.25 / eMMC d0,-eMMC_DAT0,,gpmc d0,mmc 1 d0,-,-,-,-,-,gpio 1.00,U7,R3
+32,87C,P8.26,BAT75,,gpmc cs 0,-,-,-,-,-,-,gpio 1.29,V6,P3
+57,8E+00,P8.27 / hdmi,SERVO_1,P2.35 / AIN5 / GPIO86,lcd vsync,gpmc a8,gpmc a1,pru edio in 2,pru edio out 2,pru 1 out 8,pru 1 in 8,gpio 2.22,U5,F3
+59,8E+08,P8.28 / hdmi,SERVO_2,P1.35 / PRU1.10,lcd pclk,gpmc a10,pru mii 0 crs,pru edio in 4,pru edio out 4,pru 1 out 10,pru 1 in 10,gpio 2.24,V5,F1
+58,8E+04,P8.29 / hdmi,SERVO_3,P1.02 / AIN6 / GPIO87,lcd hsync,gpmc a9,gpmc a2,pru edio in 3,pru edio out 3,pru 1 out 9,pru 1 in 9,gpio 2.23,R5,F2
+60,8EC,P8.30 / hdmi,SERVO_4,P1.04 / PRU1.11,lcd oe/acb,gpmc a11,pru mii 1 crs,pru edio in 5,pru edio out 5,pru 1 out 11,pru 1 in 11,gpio 2.25,R6,E1
+55,8D8,P8.31 / hdmi / sysboot 14,,sysboot 14,lcd d14,gpmc a18,qep 1 index,asp 0 data 1,uart 5 rxd,pru mii 0 rxclk,uart 5 cts,gpio 0.10,V4,
+56,8DC,P8.32 / hdmi / sysboot 15,BAT50,sysboot 15,lcd d15,gpmc a19,qep 1 strobe,asp 0 tx hclk,asp 0 data 3,pru mii 0 rxdv,uart 5 rts,gpio 0.11,T5,
+54,8D4,P8.33 / hdmi / sysboot 13,E2_4 / EQEP_1B,sysboot 13,lcd d13,gpmc a17,qep 1 in B,asp 0 rx fs,asp 0 data 3,pru mii 0 rxer,uart 4 rts,gpio 0.09,V3,
+52,8CC,P8.34 / hdmi / sysboot 11,MDIR_2B,sysboot 11,lcd d11,gpmc a15,pwm 1 out B,asp 0 rx hclk,asp 0 data 2,pru mii 0 rxd0,uart 3 rts,gpio 2.17,U4,
+53,8D0,P8.35 / hdmi / sysboot 12,E2_3 / EQEP_1A,sysboot 12,lcd d12,gpmc a16,qep 1 in A,asp 0 rx clk,asp 0 data 2,pru mii 0 rxlink,uart 4 cts,gpio 0.08,V2,
+51,8C8,P8.36 / hdmi / sysboot 10,SERVO_PWR_EN,sysboot 10,lcd d10,gpmc a14,pwm 1 out A,asp 0 data 0,-,pru mii 0 rxd1,uart 3 cts,gpio 2.16,U3,
+49,8C0,P8.37 / hdmi / sysboot 8,UT5_4 / UART5_TX,sysboot 8,lcd d8,gpmc a12,pwm 1 tripzone,asp 0 tx clk,uart 5 txd,pru mii 0 rxd3,uart 2 cts,gpio 2.14,U1,
+50,8C4,P8.38 / hdmi / sysboot 9,UT5_3 / UART5_RX,sysboot 9,lcd d9,gpmc a13,pwm sync out,asp 0 tx fs,uart 5 rxd,pru mii 0 rxd2,uart 2 rts,gpio 2.15,U2,
+47,8B8,P8.39 / hdmi / sysboot 6,SERVO_5,sysboot 6,lcd d6,gpmc a6,pru edio in 6,qep 2 index,pru edio out 6,pru 1 out 6,pru 1 in 6,gpio 2.12,T3,
+48,8BC,P8.40 / hdmi / sysboot 7,SERVO_6,sysboot 7,lcd d7,gpmc a7,pru edio in 7,qep 2 strobe,pru edio out 7,pru 1 out 7,pru 1 in 7,gpio 2.13,T4,
+45,8B0,P8.41 / hdmi / sysboot 4,SERVO_7,sysboot 4,lcd d4,gpmc a4,pru mii 0 txd1,qep 2 in A,-,pru 1 out 4,pru 1 in 4,gpio 2.10,T1,
+46,8B4,P8.42 / hdmi / sysboot 5,SERVO_8,sysboot 5,lcd d5,gpmc a5,pru mii 0 txd0,qep 2 in B,-,pru 1 out 5,pru 1 in 5,gpio 2.11,T2,
+43,8A8,P8.43 / hdmi / sysboot 2,MDIR_3B,sysboot 2,lcd d2,gpmc a2,pru mii 0 txd3,pwm 2 tripzone,-,pru 1 out 2,pru 1 in 2,gpio 2.08,R3,G1
+44,8AC,P8.44 / hdmi / sysboot 3,MDIR_3A,sysboot 3,lcd d3,gpmc a3,pru mii 0 txd2,pwm sync out,-,pru 1 out 3,pru 1 in 3,gpio 2.09,R4,
+41,8A0,P8.45 / hdmi / sysboot 0,MDIR_4A,sysboot 0,lcd d0,gpmc a0,pru mii 0 txclk,pwm 2 out A,-,pru 1 out 0,pru 1 in 0,gpio 2.06,R1,G3
+42,8A4,P8.46 / hdmi / sysboot 1,MDIR_4B,sysboot 1,lcd d1,gpmc a1,pru mii 0 txen,pwm 2 out B,-,pru 1 out 1,pru 1 in 1,gpio 2.07,R2,G2
 ,,P9.03 / P9.04,UT0_2 / UT1_2 / UT5_2 / CAN_2 / DSM2_1 / I2C_2 / GP0_2 / GP1_2 / S1.1_2 / S1.2_2 / E1_2 / E2_2 / E3_2 / E4_2 / PWR_3 / 3.3V,P1.14 / P2.23 / VOUT-3.3V,VOUT-3.3V,,,,,,,,,
 ,,P9.05 / P9.06 / VDD_5V,,P1.01 / VIN,VIN,,,,,,,,,
 ,,P9.07 / P9.08 / SYS_5V,PWR_4 / GPS_5 / 5.0V,P1.24 / P2.13 / VOUT-5V,VOUT-5V,,,,,,,,,
 ,,P9.09,POWER_BTN,P2.12 / POWER_BTN,POWER,,,,,,,,,T11
+29,870,P9.11,DSM_3 / UART4_RX,P2.05 / UART4_RX,gpmc wait 0,mii 1 crs,gpmc cs 4,rmii 1 crs/rxdv,mmc 1 cd,pru mii 1 col,uart 4 rxd,gpio 0.30,T17,P15
+31,878,P9.12,,P2.08 / GPIO60,gpmc be1,mii 1 col,gpmc cs 6,mmc 2 d3,gpmc dir,pru mii 1 rxlink,asp 0 rx clk,gpio 1.28,U18,N14
+30,874,P9.13,MDIR_1B,P2.07 / UART4_TX,gpmc wp,mii 1 rxer,gpmc cs 5,rmii 1 rxer,mmc 2 cd,pru mii 1 txen,uart 4 txd,gpio 0.31,U17,R16
+19,848,P9.14,MPWM_1,P2.01 / PWM1A,gpmc a2,mii 1 txd3,rgmii 1 txd3,mmc 2 d1,gpmc a18,pru mii 1 txd2,pwm 1 out A,gpio 1.18,U14,P12
+17,840,P9.15 / P9.15a,MDIR_2A,,gpmc a0,mii 1 txen,rgmii 1 txctl,rmii 1 txen,gpmc a16,pru mii 1 txclk,pwm 1 tripzone,gpio 1.16,R13,T12
+35,888,P9.15 / P9.15b,MDIR_1A,P2.20 / GPIO64,gpmc cs 3,gpmc a3,rmii 1 crs/rxdv,mmc 2 cmd,pru mii 0 crs,pru mdio data,jtag emu 4,gpio 2.00,T13,R7
+20,84C,P9.16,MPWM_2,,gpmc a3,mii 1 txd2,rgmii 1 txd2,mmc 2 d2,gpmc a19,pru mii 1 txd1,pwm 1 out B,gpio 1.19,T14,T13
+88,95C,P9.17 / spi boot cs,I2C_3 / I2C1_SCL,P1.06 / SPI0-CS,spi 0 cs 0,mmc 2 wp,i²c 1 scl,pwm sync in,uart pru txd,pru edio in 1,pru edio out 1,gpio 0.05,A16,A14
+87,958,P9.18 / spi boot out,I2C_4 / I2C1_SDA,P1.12 / SPI0-MOSI,spi 0 data 1,mmc 1 wp,i²c 1 sda,pwm 0 tripzone,uart pru rxd,pru edio in 0,pru edio out 0,gpio 0.04,B16,B14
+96,97C,P9.19 / cape i²c scl,-I2C2_SCL,P1.28 / I2C2-SCL,uart 1 rts,timer 5,can 0 rx,i²c 2 scl,spi 1 cs 1,uart pru rts,pru edc latch 1,gpio 0.13,D17,A10
+95,978,P9.20 / cape i²c sda,-I2C2_SDA,P1.26 / I2C2-SDA,uart 1 cts,timer 6,can 0 tx,i²c 2 sda,spi 1 cs 0,uart pru cts,pru edc latch 0,gpio 0.12,D18,B10
+86,954,P9.21 / spi boot in,GPS_4 / UART2_TX,P1.10 / SPI0-MISO,spi 0 data 0,uart 2 txd,i²c 2 scl,pwm 0 out B,uart pru rts,pru edio latch,jtag emu 3,gpio 0.03,B17,B13
+85,950,P9.22 / spi boot clk,GPS_3 / UART2_RX,P1.08 / SPI0-CLK,spi 0 clk,uart 2 rxd,i²c 2 sda,pwm 0 out A,uart pru cts,pru edio sof,jtag emu 2,gpio 0.02,A17,A13
+18,844,P9.23,,,gpmc a1,mii 1 rxdv,rgmii 1 rxctl,mmc 2 d0,gpmc a17,pru mii 1 txd3,pwm sync out,gpio 1.17,V14,R12
+98,984,P9.24,UT1_4 / UART1_TX,P2.09 / I2C1-SCL,uart 1 txd,mmc 2 wp,can 1 rx,i²c 1 scl,-,uart pru txd,pru 0 in 16,gpio 0.15,D15,B11
+108,9AC,P9.25 / audio osc,-IMU-INT,P1.29 / PRU0.7,asp 0 tx hclk,qep 0 strobe,asp 0 data 3,asp 1 data 1,jtag emu 4,pru 0 out 7,pru 0 in 7,gpio 3.21,A14,C4
+97,980,P9.26,UT1_3 / UART1_RX,P2.11 / I2C1-SDA,uart 1 rxd,mmc 1 wp,can 1 tx,i²c 1 sda,-,uart pru rxd,pru 1 in 16,gpio 0.14,D16,A11
+106,9A4,P9.27,,P2.34 / PRU0.5,asp 0 rx fs,qep 0 in B,asp 0 data 3,asp 1 tx fs,jtag emu 2,pru 0 out 5,pru 0 in 5,gpio 3.19,C13,B3
+104,99C,P9.28 / hdmi audio data,MDIR_1A,P2.30 / PRU0.3,asp 0 rx hclk,pwm sync in,asp 0 data 2,spi 1 cs 0,eCAP 2,pru 0 out 3,pru 0 in 3,gpio 3.17,C12,B1
+102,994,P9.29 / hdmi audio fs,S1.1_4 / S1.2_4 / SPI1_MISO,P1.33 / PRU0.1,asp 0 tx fs,pwm 0 out B,-,spi 1 data 0,mmc 1 cd,pru 0 out 1,pru 0 in 1,gpio 3.15,B13,A2
+103,998,P9.30,S1.1_3 / S1.2_3 / SPI1_MOSI,P2.32 / PRU0.2,asp 0 data 0,pwm 0 tripzone,-,spi 1 data 1,mmc 2 cd,pru 0 out 2,pru 0 in 2,gpio 3.16,D12,B2
+101,990,P9.31 / hdmi audio clk,S1.1_5 / S1.2_5 / SPI1_SCK,P1.36 / PWM0A,asp 0 tx clk,pwm 0 out A,-,spi 1 clk,mmc 0 cd,pru 0 out 0,pru 0 in 0,gpio 3.14,A13,A1
 ,,P9.32,ADC_2 / VDD_ADC,P1.17 / AIN.VREFN,vrefn,,,,,,,,A9,B9
 ,,P9.33,,P1.27 / AIN4-1.8V,ain4,,,,,,,,C8,C7
 ,,P9.34,,P1.18 / AIN.VREFP,vrefp,,,,,,,,B9,B7
@@ -155,6 +147,14 @@ Index,Register,BeagleBone,Blue rev A2,PocketBeagle,0 (Name),1,2,3,4,5,6,7,ZCZ/BS
 ,,P9.38,ADC_6 / AIN3,P1.25 / AIN3-1.8V,ain3,,,,,,,,A7,C6
 ,,P9.39,ADC_3 / AIN0,P1.19 / AIN0-1.8V,ain0,,,,,,,,B6,A8
 ,,P9.40,ADC_4 / AIN1,P1.21 / AIN1-1.8V,ain1,,,,,,,,C7,B8
+107,9A8,P9.41 / P9.41a / jtag emu3,,P2.28 / PRU0.6,asp 0 data 1,qep 0 index,-,asp 1 data 0,jtag emu 3,pru 0 out 6,pru 0 in 6,gpio 3.20,D13,C3
+110,9B4,P9.41 / P9.41b / jtag emu3,-MOT_STBY,P1.20 / PRU0.16,dma event 1,-,timer clkin,clkout 1,timer 7,pru 0 in 16,jtag emu 3,gpio 0.20,D14,B4
+90,964,P9.42 / P9.42a,,P2.29 / SPI1-CLK,eCAP 0,uart 3 txd,spi 1 cs 1,pru eCAP,spi 1 clk,mmc 0 wp,dma event 2,gpio 0.07,C18,C5
+105,9A0,P9.42 / P9.42b,E1_3 / EQEP_0A,P1.31 / PRU0.4,asp 0 rx clk,qep 0 in A,asp 0 data 2,asp 1 tx clk,mmc 0 wp,pru 0 out 4,pru 0 in 4,gpio 3.18,B12,A3
+22,854,user led 0,USR0,user led 0,gpmc a5,mii 1 txd0,rgmii 1 txd0,rmii 1 txd0,gpmc a21,pru mii 1 rxd3,qep 1 in B,gpio 1.21,V15,P13
+23,858,user led 1,USR1,user led 1,gpmc a6,mii 1 txclk,rgmii 1 txclk,mmc 2 d4,gpmc a22,pru mii 1 rxd2,qep 1 index,gpio 1.22,U15,T14
+24,85C,user led 2,USR2,user led 2,gpmc a7,mii 1 rxclk,rgmii 1 rxclk,mmc 2 d5,gpmc a23,pru mii 1 rxd1,qep 1 strobe,gpio 1.23,T15,R14
+25,860,user led 3,USR3,user led 3,gpmc a8,mii 1 rxd3,rgmii 1 rxd3,mmc 2 d6,gpmc a24,pru mii 1 rxd0,asp 0 tx clk,gpio 1.24,V16,P14
 ,,,,P2.36 / AIN7-1.8V,ain7,,,,,,,,C9,D7
 ,,,,EEPROM-WP / GPIO69,eeprom wp,,,,,,,,,M2
 ,,,,P1.07 / USB-VIN,VIN-USB,,,,,,,,,
