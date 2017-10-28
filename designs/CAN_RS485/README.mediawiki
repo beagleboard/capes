@@ -76,6 +76,6 @@ TBD
 
 
 ==Manufacturer's Link==
-For more information about this cape, please visit https://github.com/beagleboard/capes/designs/CAN_RS485 <br />
+For more information about this cape, please visit https://github.com/beagleboard/capes/tree/master/designs/CAN_RS485 <br />
 
 To go back to the cape list, please click [http://elinux.org/Beagleboard:BeagleBone_Capes BeagleBone Capes]
