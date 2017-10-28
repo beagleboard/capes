@@ -1,0 +1,81 @@
+==Descriptions==
+[[File:300px-CAN_RS485-Front.jpg|right|border|300px|link=|alt=CAN/RS485 Cape]]
+TBD
+
+
+==Specifications==
+
+===Electrical Specifications===
+TBD
+
+
+===Mechanical Specifications===
+{|class="wikitable"
+|Size
+| -
+|-
+|Layers
+| -
+|-
+|PCB Thickness
+|.062"
+|-
+|RoHS Compliant
+|Yes
+|}
+
+
+==EEPROM==
+[[File:Pin-CAN_RS485.jpg|right|link=|CAN/RS485 Cape Pin Usage]]
+{|class="wikitable"
+|EEPROM Suport
+|Yes
+|-
+|Board Name
+|CAN/RS485 Cape
+|-
+|Version
+| -
+|-
+|Manufacturer
+|GHI
+|-
+|Part Number
+| -
+|-
+|Pins Used
+| -
+|}
+
+
+==Documentation==
+{|class="wikitable"
+|Open Source
+|Yes
+|-
+|System Reference Manual
+|Not yet
+|-
+|Schematics
+|PDF, EAGLE
+|-
+|PCB Files
+|PDF, EAGLE
+|-
+|Gerber Files
+|Not yet
+|-
+|Bills of Materials
+|Not yet
+|}
+
+
+
+==Vendors==
+* [https://TBD TBD]
+
+
+==Manufacturer's Link==
+For more information about this cape, please visit https://github.com/beagleboard/capes/designs/CAN_RS485 <br />
+
+To go back to the cape list, please click [http://elinux.org/Beagleboard:BeagleBone_Capes BeagleBone Capes]
