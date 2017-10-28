@@ -1,0 +1,1 @@
+am335x-beagle-pins.csv from https://gist.github.com/jadonk/0a94e9761e545146c57fe1d3f0e1253b
