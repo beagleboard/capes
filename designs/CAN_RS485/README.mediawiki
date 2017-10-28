@@ -1,5 +1,6 @@
 ==Descriptions==
-[[File:300px-CAN_RS485-Front.jpg|right|border|300px|link=|alt=CAN/RS485 Cape]]
+[[File:300px-CAN_RS485-Front.jpg|right|border|300px|link=|CAN/RS485 Cape]]
+
 TBD
 
 
@@ -18,7 +19,7 @@ TBD
 | -
 |-
 |PCB Thickness
-|.062"
+|0.062"
 |-
 |RoHS Compliant
 |Yes
