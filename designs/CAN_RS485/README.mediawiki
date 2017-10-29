@@ -19,7 +19,7 @@ TBD
 | -
 |-
 | PCB Thickness
-| 0.062"
+| 0.062&quot;
 |-
 | RoHS Compliant
 | Yes
