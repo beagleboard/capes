@@ -28,9 +28,9 @@ Index,Register,BeagleBone,CAN/RS485 Cape,Display 1.8” Cape,Display 4.3” Cape
 118,9D4,-jtag,,,,,,,,,,,-JTAG,-JTAG,jtag tdi,-,-,-,-,-,-,-,B11,C1
 119,9D8,-jtag,,,,,,,,,,,-JTAG,-JTAG,jtag tdo,-,-,-,-,-,-,-,A11,C2
 120,9DC,-jtag,,,,,,,,,,,-JTAG,-JTAG,jtag tck,-,-,-,-,-,-,-,A12,D1
-121,9E+00,-jtag,,,,,,,,,,,-JTAG,-JTAG,jtag trst,-,-,-,-,-,-,-,B10,D3
-122,9E+04,-jtag emu0,,,,,,,,,,,-JTAG,-JTAG,emu 0,-,-,-,-,-,-,gpio 3.07,C14,E2
-123,9E+08,-jtag emu1,,,,,,,,,,,-JTAG,-JTAG,emu 1,-,-,-,-,-,-,gpio 3.08,B14,E3
+121,9E0,-jtag,,,,,,,,,,,-JTAG,-JTAG,jtag trst,-,-,-,-,-,-,-,B10,D3
+122,9E4,-jtag emu0,,,,,,,,,,,-JTAG,-JTAG,emu 0,-,-,-,-,-,-,gpio 3.07,C14,E2
+123,9E8,-jtag emu1,,,,,,,,,,,-JTAG,-JTAG,emu 1,-,-,-,-,-,-,gpio 3.08,B14,E3
 100,98C,-local i²c scl,,,,,,,,,,,-I2C0_SCL,-I2C0-SCL,i²c 0 scl,timer 7,uart 2 rts,eCAP 1,-,-,-,gpio 3.06,C16,C10
 99,988,-local i²c sda,,,,,,,,,,,-I2C0_SDA,-I2C0-SDA,i²c 0 sda,timer 4,uart 2 cts,eCAP 2,-,-,-,gpio 3.05,C17,C11
 112,9BC,-pmic,,,,,,,,,,,,,por,-,-,-,-,-,-,-,B15,P11
@@ -92,9 +92,9 @@ Index,Register,BeagleBone,CAN/RS485 Cape,Display 1.8” Cape,Display 4.3” Cape
 2,804,P8.24 / eMMC d1,,,,,,,,,,,-eMMC_DAT1,,gpmc d1,mmc 1 d1,-,-,-,-,-,gpio 1.01,V7,R2
 1,800,P8.25 / eMMC d0,,,,,,,,,,,-eMMC_DAT0,,gpmc d0,mmc 1 d0,-,-,-,-,-,gpio 1.00,U7,R3
 32,87C,P8.26,,LCD.BACKLIGHT,,,,,,,,,BAT75,,gpmc cs 0,-,-,-,-,-,-,gpio 1.29,V6,P3
-57,8E+00,P8.27 / hdmi,,LCD.RESET,LCD.VSYNC,LCD.VSYNC,,,,,,,SERVO_1,P2.35 / AIN5 / GPIO86,lcd vsync,gpmc a8,gpmc a1,pru edio in 2,pru edio out 2,pru 1 out 8,pru 1 in 8,gpio 2.22,U5,F3
-59,8E+08,P8.28 / hdmi,,,LCD.CLK,LCD.CLK,,,,,,,SERVO_2,P1.35 / PRU1.10,lcd pclk,gpmc a10,pru mii 0 crs,pru edio in 4,pru edio out 4,pru 1 out 10,pru 1 in 10,gpio 2.24,V5,F1
-58,8E+04,P8.29 / hdmi,,,LCD.HSYNC,LCD.HSYNC,,,,,,,SERVO_3,P1.02 / AIN6 / GPIO87,lcd hsync,gpmc a9,gpmc a2,pru edio in 3,pru edio out 3,pru 1 out 9,pru 1 in 9,gpio 2.23,R5,F2
+57,8E0,P8.27 / hdmi,,LCD.RESET,LCD.VSYNC,LCD.VSYNC,,,,,,,SERVO_1,P2.35 / AIN5 / GPIO86,lcd vsync,gpmc a8,gpmc a1,pru edio in 2,pru edio out 2,pru 1 out 8,pru 1 in 8,gpio 2.22,U5,F3
+59,8E8,P8.28 / hdmi,,,LCD.CLK,LCD.CLK,,,,,,,SERVO_2,P1.35 / PRU1.10,lcd pclk,gpmc a10,pru mii 0 crs,pru edio in 4,pru edio out 4,pru 1 out 10,pru 1 in 10,gpio 2.24,V5,F1
+58,8E4,P8.29 / hdmi,,,LCD.HSYNC,LCD.HSYNC,,,,,,,SERVO_3,P1.02 / AIN6 / GPIO87,lcd hsync,gpmc a9,gpmc a2,pru edio in 3,pru edio out 3,pru 1 out 9,pru 1 in 9,gpio 2.23,R5,F2
 60,8EC,P8.30 / hdmi,,,LCD.DEN,LCD.DEN,,,,,,,SERVO_4,P1.04 / PRU1.11,lcd oe/acb,gpmc a11,pru mii 1 crs,pru edio in 5,pru edio out 5,pru 1 out 11,pru 1 in 11,gpio 2.25,R6,E1
 55,8D8,P8.31 / hdmi / sysboot 14,,,LCD.R6,LCD.R6,,,,,,,,sysboot 14,lcd d14,gpmc a18,qep 1 index,asp 0 data 1,uart 5 rxd,pru mii 0 rxclk,uart 5 cts,gpio 0.10,V4,
 56,8DC,P8.32 / hdmi / sysboot 15,,,LCD.R7,LCD.R7,,,,,,,BAT50,sysboot 15,lcd d15,gpmc a19,qep 1 strobe,asp 0 tx hclk,asp 0 data 3,pru mii 0 rxdv,uart 5 rts,gpio 0.11,T5,
