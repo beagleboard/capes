@@ -12,17 +12,17 @@ TBD
 
 ===Mechanical Specifications===
 {|class="wikitable"
-|Size
+| Size
 | -
 |-
-|Layers
+| Layers
 | -
 |-
-|PCB Thickness
-|0.062"
+| PCB Thickness
+| 0.062"
 |-
-|RoHS Compliant
-|Yes
+| RoHS Compliant
+| Yes
 |}
 
 
