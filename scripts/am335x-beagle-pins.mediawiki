@@ -1,4 +1,4 @@
-|-
+{|
 | Index
 | Register
 | BeagleBone
@@ -4091,4 +4091,4 @@
 | 
 | P2.16 / BAT-TEMP
 | BAT-TEMP
-|-
+|}
