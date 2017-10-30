@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 open(INPUT, "< am335x-beagle-pins.csv")
 	or die "Couldn't open file for reading: $!\n";
-open(OUTPUT, "> am335x-beagle-pins.mediawiki")
+open(OUTPUT, "> ../README.mediawiki")
 	or die "Couldn't open file for writing: $!\n";   
 
 print OUTPUT '{| class="wikitable" style="white-space:nowrap;"';
