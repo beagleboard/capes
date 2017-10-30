@@ -106,9 +106,7 @@ Index,Register,BeagleBone,CAN/RS485 Cape,Display 1.8” Cape,Display 4.3” Cape
 141,A30,-usb A vbus,,,,,,,,,,,,P1.05 / USB1-VBUS,usb 1 vbus in,-,-,-,-,-,-,-,T18,M15
 142,A34,-usb A vbus en,,,,,,,,,,,,P1.03 / USB1-DRVVBUS,usb 1 vbus out en,-,-,-,-,-,-,gpio 3.13,F15,M14
 27,868,-usb A vbus overcurrent,,,,,,,,,,,,P2.04 / GPIO58,gpmc a10,mii 1 rxd1,rgmii 1 rxd1,rmii 1 rxd1,gpmc a26,pru mii 1 rxdv,asp 0 data 0,gpio 1.26,T16,R15
-91,968,-×,,,,,,,,,,,,P2.27 / SPI1-MISO,uart 0 cts,uart 4 rxd,can 1 tx,i²c 1 sda,spi 1 data 0,timer 7,pru edc sync 0 out,gpio 1.08,E18,C12
-136,A1C,-×,,,,,,,,,,,,,usb 0 vbus out en,-,-,-,-,-,-,gpio 0.18,F16,
-139,A28,-×,,,,,,,,,,,,,usb 1 charge en,-,-,-,-,-,-,-,,
+91,968,-x,,,,,,,,,,,,P2.27 / SPI1-MISO,uart 0 cts,uart 4 rxd,can 1 tx,i²c 1 sda,spi 1 data 0,timer 7,pru edc sync 0 out,gpio 1.08,E18,C12
 84,94C,-eth mdc,,,,,,,,,,,-BT_RTS,,mdio clk,timer 5,uart 5 txd,uart 3 rts,mmc 0 wp,mmc 1 clk,mmc 2 clk,gpio 0.01,M18,
 83,948,-eth mdio,,,,,,,,,,,-BT_CTS,,mdio data,timer 6,uart 5 rxd,uart 3 cts,mmc 0 cd,mmc 1 cmd,mmc 2 cmd,gpio 0.00,M17,
 67,908,-eth mii col,,,,,,,,,,,-WL_SDIO_D3,,mii 0 col,rmii 1 refclk,spi 1 clk,uart 5 rxd,asp 1 data 2,mmc 2 d3,asp 0 data 2,gpio 3.00,H16,
@@ -150,6 +148,8 @@ Index,Register,BeagleBone,CAN/RS485 Cape,Display 1.8” Cape,Display 4.3” Cape
 134,A14,-usb B id,,,,,,,,,,,,,usb 0 id,-,-,-,-,-,-,-,,
 135,A18,-usb B vbus,,,,,,,,,,,,,usb 0 vbus in,-,-,-,-,-,-,-,,
 133,A10,-x,,,,,,,,,,,,,usb 0 charge en,-,-,-,-,-,-,-,,
+136,A1C,-x,,,,,,,,,,,,,usb 0 vbus out en,-,-,-,-,-,-,gpio 0.18,F16,
+139,A28,-x,,,,,,,,,,,,,usb 1 charge en,-,-,-,-,-,-,-,,
 114,9C4,-xtal,,,,,,,,,,,-XTAL,-XTAL,osc 0 in,-,-,-,-,-,-,-,,P16
 115,9C8,-xtal,,,,,,,,,,,-XTAL,-XTAL,osc 0 out,-,-,-,-,-,-,-,,N16
 116,9CC,-xtal,,,,,,,,,,,-XTAL,-XTAL,osc 0 gnd,-,-,-,-,-,-,-,,N15
