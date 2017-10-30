@@ -1,5 +1,13 @@
 {| class="wikitable" style="white-space:nowrap;"
-| BeagleBone
+| Board or signal detail
+| Manufacturer(s)
+| Status
+| Signal
+|-
+| [https://github.com/beagleboard/beaglebone-black BeagleBone Black]
+| "E14
+|  GHI"
+| [https://beagleboard.org/black production]
 | P8.01 / P8.02 / P9.01 / P9.02 / P9.43 / P9.44 / P9.45 / P9.46
 | P8.03 / eMMC d6
 | P8.04 / eMMC d7
@@ -162,7 +170,174 @@
 | -μSD d2
 | -μSD d3
 |-
-| Blue rev A2
+| [https://github.com/beagleboard/beaglebone-black-wireless BeagleBone Black Wireless]
+| GHI
+| [https://beagleboard.org/black-wireless production]
+| P8.01 / P8.02 / P9.01 / P9.02 / P9.43 / P9.44 / P9.45 / P9.46
+| P8.03 / eMMC d6
+| P8.04 / eMMC d7
+| P8.05 / eMMC d2
+| P8.06 / eMMC d3
+| P8.07
+| P8.08
+| P8.09
+| P8.10
+| P8.11
+| P8.12
+| P8.13
+| P8.14
+| P8.15
+| P8.16
+| P8.17
+| P8.18
+| P8.19
+| P8.20 / eMMC cmd
+| P8.21 / eMMC clk
+| P8.22 / eMMC d5
+| P8.23 / eMMC d4
+| P8.24 / eMMC d1
+| P8.25 / eMMC d0
+| P8.26
+| P8.27 / hdmi
+| P8.28 / hdmi
+| P8.29 / hdmi
+| P8.30 / hdmi
+| P8.31 / hdmi / sysboot 14
+| P8.32 / hdmi / sysboot 15
+| P8.33 / hdmi / sysboot 13
+| P8.34 / hdmi / sysboot 11
+| P8.35 / hdmi / sysboot 12
+| P8.36 / hdmi / sysboot 10
+| P8.37 / hdmi / sysboot 8
+| P8.38 / hdmi / sysboot 9
+| P8.39 / hdmi / sysboot 6
+| P8.40 / hdmi / sysboot 7
+| P8.41 / hdmi / sysboot 4
+| P8.42 / hdmi / sysboot 5
+| P8.43 / hdmi / sysboot 2
+| P8.44 / hdmi / sysboot 3
+| P8.45 / hdmi / sysboot 0
+| P8.46 / hdmi / sysboot 1
+| P9.03 / P9.04
+| P9.05 / P9.06 / VDD_5V
+| P9.07 / P9.08 / SYS_5V
+| P9.09
+| P9.10 / -reset
+| P9.11
+| P9.12
+| P9.13
+| P9.14
+| P9.15 / P9.15a
+| P9.15 / P9.15b
+| P9.16
+| P9.17 / spi boot cs
+| P9.18 / spi boot out
+| P9.19 / cape i²c scl
+| P9.20 / cape i²c sda
+| P9.21 / spi boot in
+| P9.22 / spi boot clk
+| P9.23
+| P9.24
+| P9.25 / audio osc
+| P9.26
+| P9.27
+| P9.28 / hdmi audio data
+| P9.29 / hdmi audio fs
+| P9.30
+| P9.31 / hdmi audio clk
+| P9.32
+| P9.33
+| P9.34
+| P9.35
+| P9.36
+| P9.37
+| P9.38
+| P9.39
+| P9.40
+| P9.41 / P9.41a / jtag emu3
+| P9.41 / P9.41b / jtag emu3
+| P9.42 / P9.42a
+| P9.42 / P9.42b
+| user led 0
+| user led 1
+| user led 2
+| user led 3
+| console in
+| console out
+| eMMC reset
+| 
+| 
+| 
+| 
+| 
+| -audio osc enable
+| -gnd
+| -hdmi cec / jtag emu2
+| -hdmi irq
+| -TP9
+| -usb A
+| -usb A
+| -usb A vbus
+| -usb A vbus en
+| -usb A vbus overcurrent
+| -x
+| -eth mdc
+| -eth mdio
+| -eth mii col
+| -eth mii crs
+| -eth mii rx clk
+| -eth mii rx d0
+| -eth mii rx d1
+| -eth mii rx d2
+| -eth mii rx d3
+| -eth mii rx dv
+| -eth mii rx err
+| -eth mii tx clk
+| -eth mii tx d0
+| -eth mii tx d1
+| -eth mii tx d2
+| -eth mii tx d3
+| -eth mii tx en
+| -eth unused
+| -jtag
+| -jtag
+| -jtag
+| -jtag
+| -jtag
+| -jtag emu0
+| -jtag emu1
+| -local i²c scl
+| -local i²c sda
+| -pmic
+| -pmic
+| -pmic
+| -pmic
+| -pmic
+| -pmic irq
+| -rtc xtal
+| -rtc xtal
+| -rtc xtal
+| -usb B
+| -usb B
+| -usb B id
+| -usb B vbus
+| -x
+| -x
+| -x
+| -xtal
+| -xtal
+| -xtal
+| -μSD cd / jtag emu4
+| -μSD clk
+| -μSD cmd
+| -μSD d0
+| -μSD d1
+| -μSD d2
+| -μSD d3
+|-
+| [https://github.com/beagleboard/beaglebone-blue BeagleBone Blue
+| E14
+| [https://beagleboard.org/blue production]
 | UT0_1 / UT1_1 / UT5_1 / CAN_1 / DSM2_2 / I2C_1 / GP0_1 / GP1_1 / GPS_2 / GPS_6 / S1.1_1 / S1.2_1 / E1_1 / E2_1 / E3_1 / E4_1 / PWR_1 / PWR_2 / GND
 | -eMMC_DAT6
 | -eMMC_DAT7
@@ -325,7 +500,9 @@
 | -MMC0_DAT2
 | -MMC0_DAT3
 |-
-| PocketBeagle
+| [https://github.com/beagleboard/pocketbeagle PocketBeagle]
+| GHI
+| [https://beagleboard.org/pocket production]
 | P1.15 / P1.16 / P1.22 / P2.15 / P2.21 / GND
 | 
 | 
@@ -488,7 +665,9 @@
 | -MMC0_DAT2
 | -MMC0_DAT3
 |-
-| CAN/RS485 Cape
+| [https://github.com/beagleboard/capes/blob/master/designs/CAN_RS485 CAN/RS485 Cape]
+| GHI
+| prototype
 | GND
 | 
 | 
@@ -567,7 +746,9 @@
 | LOOP.B / AIN6
 | LOOP.A / AIN5
 |-
-| Display 1.8” Cape
+| [https://github.com/beagleboard/capes/blob/master/designs/Display18 Display 1.8” Cape]
+| GHI
+| prototype
 | GND
 | 
 | 
@@ -641,7 +822,9 @@
 | SPI1.MOSI
 | SPI1.SCLK
 |-
-| Display 4.3” Cape
+| [https://github.com/beagleboard/capes/blob/master/designs/Display43 Display 4.3” Cape]
+| GHI
+| development
 | GND
 | 
 | 
@@ -714,7 +897,9 @@
 | 
 | CAP.TOUCH.IRQ
 |-
-| Display 7.0” Cape
+| [https://github.com/beagleboard/capes/blob/master/designs/Display70 Display 7.0” Cape]
+| GHI
+| development
 | GND
 | 
 | 
@@ -787,7 +972,9 @@
 | 
 | CAP.TOUCH.IRQ
 |-
-| Load Cape
+| [https://github.com/beagleboard/capes/blob/master/designs/Load Load Cape]
+| GHI
+| prototype
 | GND
 | 
 | 
@@ -874,7 +1061,9 @@
 | SINK1
 | -SINK1
 |-
-| Motor Cape
+| [https://github.com/beagleboard/capes/blob/master/designs/Motor Motor Cape]
+| GHI
+| development
 | GND
 | 
 | 
@@ -937,7 +1126,9 @@
 | SCL
 | SDA
 |-
-| Power Cape
+| [https://github.com/beagleboard/capes/blob/master/designs/Power Power Cape]
+| GHI
+| prototype
 | GND
 | 
 | 
@@ -1000,7 +1191,9 @@
 | SCL
 | SDA
 |-
-| Proto Cape
+| [https://github.com/beagleboard/capes/blob/master/designs/Proto Proto Cape]
+| GHI
+| prototype
 | GND
 | 
 | 
@@ -1063,7 +1256,9 @@
 | SCL
 | SDA
 |-
-| Relay Cape
+| [https://github.com/beagleboard/capes/blob/master/designs/Relay Relay Cape]
+| GHI
+| prototype
 | GND
 | 
 | 
@@ -1136,7 +1331,9 @@
 | 
 | RELAY1
 |-
-| Robotics Cape
+| [https://github.com/beagleboard/capes/blob/master/designs/Robotics Robotics Cape]
+| E14
+| [http://beagleboard.org/RoboticsCape/ production]
 | GND
 | 
 | 
@@ -1223,1474 +1420,9 @@
 | -QEP_0A
 | QEP_0A
 |-
-| 0 (Name)
-| GND
-| gpmc d6
-| gpmc d7
-| gpmc d2
-| gpmc d3
-| gpmc adv/ale
-| gpmc oe/re
-| gpmc be0/cle
-| gpmc we
-| gpmc d13
-| gpmc d12
-| gpmc d9
-| gpmc d10
-| gpmc d15
-| gpmc d14
-| gpmc d11
-| gpmc clk
-| gpmc d8
-| gpmc cs 2
-| gpmc cs 1
-| gpmc d5
-| gpmc d4
-| gpmc d1
-| gpmc d0
-| gpmc cs 0
-| lcd vsync
-| lcd pclk
-| lcd hsync
-| lcd oe/acb
-| lcd d14
-| lcd d15
-| lcd d13
-| lcd d11
-| lcd d12
-| lcd d10
-| lcd d8
-| lcd d9
-| lcd d6
-| lcd d7
-| lcd d4
-| lcd d5
-| lcd d2
-| lcd d3
-| lcd d0
-| lcd d1
-| VOUT-3.3V
-| VIN
-| VOUT-5V
-| POWER
-| reset in/out
-| gpmc wait 0
-| gpmc be1
-| gpmc wp
-| gpmc a2
-| gpmc a0
-| gpmc cs 3
-| gpmc a3
-| spi 0 cs 0
-| spi 0 data 1
-| uart 1 rts
-| uart 1 cts
-| spi 0 data 0
-| spi 0 clk
-| gpmc a1
-| uart 1 txd
-| asp 0 tx hclk
-| uart 1 rxd
-| asp 0 rx fs
-| asp 0 rx hclk
-| asp 0 tx fs
-| asp 0 data 0
-| asp 0 tx clk
-| vrefn
-| ain4
-| vrefp
-| ain6
-| ain5
-| ain2
-| ain3
-| ain0
-| ain1
-| asp 0 data 1
-| dma event 1
-| eCAP 0
-| asp 0 rx clk
-| gpmc a5
-| gpmc a6
-| gpmc a7
-| gpmc a8
-| uart 0 rxd
-| uart 0 txd
-| gpmc a4
-| ain7
-| eeprom wp
-| VIN-USB
-| VIN-BAT
-| BAT-TEMP
-| gpmc a11
-| usb 1 id
-| dma event 0
-| gpmc a9
-| uart 0 rts
-| usb 1 d−
-| usb 1 d+
-| usb 1 vbus in
-| usb 1 vbus out en
-| gpmc a10
-| uart 0 cts
-| mdio clk
-| mdio data
-| mii 0 col
-| mii 0 crs
-| mii 0 rxclk
-| mii 0 rxd0
-| mii 0 rxd1
-| mii 0 rxd2
-| mii 0 rxd3
-| mii 0 rxdv
-| mii 0 rxer
-| mii 0 txclk
-| mii 0 txd0
-| mii 0 txd1
-| mii 0 txd2
-| mii 0 txd3
-| mii 0 txen
-| rmii 0 refclk
-| jtag tms
-| jtag tdi
-| jtag tdo
-| jtag tck
-| jtag trst
-| emu 0
-| emu 1
-| i²c 0 scl
-| i²c 0 sda
-| por
-| rtc por
-| power en
-| wakeup
-| rtc ldo en
-| mpu irq
-| osc 1 (rtc) in
-| osc 1 (rtc) out
-| rtc gnd
-| usb 0 d−
-| usb 0 d+
-| usb 0 id
-| usb 0 vbus in
-| usb 0 charge en
-| usb 0 vbus out en
-| usb 1 charge en
-| osc 0 in
-| osc 0 out
-| osc 0 gnd
-| spi 0 cs 1
-| mmc 0 clk
-| mmc 0 cmd
-| mmc 0 d0
-| mmc 0 d1
-| mmc 0 d2
-| mmc 0 d3
-|-
-| 1
+| ZCZ/BSP ball
 | 
-| mmc 1 d6
-| mmc 1 d7
-| mmc 1 d2
-| mmc 1 d3
-| -
-| -
-| -
-| -
-| lcd d18
-| lcd d19
-| lcd d22
-| lcd d21
-| lcd d16
-| lcd d17
-| lcd d20
-| lcd mclk
-| lcd d23
-| gpmc be1
-| gpmc clk
-| mmc 1 d5
-| mmc 1 d4
-| mmc 1 d1
-| mmc 1 d0
-| -
-| gpmc a8
-| gpmc a10
-| gpmc a9
-| gpmc a11
-| gpmc a18
-| gpmc a19
-| gpmc a17
-| gpmc a15
-| gpmc a16
-| gpmc a14
-| gpmc a12
-| gpmc a13
-| gpmc a6
-| gpmc a7
-| gpmc a4
-| gpmc a5
-| gpmc a2
-| gpmc a3
-| gpmc a0
-| gpmc a1
 | 
-| 
-| 
-| 
-| -
-| mii 1 crs
-| mii 1 col
-| mii 1 rxer
-| mii 1 txd3
-| mii 1 txen
-| gpmc a3
-| mii 1 txd2
-| mmc 2 wp
-| mmc 1 wp
-| timer 5
-| timer 6
-| uart 2 txd
-| uart 2 rxd
-| mii 1 rxdv
-| mmc 2 wp
-| qep 0 strobe
-| mmc 1 wp
-| qep 0 in B
-| pwm sync in
-| pwm 0 out B
-| pwm 0 tripzone
-| pwm 0 out A
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| qep 0 index
-| -
-| uart 3 txd
-| qep 0 in A
-| mii 1 txd0
-| mii 1 txclk
-| mii 1 rxclk
-| mii 1 rxd3
-| spi 1 cs 0
-| spi 1 cs 1
-| mii 1 txd1
-| 
-| 
-| 
-| 
-| 
-| mii 1 rxd0
-| -
-| -
-| mii 1 rxd2
-| uart 4 txd
-| -
-| -
-| -
-| -
-| mii 1 rxd1
-| uart 4 rxd
-| timer 5
-| timer 6
-| rmii 1 refclk
-| rmii 0 crs/rxdv
-| uart 2 txd
-| rmii 0 rxd0
-| rmii 0 rxd1
-| uart 3 txd
-| uart 3 rxd
-| lcd mclk
-| rmii 0 rxer
-| uart 2 rxd
-| rmii 0 txd0
-| rmii 0 txd1
-| can 0 rx
-| can 0 tx
-| rmii 0 txen
-| dma event 2
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| timer 7
-| timer 4
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| uart 3 rxd
-| gpmc a24
-| gpmc a25
-| gpmc a23
-| gpmc a22
-| gpmc a21
-| gpmc a20
-|-
-| 2
-| 
-| -
-| -
-| -
-| -
-| timer 4
-| timer 7
-| timer 5
-| timer 6
-| mmc 1 d5
-| mmc 1 d4
-| mmc 1 d1
-| mmc 1 d2
-| mmc 1 d7
-| mmc 1 d6
-| mmc 1 d3
-| gpmc wait 1
-| mmc 1 d0
-| mmc 1 cmd
-| mmc 1 clk
-| -
-| -
-| -
-| -
-| -
-| gpmc a1
-| pru mii 0 crs
-| gpmc a2
-| pru mii 1 crs
-| qep 1 index
-| qep 1 strobe
-| qep 1 in B
-| pwm 1 out B
-| qep 1 in A
-| pwm 1 out A
-| pwm 1 tripzone
-| pwm sync out
-| pru edio in 6
-| pru edio in 7
-| pru mii 0 txd1
-| pru mii 0 txd0
-| pru mii 0 txd3
-| pru mii 0 txd2
-| pru mii 0 txclk
-| pru mii 0 txen
-| 
-| 
-| 
-| 
-| -
-| gpmc cs 4
-| gpmc cs 6
-| gpmc cs 5
-| rgmii 1 txd3
-| rgmii 1 txctl
-| rmii 1 crs/rxdv
-| rgmii 1 txd2
-| i²c 1 scl
-| i²c 1 sda
-| can 0 rx
-| can 0 tx
-| i²c 2 scl
-| i²c 2 sda
-| rgmii 1 rxctl
-| can 1 rx
-| asp 0 data 3
-| can 1 tx
-| asp 0 data 3
-| asp 0 data 2
-| -
-| -
-| -
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -
-| timer clkin
-| spi 1 cs 1
-| asp 0 data 2
-| rgmii 1 txd0
-| rgmii 1 txclk
-| rgmii 1 rxclk
-| rgmii 1 rxd3
-| can 0 tx
-| can 0 rx
-| rgmii 1 txd1
-| 
-| 
-| 
-| 
-| 
-| rgmii 1 rxd0
-| -
-| timer 4
-| rgmii 1 rxd2
-| can 1 rx
-| -
-| -
-| -
-| -
-| rgmii 1 rxd1
-| can 1 tx
-| uart 5 txd
-| uart 5 rxd
-| spi 1 clk
-| spi 1 data 0
-| rgmii 0 rxclk
-| rgmii 0 rxd0
-| rgmii 0 rxd1
-| rgmii 0 rxd2
-| rgmii 0 rxd3
-| rgmii 0 rxctl
-| spi 1 data 1
-| rgmii 0 txclk
-| rgmii 0 txd0
-| rgmii 0 txd1
-| rgmii 0 txd2
-| rgmii 0 txd3
-| rgmii 0 txctl
-| spi 1 cs 0
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| uart 2 rts
-| uart 2 cts
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| eCAP 1
-| uart 3 cts
-| uart 3 rts
-| uart 5 rts
-| uart 5 cts
-| uart 4 rts
-| uart 4 cts
-|-
-| 3
-| 
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| mmc 2 d1
-| mmc 2 d0
-| mmc 2 d5
-| mmc 2 d6
-| mmc 2 d3
-| mmc 2 d2
-| mmc 2 d7
-| mmc 2 clk
-| mmc 2 d4
-| pru edio in 7
-| pru edio in 6
-| -
-| -
-| -
-| -
-| -
-| pru edio in 2
-| pru edio in 4
-| pru edio in 3
-| pru edio in 5
-| asp 0 data 1
-| asp 0 tx hclk
-| asp 0 rx fs
-| asp 0 rx hclk
-| asp 0 rx clk
-| asp 0 data 0
-| asp 0 tx clk
-| asp 0 tx fs
-| qep 2 index
-| qep 2 strobe
-| qep 2 in A
-| qep 2 in B
-| pwm 2 tripzone
-| pwm sync out
-| pwm 2 out A
-| pwm 2 out B
-| 
-| 
-| 
-| 
-| -
-| rmii 1 crs/rxdv
-| mmc 2 d3
-| rmii 1 rxer
-| mmc 2 d1
-| rmii 1 txen
-| mmc 2 cmd
-| mmc 2 d2
-| pwm sync in
-| pwm 0 tripzone
-| i²c 2 scl
-| i²c 2 sda
-| pwm 0 out B
-| pwm 0 out A
-| mmc 2 d0
-| i²c 1 scl
-| asp 1 data 1
-| i²c 1 sda
-| asp 1 tx fs
-| spi 1 cs 0
-| spi 1 data 0
-| spi 1 data 1
-| spi 1 clk
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| asp 1 data 0
-| clkout 1
-| pru eCAP
-| asp 1 tx clk
-| rmii 1 txd0
-| mmc 2 d4
-| mmc 2 d5
-| mmc 2 d6
-| i²c 2 sda
-| i²c 2 scl
-| rmii 1 txd1
-| 
-| 
-| 
-| 
-| 
-| rmii 1 rxd0
-| -
-| clkout 0
-| mmc 2 d7
-| i²c 1 scl
-| -
-| -
-| -
-| -
-| rmii 1 rxd1
-| i²c 1 sda
-| uart 3 rts
-| uart 3 cts
-| uart 5 rxd
-| i²c 1 sda
-| mmc 0 d6
-| asp 1 tx hclk
-| asp 1 data 3
-| mmc 0 d4
-| mmc 0 d5
-| uart 5 txd
-| i²c 1 scl
-| mmc 0 d7
-| asp 1 data 2
-| asp 1 rx fs
-| uart 4 txd
-| uart 4 rxd
-| timer 4
-| uart 5 txd
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| eCAP 1
-| eCAP 2
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| mmc 0 pow
-| uart 2 rxd
-| uart 2 txd
-| uart 3 txd
-| uart 3 rxd
-| timer 6
-| timer 5
-|-
-| 4
-| 
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| qep 2 in B
-| qep 2 in A
-| pwm 2 out B
-| pwm 2 tripzone
-| qep 2 strobe
-| qep 2 index
-| pwm sync out
-| pru mii 1 crs
-| pwm 2 out A
-| pru edio out 7
-| pru edio out 6
-| -
-| -
-| -
-| -
-| -
-| pru edio out 2
-| pru edio out 4
-| pru edio out 3
-| pru edio out 5
-| uart 5 rxd
-| asp 0 data 3
-| asp 0 data 3
-| asp 0 data 2
-| asp 0 data 2
-| -
-| uart 5 txd
-| uart 5 rxd
-| pru edio out 6
-| pru edio out 7
-| -
-| -
-| -
-| -
-| -
-| -
-| 
-| 
-| 
-| 
-| -
-| mmc 1 cd
-| gpmc dir
-| mmc 2 cd
-| gpmc a18
-| gpmc a16
-| pru mii 0 crs
-| gpmc a19
-| uart pru txd
-| uart pru rxd
-| spi 1 cs 1
-| spi 1 cs 0
-| uart pru rts
-| uart pru cts
-| gpmc a17
-| -
-| jtag emu 4
-| -
-| jtag emu 2
-| eCAP 2
-| mmc 1 cd
-| mmc 2 cd
-| mmc 0 cd
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| jtag emu 3
-| timer 7
-| spi 1 clk
-| mmc 0 wp
-| gpmc a21
-| gpmc a22
-| gpmc a23
-| gpmc a24
-| eCAP 2
-| eCAP 1
-| gpmc a20
-| 
-| 
-| 
-| 
-| 
-| gpmc a27
-| -
-| spi 1 cs 1
-| gpmc a25
-| spi 1 data 1
-| -
-| -
-| -
-| -
-| gpmc a26
-| spi 1 data 0
-| mmc 0 wp
-| mmc 0 cd
-| asp 1 data 2
-| asp 1 tx clk
-| mmc 1 d1
-| asp 1 rx hclk
-| asp 1 rx fs
-| mmc 1 d3
-| mmc 1 d2
-| asp 1 tx clk
-| asp 1 tx fs
-| mmc 1 d0
-| asp 1 rx clk
-| asp 1 data 1
-| asp 1 data 0
-| asp 1 tx fs
-| asp 1 data 0
-| asp 1 data 3
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| dma event 2
-| can 1 tx
-| can 1 rx
-| uart 1 ri
-| uart 1 dtr
-| uart 1 dsr
-| uart 1 dcd
-|-
-| 5
-| 
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| pru mii 0 txd1
-| pru mii 0 txd2
-| pru mii 0 col
-| pru mii 0 txen
-| pru eCAP
-| pru mii 0 txd0
-| pru mii 0 txd3
-| pru mdio clock
-| pru mii 0 txclk
-| pru 1 out 13
-| pru 1 out 12
-| -
-| -
-| -
-| -
-| -
-| pru 1 out 8
-| pru 1 out 10
-| pru 1 out 9
-| pru 1 out 11
-| pru mii 0 rxclk
-| pru mii 0 rxdv
-| pru mii 0 rxer
-| pru mii 0 rxd0
-| pru mii 0 rxlink
-| pru mii 0 rxd1
-| pru mii 0 rxd3
-| pru mii 0 rxd2
-| pru 1 out 6
-| pru 1 out 7
-| pru 1 out 4
-| pru 1 out 5
-| pru 1 out 2
-| pru 1 out 3
-| pru 1 out 0
-| pru 1 out 1
-| 
-| 
-| 
-| 
-| -
-| pru mii 1 col
-| pru mii 1 rxlink
-| pru mii 1 txen
-| pru mii 1 txd2
-| pru mii 1 txclk
-| pru mdio data
-| pru mii 1 txd1
-| pru edio in 1
-| pru edio in 0
-| uart pru rts
-| uart pru cts
-| pru edio latch
-| pru edio sof
-| pru mii 1 txd3
-| uart pru txd
-| pru 0 out 7
-| uart pru rxd
-| pru 0 out 5
-| pru 0 out 3
-| pru 0 out 1
-| pru 0 out 2
-| pru 0 out 0
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| pru 0 out 6
-| pru 0 in 16
-| mmc 0 wp
-| pru 0 out 4
-| pru mii 1 rxd3
-| pru mii 1 rxd2
-| pru mii 1 rxd1
-| pru mii 1 rxd0
-| pru 1 out 14
-| pru 1 out 15
-| pru mii 1 txd0
-| 
-| 
-| 
-| 
-| 
-| pru mii 1 rxer
-| -
-| pru 1 in 16
-| pru mii 1 rxclk
-| spi 1 cs 0
-| -
-| -
-| -
-| -
-| pru mii 1 rxdv
-| timer 7
-| mmc 1 clk
-| mmc 1 cmd
-| mmc 2 d3
-| uart 5 cts
-| uart 1 dsr
-| asp 1 rx clk
-| qep 0 strobe
-| uart 1 ri
-| uart 1 dtr
-| mmc 2 d0
-| uart 5 rts
-| uart 1 dcd
-| qep 0 in B
-| qep 0 in A
-| mmc 2 d2
-| mmc 2 d1
-| qep 0 index
-| mmc 0 pow
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| mmc 0 cd
-| pru 0 out 12
-| pru 0 out 13
-| pru 0 out 11
-| pru 0 out 10
-| pru 0 out 9
-| pru 0 out 8
-|-
-| 6
-| 
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| pru 0 out 15
-| pru 0 out 14
-| -
-| -
-| pru 0 in 15
-| pru 0 in 14
-| -
-| asp 0 rx fs
-| -
-| pru 1 in 13
-| pru 1 in 12
-| -
-| -
-| -
-| -
-| -
-| pru 1 in 8
-| pru 1 in 10
-| pru 1 in 9
-| pru 1 in 11
-| uart 5 cts
-| uart 5 rts
-| uart 4 rts
-| uart 3 rts
-| uart 4 cts
-| uart 3 cts
-| uart 2 cts
-| uart 2 rts
-| pru 1 in 6
-| pru 1 in 7
-| pru 1 in 4
-| pru 1 in 5
-| pru 1 in 2
-| pru 1 in 3
-| pru 1 in 0
-| pru 1 in 1
-| 
-| 
-| 
-| 
-| -
-| uart 4 rxd
-| asp 0 rx clk
-| uart 4 txd
-| pwm 1 out A
-| pwm 1 tripzone
-| jtag emu 4
-| pwm 1 out B
-| pru edio out 1
-| pru edio out 0
-| pru edc latch 1
-| pru edc latch 0
-| jtag emu 3
-| jtag emu 2
-| pwm sync out
-| pru 0 in 16
-| pru 0 in 7
-| pru 1 in 16
-| pru 0 in 5
-| pru 0 in 3
-| pru 0 in 1
-| pru 0 in 2
-| pru 0 in 0
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| pru 0 in 6
-| jtag emu 3
-| dma event 2
-| pru 0 in 4
-| qep 1 in B
-| qep 1 index
-| qep 1 strobe
-| asp 0 tx clk
-| pru 1 in 14
-| pru 1 in 15
-| qep 1 in A
-| 
-| 
-| 
-| 
-| 
-| asp 0 data 1
-| -
-| jtag emu 2
-| asp 0 tx fs
-| pru edc sync 1 out
-| -
-| -
-| -
-| -
-| asp 0 data 0
-| pru edc sync 0 out
-| mmc 2 clk
-| mmc 2 cmd
-| asp 0 data 2
-| uart 2 rxd
-| asp 0 tx fs
-| asp 0 data 3
-| mmc 2 clk
-| asp 0 data 1
-| asp 0 data 0
-| asp 0 rx clk
-| uart 2 txd
-| asp 0 tx clk
-| mmc 1 clk
-| mmc 1 cmd
-| asp 0 tx hclk
-| asp 0 rx fs
-| mmc 2 cmd
-| asp 1 tx hclk
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| jtag emu 4
-| pru 0 in 12
-| pru 0 in 13
-| pru 0 in 11
-| pru 0 in 10
-| pru 0 in 9
-| pru 0 in 8
-|-
-| 7
-| 
-| gpio 1.06
-| gpio 1.07
-| gpio 1.02
-| gpio 1.03
-| gpio 2.02
-| gpio 2.03
-| gpio 2.05
-| gpio 2.04
-| gpio 1.13
-| gpio 1.12
-| gpio 0.23
-| gpio 0.26
-| gpio 1.15
-| gpio 1.14
-| gpio 0.27
-| gpio 2.01
-| gpio 0.22
-| gpio 1.31
-| gpio 1.30
-| gpio 1.05
-| gpio 1.04
-| gpio 1.01
-| gpio 1.00
-| gpio 1.29
-| gpio 2.22
-| gpio 2.24
-| gpio 2.23
-| gpio 2.25
-| gpio 0.10
-| gpio 0.11
-| gpio 0.09
-| gpio 2.17
-| gpio 0.08
-| gpio 2.16
-| gpio 2.14
-| gpio 2.15
-| gpio 2.12
-| gpio 2.13
-| gpio 2.10
-| gpio 2.11
-| gpio 2.08
-| gpio 2.09
-| gpio 2.06
-| gpio 2.07
-| 
-| 
-| 
-| 
-| -
-| gpio 0.30
-| gpio 1.28
-| gpio 0.31
-| gpio 1.18
-| gpio 1.16
-| gpio 2.00
-| gpio 1.19
-| gpio 0.05
-| gpio 0.04
-| gpio 0.13
-| gpio 0.12
-| gpio 0.03
-| gpio 0.02
-| gpio 1.17
-| gpio 0.15
-| gpio 3.21
-| gpio 0.14
-| gpio 3.19
-| gpio 3.17
-| gpio 3.15
-| gpio 3.16
-| gpio 3.14
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| gpio 3.20
-| gpio 0.20
-| gpio 0.07
-| gpio 3.18
-| gpio 1.21
-| gpio 1.22
-| gpio 1.23
-| gpio 1.24
-| gpio 1.10
-| gpio 1.11
-| gpio 1.20
-| 
-| 
-| 
-| 
-| 
-| gpio 1.27
-| -
-| gpio 0.19
-| gpio 1.25
-| gpio 1.09
-| -
-| -
-| -
-| gpio 3.13
-| gpio 1.26
-| gpio 1.08
-| gpio 0.01
-| gpio 0.00
-| gpio 3.00
-| gpio 3.01
-| gpio 3.10
-| gpio 2.21
-| gpio 2.20
-| gpio 2.19
-| gpio 2.18
-| gpio 3.04
-| gpio 3.02
-| gpio 3.09
-| gpio 0.28
-| gpio 0.21
-| gpio 0.17
-| gpio 0.16
-| gpio 3.03
-| gpio 0.29
-| -
-| -
-| -
-| -
-| -
-| gpio 3.07
-| gpio 3.08
-| gpio 3.06
-| gpio 3.05
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| gpio 0.18
-| -
-| -
-| -
-| -
-| gpio 0.06
-| gpio 2.30
-| gpio 2.31
-| gpio 2.29
-| gpio 2.28
-| gpio 2.27
-| gpio 2.26
-|-
-| Register
-| 
-| 818
-| 81C
-| 808
-| 80C
-| 890
-| 894
-| 89C
-| 898
-| 834
-| 830
-| 824
-| 828
-| 83C
-| 838
-| 82C
-| 88C
-| 820
-| 884
-| 880
-| 814
-| 810
-| 804
-| 800
-| 87C
-| 8E0
-| 8E8
-| 8E4
-| 8EC
-| 8D8
-| 8DC
-| 8D4
-| 8CC
-| 8D0
-| 8C8
-| 8C0
-| 8C4
-| 8B8
-| 8BC
-| 8B0
-| 8B4
-| 8A8
-| 8AC
-| 8A0
-| 8A4
-| 
-| 
-| 
-| 
-| 9B8
-| 870
-| 878
-| 874
-| 848
-| 840
-| 888
-| 84C
-| 95C
-| 958
-| 97C
-| 978
-| 954
-| 950
-| 844
-| 984
-| 9AC
-| 980
-| 9A4
-| 99C
-| 994
-| 998
-| 990
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 9A8
-| 9B4
-| 964
-| 9A0
-| 854
-| 858
-| 85C
-| 860
-| 970
-| 974
-| 850
-| 
-| 
-| 
-| 
-| 
-| 86C
-| A2C
-| 9B0
-| 864
-| 96C
-| A20
-| A24
-| A30
-| A34
-| 868
-| 968
-| 94C
-| 948
-| 908
-| 90C
-| 930
-| 940
-| 93C
-| 938
-| 934
-| 918
-| 910
-| 92C
-| 928
-| 924
-| 920
-| 91C
-| 914
-| 944
-| 9D0
-| 9D4
-| 9D8
-| 9DC
-| 9E0
-| 9E4
-| 9E8
-| 98C
-| 988
-| 9BC
-| 9F8
-| 9FC
-| A00
-| A04
-| 9C0
-| 9EC
-| 9F0
-| 9F4
-| A08
-| A0C
-| A14
-| A18
-| A10
-| A1C
-| A28
-| 9C4
-| 9C8
-| 9CC
-| 960
-| 900
-| 904
-| 8FC
-| 8F8
-| 8F4
-| 8F0
-|-
-| ZCZ/BSP
 | 
 | R9
 | T9
@@ -2853,7 +1585,9 @@
 | F18
 | F17
 |-
-| BSM
+| BSM ball
+| 
+| 
 | 
 | P4
 | R4
@@ -3015,4 +1749,1489 @@
 | A15
 | C16
 | C15
+|-
+| Control register
+| 
+| 
+| 
+| 818
+| 81C
+| 808
+| 80C
+| 890
+| 894
+| 89C
+| 898
+| 834
+| 830
+| 824
+| 828
+| 83C
+| 838
+| 82C
+| 88C
+| 820
+| 884
+| 880
+| 814
+| 810
+| 804
+| 800
+| 87C
+| 8E+00
+| 8E+08
+| 8E+04
+| 8EC
+| 8D8
+| 8DC
+| 8D4
+| 8CC
+| 8D0
+| 8C8
+| 8C0
+| 8C4
+| 8B8
+| 8BC
+| 8B0
+| 8B4
+| 8A8
+| 8AC
+| 8A0
+| 8A4
+| 
+| 
+| 
+| 
+| 9B8
+| 870
+| 878
+| 874
+| 848
+| 840
+| 888
+| 84C
+| 95C
+| 958
+| 97C
+| 978
+| 954
+| 950
+| 844
+| 984
+| 9AC
+| 980
+| 9A4
+| 99C
+| 994
+| 998
+| 990
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 9A8
+| 9B4
+| 964
+| 9A0
+| 854
+| 858
+| 85C
+| 860
+| 970
+| 974
+| 850
+| 
+| 
+| 
+| 
+| 
+| 86C
+| A2C
+| 9B0
+| 864
+| 96C
+| A20
+| A24
+| A30
+| A34
+| 868
+| 968
+| 94C
+| 948
+| 908
+| 90C
+| 930
+| 940
+| 93C
+| 938
+| 934
+| 918
+| 910
+| 92C
+| 928
+| 924
+| 920
+| 91C
+| 914
+| 944
+| 9D0
+| 9D4
+| 9D8
+| 9DC
+| 9E+00
+| 9E+04
+| 9E+08
+| 98C
+| 988
+| 9BC
+| 9F8
+| 9FC
+| A00
+| A04
+| 9C0
+| 9EC
+| 9F0
+| 9F4
+| A08
+| A0C
+| A14
+| A18
+| A10
+| A1C
+| A28
+| 9C4
+| 9C8
+| 9CC
+| 960
+| 900
+| 904
+| 8FC
+| 8F8
+| 8F4
+| 8F0
+|-
+| Mux mode 0
+| 
+| 
+| GND
+| gpmc d6
+| gpmc d7
+| gpmc d2
+| gpmc d3
+| gpmc adv/ale
+| gpmc oe/re
+| gpmc be0/cle
+| gpmc we
+| gpmc d13
+| gpmc d12
+| gpmc d9
+| gpmc d10
+| gpmc d15
+| gpmc d14
+| gpmc d11
+| gpmc clk
+| gpmc d8
+| gpmc cs 2
+| gpmc cs 1
+| gpmc d5
+| gpmc d4
+| gpmc d1
+| gpmc d0
+| gpmc cs 0
+| lcd vsync
+| lcd pclk
+| lcd hsync
+| lcd oe/acb
+| lcd d14
+| lcd d15
+| lcd d13
+| lcd d11
+| lcd d12
+| lcd d10
+| lcd d8
+| lcd d9
+| lcd d6
+| lcd d7
+| lcd d4
+| lcd d5
+| lcd d2
+| lcd d3
+| lcd d0
+| lcd d1
+| VOUT-3.3V
+| VIN
+| VOUT-5V
+| POWER
+| reset in/out
+| gpmc wait 0
+| gpmc be1
+| gpmc wp
+| gpmc a2
+| gpmc a0
+| gpmc cs 3
+| gpmc a3
+| spi 0 cs 0
+| spi 0 data 1
+| uart 1 rts
+| uart 1 cts
+| spi 0 data 0
+| spi 0 clk
+| gpmc a1
+| uart 1 txd
+| asp 0 tx hclk
+| uart 1 rxd
+| asp 0 rx fs
+| asp 0 rx hclk
+| asp 0 tx fs
+| asp 0 data 0
+| asp 0 tx clk
+| vrefn
+| ain4
+| vrefp
+| ain6
+| ain5
+| ain2
+| ain3
+| ain0
+| ain1
+| asp 0 data 1
+| dma event 1
+| eCAP 0
+| asp 0 rx clk
+| gpmc a5
+| gpmc a6
+| gpmc a7
+| gpmc a8
+| uart 0 rxd
+| uart 0 txd
+| gpmc a4
+| ain7
+| eeprom wp
+| VIN-USB
+| VIN-BAT
+| BAT-TEMP
+| gpmc a11
+| usb 1 id
+| dma event 0
+| gpmc a9
+| uart 0 rts
+| usb 1 d−
+| usb 1 d+
+| usb 1 vbus in
+| usb 1 vbus out en
+| gpmc a10
+| uart 0 cts
+| mdio clk
+| mdio data
+| mii 0 col
+| mii 0 crs
+| mii 0 rxclk
+| mii 0 rxd0
+| mii 0 rxd1
+| mii 0 rxd2
+| mii 0 rxd3
+| mii 0 rxdv
+| mii 0 rxer
+| mii 0 txclk
+| mii 0 txd0
+| mii 0 txd1
+| mii 0 txd2
+| mii 0 txd3
+| mii 0 txen
+| rmii 0 refclk
+| jtag tms
+| jtag tdi
+| jtag tdo
+| jtag tck
+| jtag trst
+| emu 0
+| emu 1
+| i²c 0 scl
+| i²c 0 sda
+| por
+| rtc por
+| power en
+| wakeup
+| rtc ldo en
+| mpu irq
+| osc 1 (rtc) in
+| osc 1 (rtc) out
+| rtc gnd
+| usb 0 d−
+| usb 0 d+
+| usb 0 id
+| usb 0 vbus in
+| usb 0 charge en
+| usb 0 vbus out en
+| usb 1 charge en
+| osc 0 in
+| osc 0 out
+| osc 0 gnd
+| spi 0 cs 1
+| mmc 0 clk
+| mmc 0 cmd
+| mmc 0 d0
+| mmc 0 d1
+| mmc 0 d2
+| mmc 0 d3
+|-
+| Mux mode 1
+| 
+| 
+| 
+| mmc 1 d6
+| mmc 1 d7
+| mmc 1 d2
+| mmc 1 d3
+| -
+| -
+| -
+| -
+| lcd d18
+| lcd d19
+| lcd d22
+| lcd d21
+| lcd d16
+| lcd d17
+| lcd d20
+| lcd mclk
+| lcd d23
+| gpmc be1
+| gpmc clk
+| mmc 1 d5
+| mmc 1 d4
+| mmc 1 d1
+| mmc 1 d0
+| -
+| gpmc a8
+| gpmc a10
+| gpmc a9
+| gpmc a11
+| gpmc a18
+| gpmc a19
+| gpmc a17
+| gpmc a15
+| gpmc a16
+| gpmc a14
+| gpmc a12
+| gpmc a13
+| gpmc a6
+| gpmc a7
+| gpmc a4
+| gpmc a5
+| gpmc a2
+| gpmc a3
+| gpmc a0
+| gpmc a1
+| 
+| 
+| 
+| 
+| -
+| mii 1 crs
+| mii 1 col
+| mii 1 rxer
+| mii 1 txd3
+| mii 1 txen
+| gpmc a3
+| mii 1 txd2
+| mmc 2 wp
+| mmc 1 wp
+| timer 5
+| timer 6
+| uart 2 txd
+| uart 2 rxd
+| mii 1 rxdv
+| mmc 2 wp
+| qep 0 strobe
+| mmc 1 wp
+| qep 0 in B
+| pwm sync in
+| pwm 0 out B
+| pwm 0 tripzone
+| pwm 0 out A
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| qep 0 index
+| -
+| uart 3 txd
+| qep 0 in A
+| mii 1 txd0
+| mii 1 txclk
+| mii 1 rxclk
+| mii 1 rxd3
+| spi 1 cs 0
+| spi 1 cs 1
+| mii 1 txd1
+| 
+| 
+| 
+| 
+| 
+| mii 1 rxd0
+| -
+| -
+| mii 1 rxd2
+| uart 4 txd
+| -
+| -
+| -
+| -
+| mii 1 rxd1
+| uart 4 rxd
+| timer 5
+| timer 6
+| rmii 1 refclk
+| rmii 0 crs/rxdv
+| uart 2 txd
+| rmii 0 rxd0
+| rmii 0 rxd1
+| uart 3 txd
+| uart 3 rxd
+| lcd mclk
+| rmii 0 rxer
+| uart 2 rxd
+| rmii 0 txd0
+| rmii 0 txd1
+| can 0 rx
+| can 0 tx
+| rmii 0 txen
+| dma event 2
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| timer 7
+| timer 4
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| uart 3 rxd
+| gpmc a24
+| gpmc a25
+| gpmc a23
+| gpmc a22
+| gpmc a21
+| gpmc a20
+|-
+| Mux mode 2
+| 
+| 
+| 
+| -
+| -
+| -
+| -
+| timer 4
+| timer 7
+| timer 5
+| timer 6
+| mmc 1 d5
+| mmc 1 d4
+| mmc 1 d1
+| mmc 1 d2
+| mmc 1 d7
+| mmc 1 d6
+| mmc 1 d3
+| gpmc wait 1
+| mmc 1 d0
+| mmc 1 cmd
+| mmc 1 clk
+| -
+| -
+| -
+| -
+| -
+| gpmc a1
+| pru mii 0 crs
+| gpmc a2
+| pru mii 1 crs
+| qep 1 index
+| qep 1 strobe
+| qep 1 in B
+| pwm 1 out B
+| qep 1 in A
+| pwm 1 out A
+| pwm 1 tripzone
+| pwm sync out
+| pru edio in 6
+| pru edio in 7
+| pru mii 0 txd1
+| pru mii 0 txd0
+| pru mii 0 txd3
+| pru mii 0 txd2
+| pru mii 0 txclk
+| pru mii 0 txen
+| 
+| 
+| 
+| 
+| -
+| gpmc cs 4
+| gpmc cs 6
+| gpmc cs 5
+| rgmii 1 txd3
+| rgmii 1 txctl
+| rmii 1 crs/rxdv
+| rgmii 1 txd2
+| i²c 1 scl
+| i²c 1 sda
+| can 0 rx
+| can 0 tx
+| i²c 2 scl
+| i²c 2 sda
+| rgmii 1 rxctl
+| can 1 rx
+| asp 0 data 3
+| can 1 tx
+| asp 0 data 3
+| asp 0 data 2
+| -
+| -
+| -
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -
+| timer clkin
+| spi 1 cs 1
+| asp 0 data 2
+| rgmii 1 txd0
+| rgmii 1 txclk
+| rgmii 1 rxclk
+| rgmii 1 rxd3
+| can 0 tx
+| can 0 rx
+| rgmii 1 txd1
+| 
+| 
+| 
+| 
+| 
+| rgmii 1 rxd0
+| -
+| timer 4
+| rgmii 1 rxd2
+| can 1 rx
+| -
+| -
+| -
+| -
+| rgmii 1 rxd1
+| can 1 tx
+| uart 5 txd
+| uart 5 rxd
+| spi 1 clk
+| spi 1 data 0
+| rgmii 0 rxclk
+| rgmii 0 rxd0
+| rgmii 0 rxd1
+| rgmii 0 rxd2
+| rgmii 0 rxd3
+| rgmii 0 rxctl
+| spi 1 data 1
+| rgmii 0 txclk
+| rgmii 0 txd0
+| rgmii 0 txd1
+| rgmii 0 txd2
+| rgmii 0 txd3
+| rgmii 0 txctl
+| spi 1 cs 0
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| uart 2 rts
+| uart 2 cts
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| eCAP 1
+| uart 3 cts
+| uart 3 rts
+| uart 5 rts
+| uart 5 cts
+| uart 4 rts
+| uart 4 cts
+|-
+| Mux mode 3
+| 
+| 
+| 
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| mmc 2 d1
+| mmc 2 d0
+| mmc 2 d5
+| mmc 2 d6
+| mmc 2 d3
+| mmc 2 d2
+| mmc 2 d7
+| mmc 2 clk
+| mmc 2 d4
+| pru edio in 7
+| pru edio in 6
+| -
+| -
+| -
+| -
+| -
+| pru edio in 2
+| pru edio in 4
+| pru edio in 3
+| pru edio in 5
+| asp 0 data 1
+| asp 0 tx hclk
+| asp 0 rx fs
+| asp 0 rx hclk
+| asp 0 rx clk
+| asp 0 data 0
+| asp 0 tx clk
+| asp 0 tx fs
+| qep 2 index
+| qep 2 strobe
+| qep 2 in A
+| qep 2 in B
+| pwm 2 tripzone
+| pwm sync out
+| pwm 2 out A
+| pwm 2 out B
+| 
+| 
+| 
+| 
+| -
+| rmii 1 crs/rxdv
+| mmc 2 d3
+| rmii 1 rxer
+| mmc 2 d1
+| rmii 1 txen
+| mmc 2 cmd
+| mmc 2 d2
+| pwm sync in
+| pwm 0 tripzone
+| i²c 2 scl
+| i²c 2 sda
+| pwm 0 out B
+| pwm 0 out A
+| mmc 2 d0
+| i²c 1 scl
+| asp 1 data 1
+| i²c 1 sda
+| asp 1 tx fs
+| spi 1 cs 0
+| spi 1 data 0
+| spi 1 data 1
+| spi 1 clk
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| asp 1 data 0
+| clkout 1
+| pru eCAP
+| asp 1 tx clk
+| rmii 1 txd0
+| mmc 2 d4
+| mmc 2 d5
+| mmc 2 d6
+| i²c 2 sda
+| i²c 2 scl
+| rmii 1 txd1
+| 
+| 
+| 
+| 
+| 
+| rmii 1 rxd0
+| -
+| clkout 0
+| mmc 2 d7
+| i²c 1 scl
+| -
+| -
+| -
+| -
+| rmii 1 rxd1
+| i²c 1 sda
+| uart 3 rts
+| uart 3 cts
+| uart 5 rxd
+| i²c 1 sda
+| mmc 0 d6
+| asp 1 tx hclk
+| asp 1 data 3
+| mmc 0 d4
+| mmc 0 d5
+| uart 5 txd
+| i²c 1 scl
+| mmc 0 d7
+| asp 1 data 2
+| asp 1 rx fs
+| uart 4 txd
+| uart 4 rxd
+| timer 4
+| uart 5 txd
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| eCAP 1
+| eCAP 2
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| mmc 0 pow
+| uart 2 rxd
+| uart 2 txd
+| uart 3 txd
+| uart 3 rxd
+| timer 6
+| timer 5
+|-
+| Mux mode 4
+| 
+| 
+| 
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| qep 2 in B
+| qep 2 in A
+| pwm 2 out B
+| pwm 2 tripzone
+| qep 2 strobe
+| qep 2 index
+| pwm sync out
+| pru mii 1 crs
+| pwm 2 out A
+| pru edio out 7
+| pru edio out 6
+| -
+| -
+| -
+| -
+| -
+| pru edio out 2
+| pru edio out 4
+| pru edio out 3
+| pru edio out 5
+| uart 5 rxd
+| asp 0 data 3
+| asp 0 data 3
+| asp 0 data 2
+| asp 0 data 2
+| -
+| uart 5 txd
+| uart 5 rxd
+| pru edio out 6
+| pru edio out 7
+| -
+| -
+| -
+| -
+| -
+| -
+| 
+| 
+| 
+| 
+| -
+| mmc 1 cd
+| gpmc dir
+| mmc 2 cd
+| gpmc a18
+| gpmc a16
+| pru mii 0 crs
+| gpmc a19
+| uart pru txd
+| uart pru rxd
+| spi 1 cs 1
+| spi 1 cs 0
+| uart pru rts
+| uart pru cts
+| gpmc a17
+| -
+| jtag emu 4
+| -
+| jtag emu 2
+| eCAP 2
+| mmc 1 cd
+| mmc 2 cd
+| mmc 0 cd
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| jtag emu 3
+| timer 7
+| spi 1 clk
+| mmc 0 wp
+| gpmc a21
+| gpmc a22
+| gpmc a23
+| gpmc a24
+| eCAP 2
+| eCAP 1
+| gpmc a20
+| 
+| 
+| 
+| 
+| 
+| gpmc a27
+| -
+| spi 1 cs 1
+| gpmc a25
+| spi 1 data 1
+| -
+| -
+| -
+| -
+| gpmc a26
+| spi 1 data 0
+| mmc 0 wp
+| mmc 0 cd
+| asp 1 data 2
+| asp 1 tx clk
+| mmc 1 d1
+| asp 1 rx hclk
+| asp 1 rx fs
+| mmc 1 d3
+| mmc 1 d2
+| asp 1 tx clk
+| asp 1 tx fs
+| mmc 1 d0
+| asp 1 rx clk
+| asp 1 data 1
+| asp 1 data 0
+| asp 1 tx fs
+| asp 1 data 0
+| asp 1 data 3
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| dma event 2
+| can 1 tx
+| can 1 rx
+| uart 1 ri
+| uart 1 dtr
+| uart 1 dsr
+| uart 1 dcd
+|-
+| Mux mode 5
+| 
+| 
+| 
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| pru mii 0 txd1
+| pru mii 0 txd2
+| pru mii 0 col
+| pru mii 0 txen
+| pru eCAP
+| pru mii 0 txd0
+| pru mii 0 txd3
+| pru mdio clock
+| pru mii 0 txclk
+| pru 1 out 13
+| pru 1 out 12
+| -
+| -
+| -
+| -
+| -
+| pru 1 out 8
+| pru 1 out 10
+| pru 1 out 9
+| pru 1 out 11
+| pru mii 0 rxclk
+| pru mii 0 rxdv
+| pru mii 0 rxer
+| pru mii 0 rxd0
+| pru mii 0 rxlink
+| pru mii 0 rxd1
+| pru mii 0 rxd3
+| pru mii 0 rxd2
+| pru 1 out 6
+| pru 1 out 7
+| pru 1 out 4
+| pru 1 out 5
+| pru 1 out 2
+| pru 1 out 3
+| pru 1 out 0
+| pru 1 out 1
+| 
+| 
+| 
+| 
+| -
+| pru mii 1 col
+| pru mii 1 rxlink
+| pru mii 1 txen
+| pru mii 1 txd2
+| pru mii 1 txclk
+| pru mdio data
+| pru mii 1 txd1
+| pru edio in 1
+| pru edio in 0
+| uart pru rts
+| uart pru cts
+| pru edio latch
+| pru edio sof
+| pru mii 1 txd3
+| uart pru txd
+| pru 0 out 7
+| uart pru rxd
+| pru 0 out 5
+| pru 0 out 3
+| pru 0 out 1
+| pru 0 out 2
+| pru 0 out 0
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| pru 0 out 6
+| pru 0 in 16
+| mmc 0 wp
+| pru 0 out 4
+| pru mii 1 rxd3
+| pru mii 1 rxd2
+| pru mii 1 rxd1
+| pru mii 1 rxd0
+| pru 1 out 14
+| pru 1 out 15
+| pru mii 1 txd0
+| 
+| 
+| 
+| 
+| 
+| pru mii 1 rxer
+| -
+| pru 1 in 16
+| pru mii 1 rxclk
+| spi 1 cs 0
+| -
+| -
+| -
+| -
+| pru mii 1 rxdv
+| timer 7
+| mmc 1 clk
+| mmc 1 cmd
+| mmc 2 d3
+| uart 5 cts
+| uart 1 dsr
+| asp 1 rx clk
+| qep 0 strobe
+| uart 1 ri
+| uart 1 dtr
+| mmc 2 d0
+| uart 5 rts
+| uart 1 dcd
+| qep 0 in B
+| qep 0 in A
+| mmc 2 d2
+| mmc 2 d1
+| qep 0 index
+| mmc 0 pow
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| mmc 0 cd
+| pru 0 out 12
+| pru 0 out 13
+| pru 0 out 11
+| pru 0 out 10
+| pru 0 out 9
+| pru 0 out 8
+|-
+| Mux mode 6
+| 
+| 
+| 
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| pru 0 out 15
+| pru 0 out 14
+| -
+| -
+| pru 0 in 15
+| pru 0 in 14
+| -
+| asp 0 rx fs
+| -
+| pru 1 in 13
+| pru 1 in 12
+| -
+| -
+| -
+| -
+| -
+| pru 1 in 8
+| pru 1 in 10
+| pru 1 in 9
+| pru 1 in 11
+| uart 5 cts
+| uart 5 rts
+| uart 4 rts
+| uart 3 rts
+| uart 4 cts
+| uart 3 cts
+| uart 2 cts
+| uart 2 rts
+| pru 1 in 6
+| pru 1 in 7
+| pru 1 in 4
+| pru 1 in 5
+| pru 1 in 2
+| pru 1 in 3
+| pru 1 in 0
+| pru 1 in 1
+| 
+| 
+| 
+| 
+| -
+| uart 4 rxd
+| asp 0 rx clk
+| uart 4 txd
+| pwm 1 out A
+| pwm 1 tripzone
+| jtag emu 4
+| pwm 1 out B
+| pru edio out 1
+| pru edio out 0
+| pru edc latch 1
+| pru edc latch 0
+| jtag emu 3
+| jtag emu 2
+| pwm sync out
+| pru 0 in 16
+| pru 0 in 7
+| pru 1 in 16
+| pru 0 in 5
+| pru 0 in 3
+| pru 0 in 1
+| pru 0 in 2
+| pru 0 in 0
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| pru 0 in 6
+| jtag emu 3
+| dma event 2
+| pru 0 in 4
+| qep 1 in B
+| qep 1 index
+| qep 1 strobe
+| asp 0 tx clk
+| pru 1 in 14
+| pru 1 in 15
+| qep 1 in A
+| 
+| 
+| 
+| 
+| 
+| asp 0 data 1
+| -
+| jtag emu 2
+| asp 0 tx fs
+| pru edc sync 1 out
+| -
+| -
+| -
+| -
+| asp 0 data 0
+| pru edc sync 0 out
+| mmc 2 clk
+| mmc 2 cmd
+| asp 0 data 2
+| uart 2 rxd
+| asp 0 tx fs
+| asp 0 data 3
+| mmc 2 clk
+| asp 0 data 1
+| asp 0 data 0
+| asp 0 rx clk
+| uart 2 txd
+| asp 0 tx clk
+| mmc 1 clk
+| mmc 1 cmd
+| asp 0 tx hclk
+| asp 0 rx fs
+| mmc 2 cmd
+| asp 1 tx hclk
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| jtag emu 4
+| pru 0 in 12
+| pru 0 in 13
+| pru 0 in 11
+| pru 0 in 10
+| pru 0 in 9
+| pru 0 in 8
+|-
+| Mux mode 7
+| 
+| 
+| 
+| gpio 1.06
+| gpio 1.07
+| gpio 1.02
+| gpio 1.03
+| gpio 2.02
+| gpio 2.03
+| gpio 2.05
+| gpio 2.04
+| gpio 1.13
+| gpio 1.12
+| gpio 0.23
+| gpio 0.26
+| gpio 1.15
+| gpio 1.14
+| gpio 0.27
+| gpio 2.01
+| gpio 0.22
+| gpio 1.31
+| gpio 1.30
+| gpio 1.05
+| gpio 1.04
+| gpio 1.01
+| gpio 1.00
+| gpio 1.29
+| gpio 2.22
+| gpio 2.24
+| gpio 2.23
+| gpio 2.25
+| gpio 0.10
+| gpio 0.11
+| gpio 0.09
+| gpio 2.17
+| gpio 0.08
+| gpio 2.16
+| gpio 2.14
+| gpio 2.15
+| gpio 2.12
+| gpio 2.13
+| gpio 2.10
+| gpio 2.11
+| gpio 2.08
+| gpio 2.09
+| gpio 2.06
+| gpio 2.07
+| 
+| 
+| 
+| 
+| -
+| gpio 0.30
+| gpio 1.28
+| gpio 0.31
+| gpio 1.18
+| gpio 1.16
+| gpio 2.00
+| gpio 1.19
+| gpio 0.05
+| gpio 0.04
+| gpio 0.13
+| gpio 0.12
+| gpio 0.03
+| gpio 0.02
+| gpio 1.17
+| gpio 0.15
+| gpio 3.21
+| gpio 0.14
+| gpio 3.19
+| gpio 3.17
+| gpio 3.15
+| gpio 3.16
+| gpio 3.14
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| gpio 3.20
+| gpio 0.20
+| gpio 0.07
+| gpio 3.18
+| gpio 1.21
+| gpio 1.22
+| gpio 1.23
+| gpio 1.24
+| gpio 1.10
+| gpio 1.11
+| gpio 1.20
+| 
+| 
+| 
+| 
+| 
+| gpio 1.27
+| -
+| gpio 0.19
+| gpio 1.25
+| gpio 1.09
+| -
+| -
+| -
+| gpio 3.13
+| gpio 1.26
+| gpio 1.08
+| gpio 0.01
+| gpio 0.00
+| gpio 3.00
+| gpio 3.01
+| gpio 3.10
+| gpio 2.21
+| gpio 2.20
+| gpio 2.19
+| gpio 2.18
+| gpio 3.04
+| gpio 3.02
+| gpio 3.09
+| gpio 0.28
+| gpio 0.21
+| gpio 0.17
+| gpio 0.16
+| gpio 3.03
+| gpio 0.29
+| -
+| -
+| -
+| -
+| -
+| gpio 3.07
+| gpio 3.08
+| gpio 3.06
+| gpio 3.05
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| gpio 0.18
+| -
+| -
+| -
+| -
+| gpio 0.06
+| gpio 2.30
+| gpio 2.31
+| gpio 2.29
+| gpio 2.28
+| gpio 2.27
+| gpio 2.26
 |}
