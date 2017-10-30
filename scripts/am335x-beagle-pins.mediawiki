@@ -25,1627 +25,6 @@
 | ZCZ/BSP
 | BSM
 |-
-| 91
-| 968
-| -×
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| P2.27 / SPI1-MISO
-| uart 0 cts
-| uart 4 rxd
-| can 1 tx
-| i²c 1 sda
-| spi 1 data 0
-| timer 7
-| pru edc sync 0 out
-| gpio 1.08
-| E18
-| C12
-|-
-| 136
-| A1C
-| -×
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| usb 0 vbus out en
-| -
-| -
-| -
-| -
-| -
-| -
-| gpio 0.18
-| F16
-|-
-| 139
-| A28
-| -×
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| usb 1 charge en
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-|-
-| 28
-| 86C
-| -audio osc enable
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| P2.02 / GPIO59
-| gpmc a11
-| mii 1 rxd0
-| rgmii 1 rxd0
-| rmii 1 rxd0
-| gpmc a27
-| pru mii 1 rxer
-| asp 0 data 1
-| gpio 1.27
-| V17
-| T16
-|-
-| 84
-| 94C
-| -eth mdc
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -BT_RTS
-| 
-| mdio clk
-| timer 5
-| uart 5 txd
-| uart 3 rts
-| mmc 0 wp
-| mmc 1 clk
-| mmc 2 clk
-| gpio 0.01
-| M18
-|-
-| 83
-| 948
-| -eth mdio
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -BT_CTS
-| 
-| mdio data
-| timer 6
-| uart 5 rxd
-| uart 3 cts
-| mmc 0 cd
-| mmc 1 cmd
-| mmc 2 cmd
-| gpio 0.00
-| M17
-|-
-| 67
-| 908
-| -eth mii col
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -WL_SDIO_D3
-| 
-| mii 0 col
-| rmii 1 refclk
-| spi 1 clk
-| uart 5 rxd
-| asp 1 data 2
-| mmc 2 d3
-| asp 0 data 2
-| gpio 3.00
-| H16
-|-
-| 68
-| 90C
-| -eth mii crs
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| mii 0 crs
-| rmii 0 crs/rxdv
-| spi 1 data 0
-| i²c 1 sda
-| asp 1 tx clk
-| uart 5 cts
-| uart 2 rxd
-| gpio 3.01
-| H17
-|-
-| 77
-| 930
-| -eth mii rx clk
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -WLBT_BUF_OE / GPIO106
-| 
-| mii 0 rxclk
-| uart 2 txd
-| rgmii 0 rxclk
-| mmc 0 d6
-| mmc 1 d1
-| uart 1 dsr
-| asp 0 tx fs
-| gpio 3.10
-| L18
-|-
-| 81
-| 940
-| -eth mii rx d0
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| mii 0 rxd0
-| rmii 0 rxd0
-| rgmii 0 rxd0
-| asp 1 tx hclk
-| asp 1 rx hclk
-| asp 1 rx clk
-| asp 0 data 3
-| gpio 2.21
-| M16
-|-
-| 80
-| 93C
-| -eth mii rx d1
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -WL_SDIO_CLK
-| 
-| mii 0 rxd1
-| rmii 0 rxd1
-| rgmii 0 rxd1
-| asp 1 data 3
-| asp 1 rx fs
-| qep 0 strobe
-| mmc 2 clk
-| gpio 2.20
-| L15
-|-
-| 79
-| 938
-| -eth mii rx d2
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -BT_TX
-| 
-| mii 0 rxd2
-| uart 3 txd
-| rgmii 0 rxd2
-| mmc 0 d4
-| mmc 1 d3
-| uart 1 ri
-| asp 0 data 1
-| gpio 2.19
-| L16
-|-
-| 78
-| 934
-| -eth mii rx d3
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -BT_RX
-| 
-| mii 0 rxd3
-| uart 3 rxd
-| rgmii 0 rxd3
-| mmc 0 d5
-| mmc 1 d2
-| uart 1 dtr
-| asp 0 data 0
-| gpio 2.18
-| L17
-|-
-| 71
-| 918
-| -eth mii rx dv
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -WL_SDIO_D0
-| 
-| mii 0 rxdv
-| lcd mclk
-| rgmii 0 rxctl
-| uart 5 txd
-| asp 1 tx clk
-| mmc 2 d0
-| asp 0 rx clk
-| gpio 3.04
-| J17
-|-
-| 69
-| 910
-| -eth mii rx err
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| mii 0 rxer
-| rmii 0 rxer
-| spi 1 data 1
-| i²c 1 scl
-| asp 1 tx fs
-| uart 5 rts
-| uart 2 txd
-| gpio 3.02
-| J15
-|-
-| 76
-| 92C
-| -eth mii tx clk
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -WL_EN / GPIO105
-| 
-| mii 0 txclk
-| uart 2 rxd
-| rgmii 0 txclk
-| mmc 0 d7
-| mmc 1 d0
-| uart 1 dcd
-| asp 0 tx clk
-| gpio 3.09
-| K18
-|-
-| 75
-| 928
-| -eth mii tx d0
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -BT_EN / GPIO28
-| 
-| mii 0 txd0
-| rmii 0 txd0
-| rgmii 0 txd0
-| asp 1 data 2
-| asp 1 rx clk
-| qep 0 in B
-| mmc 1 clk
-| gpio 0.28
-| K17
-|-
-| 74
-| 924
-| -eth mii tx d1
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| mii 0 txd1
-| rmii 0 txd1
-| rgmii 0 txd1
-| asp 1 rx fs
-| asp 1 data 1
-| qep 0 in A
-| mmc 1 cmd
-| gpio 0.21
-| K16
-|-
-| 73
-| 920
-| -eth mii tx d2
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -WL_SDIO_D2
-| 
-| mii 0 txd2
-| can 0 rx
-| rgmii 0 txd2
-| uart 4 txd
-| asp 1 data 0
-| mmc 2 d2
-| asp 0 tx hclk
-| gpio 0.17
-| K15
-|-
-| 72
-| 91C
-| -eth mii tx d3
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -WL_SDIO_D1
-| 
-| mii 0 txd3
-| can 0 tx
-| rgmii 0 txd3
-| uart 4 rxd
-| asp 1 tx fs
-| mmc 2 d1
-| asp 0 rx fs
-| gpio 0.16
-| J18
-|-
-| 70
-| 914
-| -eth mii tx en
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -WL_SDIO_CMD
-| 
-| mii 0 txen
-| rmii 0 txen
-| rgmii 0 txctl
-| timer 4
-| asp 1 data 0
-| qep 0 index
-| mmc 2 cmd
-| gpio 3.03
-| J16
-|-
-| 82
-| 944
-| -eth unused
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -WLAN_IRQ / GPIO29
-| 
-| rmii 0 refclk
-| dma event 2
-| spi 1 cs 0
-| uart 5 txd
-| asp 1 data 3
-| mmc 0 pow
-| asp 1 tx hclk
-| gpio 0.29
-| H18
-|-
-| 140
-| A2C
-| -gnd
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| P1.13 / USB1-ID
-| usb 1 id
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| P17
-| L14
-|-
-| 109
-| 9B0
-| -hdmi cec / jtag emu2
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| SPI1_SS2 / S1.2_6
-| P2.31 / SPI1-CS
-| dma event 0
-| -
-| timer 4
-| clkout 0
-| spi 1 cs 1
-| pru 1 in 16
-| jtag emu 2
-| gpio 0.19
-| A15
-| A4
-|-
-| 26
-| 864
-| -hdmi irq
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| P2.06 / GPIO57
-| gpmc a9
-| mii 1 rxd2
-| rgmii 1 rxd2
-| mmc 2 d7
-| gpmc a25
-| pru mii 1 rxclk
-| asp 0 tx fs
-| gpio 1.25
-| U16
-| T15
-|-
-| 117
-| 9D0
-| -jtag
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -JTAG
-| -JTAG
-| jtag tms
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| C11
-| D2
-|-
-| 118
-| 9D4
-| -jtag
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -JTAG
-| -JTAG
-| jtag tdi
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| B11
-| C1
-|-
-| 119
-| 9D8
-| -jtag
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -JTAG
-| -JTAG
-| jtag tdo
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| A11
-| C2
-|-
-| 120
-| 9DC
-| -jtag
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -JTAG
-| -JTAG
-| jtag tck
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| A12
-| D1
-|-
-| 121
-| 9E0
-| -jtag
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -JTAG
-| -JTAG
-| jtag trst
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| B10
-| D3
-|-
-| 122
-| 9E4
-| -jtag emu0
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -JTAG
-| -JTAG
-| emu 0
-| -
-| -
-| -
-| -
-| -
-| -
-| gpio 3.07
-| C14
-| E2
-|-
-| 123
-| 9E8
-| -jtag emu1
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -JTAG
-| -JTAG
-| emu 1
-| -
-| -
-| -
-| -
-| -
-| -
-| gpio 3.08
-| B14
-| E3
-|-
-| 100
-| 98C
-| -local i²c scl
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -I2C0_SCL
-| -I2C0-SCL
-| i²c 0 scl
-| timer 7
-| uart 2 rts
-| eCAP 1
-| -
-| -
-| -
-| gpio 3.06
-| C16
-| C10
-|-
-| 99
-| 988
-| -local i²c sda
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -I2C0_SDA
-| -I2C0-SDA
-| i²c 0 sda
-| timer 4
-| uart 2 cts
-| eCAP 2
-| -
-| -
-| -
-| gpio 3.05
-| C17
-| C11
-|-
-| 112
-| 9BC
-| -pmic
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| por
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| B15
-| P11
-|-
-| 127
-| 9F8
-| -pmic
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| rtc por
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| B5
-| N5
-|-
-| 128
-| 9FC
-| -pmic
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| power en
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-|-
-| 129
-| A00
-| -pmic
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| wakeup
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-|-
-| 130
-| A04
-| -pmic
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| rtc ldo en
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-|-
-| 113
-| 9C0
-| -pmic irq
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| mpu irq
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| B18
-| D4
-|-
-| 124
-| 9EC
-| -rtc xtal
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| osc 1 (rtc) in
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-|-
-| 125
-| 9F0
-| -rtc xtal
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| osc 1 (rtc) out
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-|-
-| 126
-| 9F4
-| -rtc xtal
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| rtc gnd
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-|-
-| 92
-| 96C
-| -TP9
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| S1.1_6 / SPI1_SS1
-| P2.25 / SPI1-MOSI
-| uart 0 rts
-| uart 4 txd
-| can 1 rx
-| i²c 1 scl
-| spi 1 data 1
-| spi 1 cs 0
-| pru edc sync 1 out
-| gpio 1.09
-| E17
-| C13
-|-
-| 137
-| A20
-| -usb A
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| P1.09 / USB1-DN
-| usb 1 d−
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| R18
-| L16
-|-
-| 138
-| A24
-| -usb A
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| P1.11 / USB1-DP
-| usb 1 d+
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| R17
-| L15
-|-
-| 141
-| A30
-| -usb A vbus
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| P1.05 / USB1-VBUS
-| usb 1 vbus in
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| T18
-| M15
-|-
-| 142
-| A34
-| -usb A vbus en
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| P1.03 / USB1-DRVVBUS
-| usb 1 vbus out en
-| -
-| -
-| -
-| -
-| -
-| -
-| gpio 3.13
-| F15
-| M14
-|-
-| 27
-| 868
-| -usb A vbus overcurrent
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| P2.04 / GPIO58
-| gpmc a10
-| mii 1 rxd1
-| rgmii 1 rxd1
-| rmii 1 rxd1
-| gpmc a26
-| pru mii 1 rxdv
-| asp 0 data 0
-| gpio 1.26
-| T16
-| R15
-|-
-| 131
-| A08
-| -usb B
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| usb 0 d−
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-|-
-| 132
-| A0C
-| -usb B
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| usb 0 d+
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-|-
-| 134
-| A14
-| -usb B id
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| usb 0 id
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-|-
-| 135
-| A18
-| -usb B vbus
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| usb 0 vbus in
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-|-
-| 133
-| A10
-| -x
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| usb 0 charge en
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-|-
-| 114
-| 9C4
-| -xtal
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -XTAL
-| -XTAL
-| osc 0 in
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| 
-| P16
-|-
-| 115
-| 9C8
-| -xtal
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -XTAL
-| -XTAL
-| osc 0 out
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| 
-| N16
-|-
-| 116
-| 9CC
-| -xtal
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -XTAL
-| -XTAL
-| osc 0 gnd
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| 
-| N15
-|-
-| 89
-| 960
-| -μSD cd / jtag emu4
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -MMC0_SDCD
-| -MMC0-CD
-| spi 0 cs 1
-| uart 3 rxd
-| eCAP 1
-| mmc 0 pow
-| dma event 2
-| mmc 0 cd
-| jtag emu 4
-| gpio 0.06
-| C15
-| C14
-|-
-| 65
-| 900
-| -μSD clk
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -MMC0_CLK
-| -MMC0_CLK
-| mmc 0 clk
-| gpmc a24
-| uart 3 cts
-| uart 2 rxd
-| can 1 tx
-| pru 0 out 12
-| pru 0 in 12
-| gpio 2.30
-| G17
-| B15
-|-
-| 66
-| 904
-| -μSD cmd
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -MMC0_CMD
-| -MMC0_CMD
-| mmc 0 cmd
-| gpmc a25
-| uart 3 rts
-| uart 2 txd
-| can 1 rx
-| pru 0 out 13
-| pru 0 in 13
-| gpio 2.31
-| G18
-| B16
-|-
-| 64
-| 8FC
-| -μSD d0
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -MMC0_DAT0
-| -MMC0_DAT0
-| mmc 0 d0
-| gpmc a23
-| uart 5 rts
-| uart 3 txd
-| uart 1 ri
-| pru 0 out 11
-| pru 0 in 11
-| gpio 2.29
-| G16
-| A16
-|-
-| 63
-| 8F8
-| -μSD d1
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -MMC0_DAT1
-| -MMC0_DAT1
-| mmc 0 d1
-| gpmc a22
-| uart 5 cts
-| uart 3 rxd
-| uart 1 dtr
-| pru 0 out 10
-| pru 0 in 10
-| gpio 2.28
-| G15
-| A15
-|-
-| 62
-| 8F4
-| -μSD d2
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -MMC0_DAT2
-| -MMC0_DAT2
-| mmc 0 d2
-| gpmc a21
-| uart 4 rts
-| timer 6
-| uart 1 dsr
-| pru 0 out 9
-| pru 0 in 9
-| gpio 2.27
-| F18
-| C16
-|-
-| 61
-| 8F0
-| -μSD d3
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -MMC0_DAT3
-| -MMC0_DAT3
-| mmc 0 d3
-| gpmc a20
-| uart 4 cts
-| timer 5
-| uart 1 dcd
-| pru 0 out 8
-| pru 0 in 8
-| gpio 2.26
-| F17
-| C15
-|-
 | 93
 | 970
 | console in
@@ -4118,4 +2497,1625 @@
 | 
 | 
 | N6
+|-
+| 28
+| 86C
+| -audio osc enable
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| P2.02 / GPIO59
+| gpmc a11
+| mii 1 rxd0
+| rgmii 1 rxd0
+| rmii 1 rxd0
+| gpmc a27
+| pru mii 1 rxer
+| asp 0 data 1
+| gpio 1.27
+| V17
+| T16
+|-
+| 140
+| A2C
+| -gnd
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| P1.13 / USB1-ID
+| usb 1 id
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| P17
+| L14
+|-
+| 109
+| 9B0
+| -hdmi cec / jtag emu2
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| SPI1_SS2 / S1.2_6
+| P2.31 / SPI1-CS
+| dma event 0
+| -
+| timer 4
+| clkout 0
+| spi 1 cs 1
+| pru 1 in 16
+| jtag emu 2
+| gpio 0.19
+| A15
+| A4
+|-
+| 26
+| 864
+| -hdmi irq
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| P2.06 / GPIO57
+| gpmc a9
+| mii 1 rxd2
+| rgmii 1 rxd2
+| mmc 2 d7
+| gpmc a25
+| pru mii 1 rxclk
+| asp 0 tx fs
+| gpio 1.25
+| U16
+| T15
+|-
+| 92
+| 96C
+| -TP9
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| S1.1_6 / SPI1_SS1
+| P2.25 / SPI1-MOSI
+| uart 0 rts
+| uart 4 txd
+| can 1 rx
+| i²c 1 scl
+| spi 1 data 1
+| spi 1 cs 0
+| pru edc sync 1 out
+| gpio 1.09
+| E17
+| C13
+|-
+| 137
+| A20
+| -usb A
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| P1.09 / USB1-DN
+| usb 1 d−
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| R18
+| L16
+|-
+| 138
+| A24
+| -usb A
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| P1.11 / USB1-DP
+| usb 1 d+
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| R17
+| L15
+|-
+| 141
+| A30
+| -usb A vbus
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| P1.05 / USB1-VBUS
+| usb 1 vbus in
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| T18
+| M15
+|-
+| 142
+| A34
+| -usb A vbus en
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| P1.03 / USB1-DRVVBUS
+| usb 1 vbus out en
+| -
+| -
+| -
+| -
+| -
+| -
+| gpio 3.13
+| F15
+| M14
+|-
+| 27
+| 868
+| -usb A vbus overcurrent
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| P2.04 / GPIO58
+| gpmc a10
+| mii 1 rxd1
+| rgmii 1 rxd1
+| rmii 1 rxd1
+| gpmc a26
+| pru mii 1 rxdv
+| asp 0 data 0
+| gpio 1.26
+| T16
+| R15
+|-
+| 91
+| 968
+| -×
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| P2.27 / SPI1-MISO
+| uart 0 cts
+| uart 4 rxd
+| can 1 tx
+| i²c 1 sda
+| spi 1 data 0
+| timer 7
+| pru edc sync 0 out
+| gpio 1.08
+| E18
+| C12
+|-
+| 136
+| A1C
+| -×
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| usb 0 vbus out en
+| -
+| -
+| -
+| -
+| -
+| -
+| gpio 0.18
+| F16
+|-
+| 139
+| A28
+| -×
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| usb 1 charge en
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|-
+| 84
+| 94C
+| -eth mdc
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -BT_RTS
+| 
+| mdio clk
+| timer 5
+| uart 5 txd
+| uart 3 rts
+| mmc 0 wp
+| mmc 1 clk
+| mmc 2 clk
+| gpio 0.01
+| M18
+|-
+| 83
+| 948
+| -eth mdio
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -BT_CTS
+| 
+| mdio data
+| timer 6
+| uart 5 rxd
+| uart 3 cts
+| mmc 0 cd
+| mmc 1 cmd
+| mmc 2 cmd
+| gpio 0.00
+| M17
+|-
+| 67
+| 908
+| -eth mii col
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -WL_SDIO_D3
+| 
+| mii 0 col
+| rmii 1 refclk
+| spi 1 clk
+| uart 5 rxd
+| asp 1 data 2
+| mmc 2 d3
+| asp 0 data 2
+| gpio 3.00
+| H16
+|-
+| 68
+| 90C
+| -eth mii crs
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| mii 0 crs
+| rmii 0 crs/rxdv
+| spi 1 data 0
+| i²c 1 sda
+| asp 1 tx clk
+| uart 5 cts
+| uart 2 rxd
+| gpio 3.01
+| H17
+|-
+| 77
+| 930
+| -eth mii rx clk
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -WLBT_BUF_OE / GPIO106
+| 
+| mii 0 rxclk
+| uart 2 txd
+| rgmii 0 rxclk
+| mmc 0 d6
+| mmc 1 d1
+| uart 1 dsr
+| asp 0 tx fs
+| gpio 3.10
+| L18
+|-
+| 81
+| 940
+| -eth mii rx d0
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| mii 0 rxd0
+| rmii 0 rxd0
+| rgmii 0 rxd0
+| asp 1 tx hclk
+| asp 1 rx hclk
+| asp 1 rx clk
+| asp 0 data 3
+| gpio 2.21
+| M16
+|-
+| 80
+| 93C
+| -eth mii rx d1
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -WL_SDIO_CLK
+| 
+| mii 0 rxd1
+| rmii 0 rxd1
+| rgmii 0 rxd1
+| asp 1 data 3
+| asp 1 rx fs
+| qep 0 strobe
+| mmc 2 clk
+| gpio 2.20
+| L15
+|-
+| 79
+| 938
+| -eth mii rx d2
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -BT_TX
+| 
+| mii 0 rxd2
+| uart 3 txd
+| rgmii 0 rxd2
+| mmc 0 d4
+| mmc 1 d3
+| uart 1 ri
+| asp 0 data 1
+| gpio 2.19
+| L16
+|-
+| 78
+| 934
+| -eth mii rx d3
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -BT_RX
+| 
+| mii 0 rxd3
+| uart 3 rxd
+| rgmii 0 rxd3
+| mmc 0 d5
+| mmc 1 d2
+| uart 1 dtr
+| asp 0 data 0
+| gpio 2.18
+| L17
+|-
+| 71
+| 918
+| -eth mii rx dv
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -WL_SDIO_D0
+| 
+| mii 0 rxdv
+| lcd mclk
+| rgmii 0 rxctl
+| uart 5 txd
+| asp 1 tx clk
+| mmc 2 d0
+| asp 0 rx clk
+| gpio 3.04
+| J17
+|-
+| 69
+| 910
+| -eth mii rx err
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| mii 0 rxer
+| rmii 0 rxer
+| spi 1 data 1
+| i²c 1 scl
+| asp 1 tx fs
+| uart 5 rts
+| uart 2 txd
+| gpio 3.02
+| J15
+|-
+| 76
+| 92C
+| -eth mii tx clk
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -WL_EN / GPIO105
+| 
+| mii 0 txclk
+| uart 2 rxd
+| rgmii 0 txclk
+| mmc 0 d7
+| mmc 1 d0
+| uart 1 dcd
+| asp 0 tx clk
+| gpio 3.09
+| K18
+|-
+| 75
+| 928
+| -eth mii tx d0
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -BT_EN / GPIO28
+| 
+| mii 0 txd0
+| rmii 0 txd0
+| rgmii 0 txd0
+| asp 1 data 2
+| asp 1 rx clk
+| qep 0 in B
+| mmc 1 clk
+| gpio 0.28
+| K17
+|-
+| 74
+| 924
+| -eth mii tx d1
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| mii 0 txd1
+| rmii 0 txd1
+| rgmii 0 txd1
+| asp 1 rx fs
+| asp 1 data 1
+| qep 0 in A
+| mmc 1 cmd
+| gpio 0.21
+| K16
+|-
+| 73
+| 920
+| -eth mii tx d2
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -WL_SDIO_D2
+| 
+| mii 0 txd2
+| can 0 rx
+| rgmii 0 txd2
+| uart 4 txd
+| asp 1 data 0
+| mmc 2 d2
+| asp 0 tx hclk
+| gpio 0.17
+| K15
+|-
+| 72
+| 91C
+| -eth mii tx d3
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -WL_SDIO_D1
+| 
+| mii 0 txd3
+| can 0 tx
+| rgmii 0 txd3
+| uart 4 rxd
+| asp 1 tx fs
+| mmc 2 d1
+| asp 0 rx fs
+| gpio 0.16
+| J18
+|-
+| 70
+| 914
+| -eth mii tx en
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -WL_SDIO_CMD
+| 
+| mii 0 txen
+| rmii 0 txen
+| rgmii 0 txctl
+| timer 4
+| asp 1 data 0
+| qep 0 index
+| mmc 2 cmd
+| gpio 3.03
+| J16
+|-
+| 82
+| 944
+| -eth unused
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -WLAN_IRQ / GPIO29
+| 
+| rmii 0 refclk
+| dma event 2
+| spi 1 cs 0
+| uart 5 txd
+| asp 1 data 3
+| mmc 0 pow
+| asp 1 tx hclk
+| gpio 0.29
+| H18
+|-
+| 117
+| 9D0
+| -jtag
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -JTAG
+| -JTAG
+| jtag tms
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| C11
+| D2
+|-
+| 118
+| 9D4
+| -jtag
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -JTAG
+| -JTAG
+| jtag tdi
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| B11
+| C1
+|-
+| 119
+| 9D8
+| -jtag
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -JTAG
+| -JTAG
+| jtag tdo
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| A11
+| C2
+|-
+| 120
+| 9DC
+| -jtag
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -JTAG
+| -JTAG
+| jtag tck
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| A12
+| D1
+|-
+| 121
+| 9E0
+| -jtag
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -JTAG
+| -JTAG
+| jtag trst
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| B10
+| D3
+|-
+| 122
+| 9E4
+| -jtag emu0
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -JTAG
+| -JTAG
+| emu 0
+| -
+| -
+| -
+| -
+| -
+| -
+| gpio 3.07
+| C14
+| E2
+|-
+| 123
+| 9E8
+| -jtag emu1
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -JTAG
+| -JTAG
+| emu 1
+| -
+| -
+| -
+| -
+| -
+| -
+| gpio 3.08
+| B14
+| E3
+|-
+| 100
+| 98C
+| -local i²c scl
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -I2C0_SCL
+| -I2C0-SCL
+| i²c 0 scl
+| timer 7
+| uart 2 rts
+| eCAP 1
+| -
+| -
+| -
+| gpio 3.06
+| C16
+| C10
+|-
+| 99
+| 988
+| -local i²c sda
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -I2C0_SDA
+| -I2C0-SDA
+| i²c 0 sda
+| timer 4
+| uart 2 cts
+| eCAP 2
+| -
+| -
+| -
+| gpio 3.05
+| C17
+| C11
+|-
+| 112
+| 9BC
+| -pmic
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| por
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| B15
+| P11
+|-
+| 127
+| 9F8
+| -pmic
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| rtc por
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| B5
+| N5
+|-
+| 128
+| 9FC
+| -pmic
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| power en
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|-
+| 129
+| A00
+| -pmic
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| wakeup
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|-
+| 130
+| A04
+| -pmic
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| rtc ldo en
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|-
+| 113
+| 9C0
+| -pmic irq
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| mpu irq
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| B18
+| D4
+|-
+| 124
+| 9EC
+| -rtc xtal
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| osc 1 (rtc) in
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|-
+| 125
+| 9F0
+| -rtc xtal
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| osc 1 (rtc) out
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|-
+| 126
+| 9F4
+| -rtc xtal
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| rtc gnd
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|-
+| 131
+| A08
+| -usb B
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| usb 0 d−
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|-
+| 132
+| A0C
+| -usb B
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| usb 0 d+
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|-
+| 134
+| A14
+| -usb B id
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| usb 0 id
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|-
+| 135
+| A18
+| -usb B vbus
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| usb 0 vbus in
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|-
+| 133
+| A10
+| -x
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| usb 0 charge en
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|-
+| 114
+| 9C4
+| -xtal
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -XTAL
+| -XTAL
+| osc 0 in
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| 
+| P16
+|-
+| 115
+| 9C8
+| -xtal
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -XTAL
+| -XTAL
+| osc 0 out
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| 
+| N16
+|-
+| 116
+| 9CC
+| -xtal
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -XTAL
+| -XTAL
+| osc 0 gnd
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| 
+| N15
+|-
+| 89
+| 960
+| -μSD cd / jtag emu4
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -MMC0_SDCD
+| -MMC0-CD
+| spi 0 cs 1
+| uart 3 rxd
+| eCAP 1
+| mmc 0 pow
+| dma event 2
+| mmc 0 cd
+| jtag emu 4
+| gpio 0.06
+| C15
+| C14
+|-
+| 65
+| 900
+| -μSD clk
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -MMC0_CLK
+| -MMC0_CLK
+| mmc 0 clk
+| gpmc a24
+| uart 3 cts
+| uart 2 rxd
+| can 1 tx
+| pru 0 out 12
+| pru 0 in 12
+| gpio 2.30
+| G17
+| B15
+|-
+| 66
+| 904
+| -μSD cmd
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -MMC0_CMD
+| -MMC0_CMD
+| mmc 0 cmd
+| gpmc a25
+| uart 3 rts
+| uart 2 txd
+| can 1 rx
+| pru 0 out 13
+| pru 0 in 13
+| gpio 2.31
+| G18
+| B16
+|-
+| 64
+| 8FC
+| -μSD d0
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -MMC0_DAT0
+| -MMC0_DAT0
+| mmc 0 d0
+| gpmc a23
+| uart 5 rts
+| uart 3 txd
+| uart 1 ri
+| pru 0 out 11
+| pru 0 in 11
+| gpio 2.29
+| G16
+| A16
+|-
+| 63
+| 8F8
+| -μSD d1
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -MMC0_DAT1
+| -MMC0_DAT1
+| mmc 0 d1
+| gpmc a22
+| uart 5 cts
+| uart 3 rxd
+| uart 1 dtr
+| pru 0 out 10
+| pru 0 in 10
+| gpio 2.28
+| G15
+| A15
+|-
+| 62
+| 8F4
+| -μSD d2
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -MMC0_DAT2
+| -MMC0_DAT2
+| mmc 0 d2
+| gpmc a21
+| uart 4 rts
+| timer 6
+| uart 1 dsr
+| pru 0 out 9
+| pru 0 in 9
+| gpio 2.27
+| F18
+| C16
+|-
+| 61
+| 8F0
+| -μSD d3
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -MMC0_DAT3
+| -MMC0_DAT3
+| mmc 0 d3
+| gpmc a20
+| uart 4 cts
+| timer 5
+| uart 1 dcd
+| pru 0 out 8
+| pru 0 in 8
+| gpio 2.26
+| F17
+| C15
 |}
