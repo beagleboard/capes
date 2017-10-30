@@ -1038,32 +1038,6 @@
 | B18
 | D4
 |-
-| 111
-| 9B8
-| -reset
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| RESET
-| P2.26 / NRESET
-| reset in/out
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| A10
-| R11
-|-
 | 124
 | 9EC
 | -rtc xtal
@@ -1759,10 +1733,10 @@
 | GND
 | GND
 | GND
-| 
-| 
-| 
-| 
+| GND
+| GND
+| GND
+| GND
 | UT0_1 / UT1_1 / UT5_1 / CAN_1 / DSM2_2 / I2C_1 / GP0_1 / GP1_1 / GPS_2 / GPS_6 / S1.1_1 / S1.2_1 / E1_1 / E2_1 / E3_1 / E4_1 / PWR_1 / PWR_2 / GND
 | P1.15 / P1.16 / P1.22 / P2.15 / P2.21 / GND
 | GND
@@ -1883,7 +1857,7 @@
 | 
 | 
 | 
-| 
+| RED
 | RED
 | 
 | gpmc adv/ale
@@ -1909,7 +1883,7 @@
 | 
 | 
 | 
-| 
+| GREEN
 | GREEN
 | 
 | gpmc oe/re
@@ -1935,7 +1909,7 @@
 | 
 | 
 | 
-| 
+| PAUSE
 | PAUSE
 | EEPROM-WP / GPIO69
 | gpmc be0/cle
@@ -1961,7 +1935,7 @@
 | 
 | 
 | 
-| 
+| MODE
 | MODE
 | 
 | gpmc we
@@ -1987,7 +1961,7 @@
 | 
 | 
 | 
-| 
+| QEP_2B
 | E3_4 / EQEP_2B
 | P2.33 / GPIO45
 | gpmc d13
@@ -2013,7 +1987,7 @@
 | 
 | 
 | 
-| 
+| QEP_2A
 | E3_3 / EQEP_2A
 | P2.24 / GPIO44
 | gpmc d12
@@ -2039,7 +2013,7 @@
 | 
 | 
 | 
-| 
+| PWM_2B
 | MPWM_4
 | P2.03 / GPIO23
 | gpmc d9
@@ -2065,7 +2039,7 @@
 | 
 | 
 | 
-| 
+| LED_4
 | BAT100
 | P1.34 / GPIO26
 | gpmc d10
@@ -2091,7 +2065,7 @@
 | 
 | 
 | 
-| 
+| QEP_4B
 | E4_4
 | P2.18 / GPIO47
 | gpmc d15
@@ -2117,7 +2091,7 @@
 | 
 | 
 | 
-| 
+| QEP_4A
 | E4_3
 | P2.22 / GPIO46
 | gpmc d14
@@ -2143,7 +2117,7 @@
 | 
 | 
 | 
-| 
+| LED_1
 | BAT25
 | P2.19 / GPIO27
 | gpmc d11
@@ -2169,7 +2143,7 @@
 | 
 | 
 | 
-| 
+| LED_2
 | 
 | P2.17 / GPIO65
 | gpmc clk
@@ -2195,7 +2169,7 @@
 | 
 | 
 | 
-| 
+| PWM_2A
 | MPWM_3
 | 
 | gpmc d8
@@ -2377,7 +2351,7 @@
 | 
 | 
 | 
-| 
+| LED_3
 | BAT75
 | 
 | gpmc cs 0
@@ -2403,7 +2377,7 @@
 | 
 | 
 | 
-| 
+| SVO1
 | SERVO_1
 | P2.35 / AIN5 / GPIO86
 | lcd vsync
@@ -2429,7 +2403,7 @@
 | 
 | 
 | 
-| 
+| SVO2
 | SERVO_2
 | P1.35 / PRU1.10
 | lcd pclk
@@ -2455,7 +2429,7 @@
 | 
 | 
 | 
-| 
+| SVO3
 | SERVO_3
 | P1.02 / AIN6 / GPIO87
 | lcd hsync
@@ -2481,7 +2455,7 @@
 | 
 | 
 | 
-| 
+| SVO4
 | SERVO_4
 | P1.04 / PRU1.11
 | lcd oe/acb
@@ -2557,7 +2531,7 @@
 | 
 | 
 | 
-| 
+| QEP_1B
 | E2_4 / EQEP_1B
 | sysboot 13
 | lcd d13
@@ -2582,7 +2556,7 @@
 | 
 | 
 | 
-| 
+| MDIR_2B
 | MDIR_2B
 | sysboot 11
 | lcd d11
@@ -2607,7 +2581,7 @@
 | 
 | 
 | 
-| 
+| QEP_1A
 | E2_3 / EQEP_1A
 | sysboot 12
 | lcd d12
@@ -2632,7 +2606,7 @@
 | 
 | 
 | 
-| 
+| SERVO_EN
 | SERVO_PWR_EN
 | sysboot 10
 | lcd d10
@@ -2657,7 +2631,7 @@
 | 
 | 
 | 
-| 
+| UART5_TX
 | UT5_4 / UART5_TX
 | sysboot 8
 | lcd d8
@@ -2682,7 +2656,7 @@
 | 
 | 
 | 
-| 
+| UART5_RX
 | UT5_3 / UART5_RX
 | sysboot 9
 | lcd d9
@@ -2707,7 +2681,7 @@
 | 
 | 
 | 
-| 
+| SVO5
 | SERVO_5
 | sysboot 6
 | lcd d6
@@ -2732,7 +2706,7 @@
 | 
 | 
 | 
-| 
+| SVO6
 | SERVO_6
 | sysboot 7
 | lcd d7
@@ -2757,7 +2731,7 @@
 | 
 | 
 | 
-| 
+| SVO7
 | SERVO_7
 | sysboot 4
 | lcd d4
@@ -2782,7 +2756,7 @@
 | 
 | 
 | 
-| 
+| SVO8
 | SERVO_8
 | sysboot 5
 | lcd d5
@@ -2807,7 +2781,7 @@
 | 
 | 
 | 
-| 
+| MDIR_3B
 | MDIR_3B
 | sysboot 2
 | lcd d2
@@ -2833,7 +2807,7 @@
 | 
 | 
 | 
-| 
+| MDIR_3A
 | MDIR_3A
 | sysboot 3
 | lcd d3
@@ -2858,7 +2832,7 @@
 | 
 | 
 | 
-| 
+| MDIR_4A
 | MDIR_4A
 | sysboot 0
 | lcd d0
@@ -2884,7 +2858,7 @@
 | 
 | 
 | 
-| 
+| MDIR_4B
 | MDIR_4B
 | sysboot 1
 | lcd d1
@@ -2907,10 +2881,10 @@
 | VCC
 | VCC
 | VCC
-| 
-| 
-| 
-| 
+| VCC
+| VCC
+| VCC
+| 3.3V
 | UT0_2 / UT1_2 / UT5_2 / CAN_2 / DSM2_1 / I2C_2 / GP0_2 / GP1_2 / S1.1_2 / S1.2_2 / E1_2 / E2_2 / E3_2 / E4_2 / PWR_3 / 3.3V
 | P1.14 / P2.23 / VOUT-3.3V
 | VOUT-3.3V
@@ -2924,10 +2898,10 @@
 | VDD_5V
 | 
 | +5
+| +5
 | 
 | 
-| 
-| 
+| 5.0V
 | 
 | P1.01 / VIN
 | VIN
@@ -2941,10 +2915,10 @@
 | +5
 | 
 | SYS.VOUT
+| SYS.VOUT
 | 
-| 
-| 
-| 
+| +5
+| SYS_5V
 | PWR_4 / GPS_5 / 5.0V
 | P1.24 / P2.13 / VOUT-5V
 | VOUT-5V
@@ -2958,10 +2932,10 @@
 | 
 | 
 | 
+| PWR.BTN
 | 
 | 
-| 
-| 
+| PWR
 | POWER_BTN
 | P2.12 / POWER_BTN
 | POWER
@@ -2975,6 +2949,32 @@
 | 
 | T11
 |-
+| 111
+| 9B8
+| P9.10 / -reset
+| 
+| 
+| 
+| 
+| 
+| 
+| SYS.RESET#
+| 
+| 
+| RESET
+| RESET
+| P2.26 / NRESET
+| reset in/out
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| A10
+| R11
+|-
 | 29
 | 870
 | P9.11
@@ -2987,7 +2987,7 @@
 | 
 | 
 | 
-| 
+| UART4_RX
 | DSM_3 / UART4_RX
 | P2.05 / UART4_RX
 | gpmc wait 0
@@ -3013,7 +3013,7 @@
 | 
 | 
 | 
-| 
+| MDIR_1A
 | 
 | P2.08 / GPIO60
 | gpmc be1
@@ -3039,7 +3039,7 @@
 | 
 | 
 | 
-| 
+| MDIR_1B
 | MDIR_1B
 | P2.07 / UART4_TX
 | gpmc wp
@@ -3065,7 +3065,7 @@
 | 
 | 
 | 
-| 
+| PWM_1A
 | MPWM_1
 | P2.01 / PWM1A
 | gpmc a2
@@ -3091,7 +3091,7 @@
 | 
 | 
 | 
-| 
+| MDIR_2A
 | MDIR_2A
 | 
 | gpmc a0
@@ -3117,7 +3117,7 @@
 | 
 | 
 | 
-| 
+| -MDIR_2A
 | MDIR_1A
 | P2.20 / GPIO64
 | gpmc cs 3
@@ -3143,7 +3143,7 @@
 | 
 | 
 | 
-| 
+| PWM_1B
 | MPWM_2
 | 
 | gpmc a3
@@ -3169,7 +3169,7 @@
 | 
 | 
 | 
-| 
+| I2C1_SCL
 | I2C_3 / I2C1_SCL
 | P1.06 / SPI0-CS
 | spi 0 cs 0
@@ -3195,7 +3195,7 @@
 | 
 | 
 | 
-| 
+| I2C1_SDA
 | I2C_4 / I2C1_SDA
 | P1.12 / SPI0-MOSI
 | spi 0 data 1
@@ -3218,10 +3218,10 @@
 | SCL
 | SCL
 | SCL
-| 
-| 
-| 
-| 
+| SCL
+| SCL
+| SCL
+| I2C2_SCL
 | -I2C2_SCL
 | P1.28 / I2C2-SCL
 | uart 1 rts
@@ -3244,10 +3244,10 @@
 | SDA
 | SDA
 | SDA
-| 
-| 
-| 
-| 
+| SDA
+| SDA
+| SDA
+| I2C2_SDA
 | -I2C2_SDA
 | P1.26 / I2C2-SDA
 | uart 1 cts
@@ -3273,7 +3273,7 @@
 | 
 | 
 | 
-| 
+| UART2_TX
 | GPS_4 / UART2_TX
 | P1.10 / SPI0-MISO
 | spi 0 data 0
@@ -3299,7 +3299,7 @@
 | 
 | 
 | 
-| 
+| UART2_RX
 | GPS_3 / UART2_RX
 | P1.08 / SPI0-CLK
 | spi 0 clk
@@ -3324,8 +3324,8 @@
 | 
 | 
 | 
-| 
-| 
+| RELAY4
+| SPI1_SS2
 | 
 | 
 | gpmc a1
@@ -3351,7 +3351,7 @@
 | 
 | 
 | 
-| 
+| UART1_TX
 | UT1_4 / UART1_TX
 | P2.09 / I2C1-SCL
 | uart 1 txd
@@ -3376,8 +3376,8 @@
 | 
 | 
 | 
-| 
-| 
+| RELAY3
+| IMU_INT
 | -IMU-INT
 | P1.29 / PRU0.7
 | asp 0 tx hclk
@@ -3403,7 +3403,7 @@
 | 
 | 
 | 
-| 
+| UART1_RX
 | UT1_3 / UART1_RX
 | P2.11 / I2C1-SDA
 | uart 1 rxd
@@ -3428,8 +3428,8 @@
 | 
 | 
 | 
-| 
-| 
+| RELAY2
+| QEP_0B
 | 
 | P2.34 / PRU0.5
 | asp 0 rx fs
@@ -3455,7 +3455,7 @@
 | 
 | 
 | 
-| 
+| SPI1_SS1
 | MDIR_1A
 | P2.30 / PRU0.3
 | asp 0 rx hclk
@@ -3481,7 +3481,7 @@
 | 
 | 
 | 
-| 
+| SPI1_MISO
 | S1.1_4 / S1.2_4 / SPI1_MISO
 | P1.33 / PRU0.1
 | asp 0 tx fs
@@ -3506,8 +3506,8 @@
 | 
 | 
 | 
-| 
-| 
+| RELAY1
+| SPI1_MOSI
 | S1.1_3 / S1.2_3 / SPI1_MOSI
 | P2.32 / PRU0.2
 | asp 0 data 0
@@ -3533,7 +3533,7 @@
 | 
 | 
 | 
-| 
+| SPI1_SCK
 | S1.1_5 / S1.2_5 / SPI1_SCK
 | P1.36 / PWM0A
 | asp 0 tx clk
@@ -3559,7 +3559,7 @@
 | 
 | 
 | 
-| 
+| VDD_ADC
 | ADC_2 / VDD_ADC
 | P1.17 / AIN.VREFN
 | vrefn
@@ -3611,7 +3611,7 @@
 | 
 | 
 | 
-| 
+| GND
 | 
 | P1.18 / AIN.VREFP
 | vrefp
@@ -3637,7 +3637,7 @@
 | 
 | 
 | 
-| 
+| V_DIV_BAT
 | V_DIV_BAT / AIN6
 | P1.02 / AIN6 / GPIO87
 | ain6
@@ -3663,7 +3663,7 @@
 | 
 | 
 | 
-| 
+| V_DIV_DC
 | V_DIV_DC / AIN5
 | P2.35 / AIN5 / GPIO86
 | ain5
@@ -3689,7 +3689,7 @@
 | 
 | 
 | 
-| 
+| AIN2
 | ADC_5 / AIN2
 | P1.23 / AIN2-1.8V
 | ain2
@@ -3715,7 +3715,7 @@
 | 
 | 
 | 
-| 
+| AIN3
 | ADC_6 / AIN3
 | P1.25 / AIN3-1.8V
 | ain3
@@ -3741,7 +3741,7 @@
 | 
 | 
 | 
-| 
+| AIN0
 | ADC_3 / AIN0
 | P1.19 / AIN0-1.8V
 | ain0
@@ -3767,7 +3767,7 @@
 | 
 | 
 | 
-| 
+| AIN1
 | ADC_4 / AIN1
 | P1.21 / AIN1-1.8V
 | ain1
@@ -3793,7 +3793,7 @@
 | 
 | 
 | 
-| 
+| -MOT_STBY
 | 
 | P2.28 / PRU0.6
 | asp 0 data 1
@@ -3819,7 +3819,7 @@
 | 
 | 
 | 
-| 
+| MOT_STBY
 | -MOT_STBY
 | P1.20 / PRU0.16
 | dma event 1
@@ -3845,7 +3845,7 @@
 | 
 | 
 | 
-| 
+| -QEP_0A
 | 
 | P2.29 / SPI1-CLK
 | eCAP 0
@@ -3871,7 +3871,7 @@
 | 
 | 
 | 
-| 
+| QEP_0A
 | E1_3 / EQEP_0A
 | P1.31 / PRU0.4
 | asp 0 rx clk
@@ -4057,6 +4057,15 @@
 | 
 | P1.07 / USB-VIN
 | VIN-USB
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| P9 / R9 / T9
 |-
 | 
 | 
@@ -4074,6 +4083,15 @@
 | 
 | P2.14 / BAT-VIN
 | VIN-BAT
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| P9 / R9 / T9
 |-
 | 
 | 
@@ -4091,4 +4109,13 @@
 | 
 | P2.16 / BAT-TEMP
 | BAT-TEMP
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| N6
 |}
