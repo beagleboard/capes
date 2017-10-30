@@ -25,84 +25,6 @@
 | ZCZ/BSP
 | BSM
 |-
-| 93
-| 970
-| console in
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| UT0_3 / UART0_RX
-| P1.32 / UART0-RX
-| uart 0 rxd
-| spi 1 cs 0
-| can 0 tx
-| i²c 2 sda
-| eCAP 2
-| pru 1 out 14
-| pru 1 in 14
-| gpio 1.10
-| E15
-| A12
-|-
-| 94
-| 974
-| console out
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| UT0_4 / UART0_TX
-| P1.30 / UART0-TX
-| uart 0 txd
-| spi 1 cs 1
-| can 0 rx
-| i²c 2 scl
-| eCAP 1
-| pru 1 out 15
-| pru 1 in 15
-| gpio 1.11
-| E16
-| B12
-|-
-| 21
-| 850
-| eMMC reset
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| -eMMC_RST
-| P2.10 / GPIO52
-| gpmc a4
-| mii 1 txd1
-| rgmii 1 txd1
-| rmii 1 txd1
-| gpmc a20
-| pru mii 1 txd0
-| qep 1 in A
-| gpio 1.20
-| R14
-| R13
-|-
 | 
 | 
 | P8.01 / P8.02 / P9.01 / P9.02 / P9.43 / P9.44 / P9.45 / P9.46
@@ -2367,6 +2289,84 @@
 | gpio 1.24
 | V16
 | P14
+|-
+| 93
+| 970
+| console in
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| UT0_3 / UART0_RX
+| P1.32 / UART0-RX
+| uart 0 rxd
+| spi 1 cs 0
+| can 0 tx
+| i²c 2 sda
+| eCAP 2
+| pru 1 out 14
+| pru 1 in 14
+| gpio 1.10
+| E15
+| A12
+|-
+| 94
+| 974
+| console out
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| UT0_4 / UART0_TX
+| P1.30 / UART0-TX
+| uart 0 txd
+| spi 1 cs 1
+| can 0 rx
+| i²c 2 scl
+| eCAP 1
+| pru 1 out 15
+| pru 1 in 15
+| gpio 1.11
+| E16
+| B12
+|-
+| 21
+| 850
+| eMMC reset
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -eMMC_RST
+| P2.10 / GPIO52
+| gpmc a4
+| mii 1 txd1
+| rgmii 1 txd1
+| rmii 1 txd1
+| gpmc a20
+| pru mii 1 txd0
+| qep 1 in A
+| gpio 1.20
+| R14
+| R13
 |-
 | 
 | 

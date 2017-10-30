@@ -1,7 +1,4 @@
 Index,Register,BeagleBone,CAN/RS485 Cape,Display 1.8” Cape,Display 4.3” Cape,Display 7.0” Cape,Load Cape,Motor Cape,Power Cape,Proto Cape,Relay Cape,Robotics Cape,Blue rev A2,PocketBeagle,0 (Name),1,2,3,4,5,6,7,ZCZ/BSP,BSM
-93,970,console in,,,,,,,,,,,UT0_3 / UART0_RX,P1.32 / UART0-RX,uart 0 rxd,spi 1 cs 0,can 0 tx,i²c 2 sda,eCAP 2,pru 1 out 14,pru 1 in 14,gpio 1.10,E15,A12
-94,974,console out,,,,,,,,,,,UT0_4 / UART0_TX,P1.30 / UART0-TX,uart 0 txd,spi 1 cs 1,can 0 rx,i²c 2 scl,eCAP 1,pru 1 out 15,pru 1 in 15,gpio 1.11,E16,B12
-21,850,eMMC reset,,,,,,,,,,,-eMMC_RST,P2.10 / GPIO52,gpmc a4,mii 1 txd1,rgmii 1 txd1,rmii 1 txd1,gpmc a20,pru mii 1 txd0,qep 1 in A,gpio 1.20,R14,R13
 ,,P8.01 / P8.02 / P9.01 / P9.02 / P9.43 / P9.44 / P9.45 / P9.46,GND,GND,GND,GND,GND,GND,GND,GND,GND,GND,UT0_1 / UT1_1 / UT5_1 / CAN_1 / DSM2_2 / I2C_1 / GP0_1 / GP1_1 / GPS_2 / GPS_6 / S1.1_1 / S1.2_1 / E1_1 / E2_1 / E3_1 / E4_1 / PWR_1 / PWR_2 / GND,P1.15 / P1.16 / P1.22 / P2.15 / P2.21 / GND,GND,,,,,,,,,
 7,818,P8.03 / eMMC d6,,,,,,,,,,,-eMMC_DAT6,,gpmc d6,mmc 1 d6,-,-,-,-,-,gpio 1.06,R9,P4
 8,81C,P8.04 / eMMC d7,,,,,,,,,,,-eMMC_DAT7,,gpmc d7,mmc 1 d7,-,-,-,-,-,gpio 1.07,T9,R4
@@ -91,6 +88,9 @@ Index,Register,BeagleBone,CAN/RS485 Cape,Display 1.8” Cape,Display 4.3” Cape
 23,858,user led 1,,,,,,,,,,,USR1,user led 1,gpmc a6,mii 1 txclk,rgmii 1 txclk,mmc 2 d4,gpmc a22,pru mii 1 rxd2,qep 1 index,gpio 1.22,U15,T14
 24,85C,user led 2,,,,,,,,,,,USR2,user led 2,gpmc a7,mii 1 rxclk,rgmii 1 rxclk,mmc 2 d5,gpmc a23,pru mii 1 rxd1,qep 1 strobe,gpio 1.23,T15,R14
 25,860,user led 3,,,,,,,,,,,USR3,user led 3,gpmc a8,mii 1 rxd3,rgmii 1 rxd3,mmc 2 d6,gpmc a24,pru mii 1 rxd0,asp 0 tx clk,gpio 1.24,V16,P14
+93,970,console in,,,,,,,,,,,UT0_3 / UART0_RX,P1.32 / UART0-RX,uart 0 rxd,spi 1 cs 0,can 0 tx,i²c 2 sda,eCAP 2,pru 1 out 14,pru 1 in 14,gpio 1.10,E15,A12
+94,974,console out,,,,,,,,,,,UT0_4 / UART0_TX,P1.30 / UART0-TX,uart 0 txd,spi 1 cs 1,can 0 rx,i²c 2 scl,eCAP 1,pru 1 out 15,pru 1 in 15,gpio 1.11,E16,B12
+21,850,eMMC reset,,,,,,,,,,,-eMMC_RST,P2.10 / GPIO52,gpmc a4,mii 1 txd1,rgmii 1 txd1,rmii 1 txd1,gpmc a20,pru mii 1 txd0,qep 1 in A,gpio 1.20,R14,R13
 ,,,,,,,,,,,,,,P2.36 / AIN7-1.8V,ain7,,,,,,,,C9,D7
 ,,,,,,,,,,,,,,EEPROM-WP / GPIO69,eeprom wp,,,,,,,,,M2
 ,,,,,,,,,,,,,,P1.07 / USB-VIN,VIN-USB,,,,,,,,,P9 / R9 / T9
