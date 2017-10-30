@@ -5,7 +5,7 @@
 | Signal
 |-
 | [https://github.com/beagleboard/beaglebone-black BeagleBone Black]
-| E14 / GHI
+| Element14 / GHI Electronics
 | [https://beagleboard.org/black production]
 | P8.01 / P8.02 / P9.01 / P9.02 / P9.43 / P9.44 / P9.45 / P9.46
 | P8.03 / eMMC d6
@@ -170,7 +170,7 @@
 | -μSD d3
 |-
 | [https://github.com/beagleboard/beaglebone-black-wireless BeagleBone Black Wireless]
-| GHI
+| GHI Electronics
 | [https://beagleboard.org/black-wireless production]
 | P8.01 / P8.02 / P9.01 / P9.02 / P9.43 / P9.44 / P9.45 / P9.46
 | P8.03 / eMMC d6
@@ -335,7 +335,7 @@
 | -μSD d3
 |-
 | [https://github.com/beagleboard/beaglebone-blue BeagleBone Blue]
-| E14
+| Element14
 | [https://beagleboard.org/blue production]
 | UT0_1 / UT1_1 / UT5_1 / CAN_1 / DSM2_2 / I2C_1 / GP0_1 / GP1_1 / GPS_2 / GPS_6 / S1.1_1 / S1.2_1 / E1_1 / E2_1 / E3_1 / E4_1 / PWR_1 / PWR_2 / GND
 | -eMMC_DAT6
@@ -500,7 +500,7 @@
 | -MMC0_DAT3
 |-
 | [https://github.com/beagleboard/pocketbeagle PocketBeagle]
-| GHI
+| GHI Electronics
 | [https://beagleboard.org/pocket production]
 | P1.15 / P1.16 / P1.22 / P2.15 / P2.21 / GND
 | 
@@ -665,7 +665,7 @@
 | -MMC0_DAT3
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/CAN_RS485 CAN/RS485 Cape]
-| GHI
+| GHI Electronics
 | prototype
 | GND
 | 
@@ -746,7 +746,7 @@
 | LOOP.A / AIN5
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Display18 Display 1.8” Cape]
-| GHI
+| GHI Electronics
 | prototype
 | GND
 | 
@@ -822,7 +822,7 @@
 | SPI1.SCLK
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Display43 Display 4.3” Cape]
-| GHI
+| GHI Electronics
 | development
 | GND
 | 
@@ -897,7 +897,7 @@
 | CAP.TOUCH.IRQ
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Display70 Display 7.0” Cape]
-| GHI
+| GHI Electronics
 | development
 | GND
 | 
@@ -972,7 +972,7 @@
 | CAP.TOUCH.IRQ
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Load Load Cape]
-| GHI
+| GHI Electronics
 | prototype
 | GND
 | 
@@ -1061,7 +1061,7 @@
 | -SINK1
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Motor Motor Cape]
-| GHI
+| GHI Electronics
 | development
 | GND
 | 
@@ -1126,7 +1126,7 @@
 | SDA
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Power Power Cape]
-| GHI
+| GHI Electronics
 | prototype
 | GND
 | 
@@ -1191,7 +1191,7 @@
 | SDA
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Proto Proto Cape]
-| GHI
+| GHI Electronics
 | prototype
 | GND
 | 
@@ -1256,7 +1256,7 @@
 | SDA
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Relay Relay Cape]
-| GHI
+| GHI Electronics
 | prototype
 | GND
 | 
@@ -1331,7 +1331,7 @@
 | RELAY1
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Robotics Robotics Cape]
-| E14
+| Element14
 | [http://beagleboard.org/RoboticsCape/ production]
 | GND
 | 
