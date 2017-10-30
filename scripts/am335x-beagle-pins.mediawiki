@@ -1,4 +1,4 @@
-{|
+{| class="wikitable" style="white-space:nowrap;"
 | BeagleBone
 | P8.01 / P8.02 / P9.01 / P9.02 / P9.43 / P9.44 / P9.45 / P9.46
 | P8.03 / eMMC d6
