@@ -1,11 +1,17 @@
 {| class="wikitable" style="white-space:nowrap;"
 | Board or signal detail
 | Manufacturer(s)
+| ID
+| Version
+| Addr
 | Status
 | Signal
 |-
 | [https://github.com/beagleboard/beaglebone-black BeagleBone Black]
 | Element14 / GHI Electronics
+| BNLT
+| 00C0
+| 50
 | [https://beagleboard.org/black production]
 | P8.01 / P8.02 / P9.01 / P9.02 / P9.43 / P9.44 / P9.45 / P9.46
 | P8.03 / eMMC d6
@@ -171,6 +177,9 @@
 |-
 | [https://github.com/beagleboard/beaglebone-black-wireless BeagleBone Black Wireless]
 | GHI Electronics
+| BNLT
+| BWA5
+| 50
 | [https://beagleboard.org/black-wireless production]
 | P8.01 / P8.02 / P9.01 / P9.02 / P9.43 / P9.44 / P9.45 / P9.46
 | P8.03 / eMMC d6
@@ -336,6 +345,9 @@
 |-
 | [https://github.com/beagleboard/beaglebone-blue BeagleBone Blue]
 | Element14
+| BNLT
+| BLA2
+| 50
 | [https://beagleboard.org/blue production]
 | UT0_1 / UT1_1 / UT5_1 / CAN_1 / DSM2_2 / I2C_1 / GP0_1 / GP1_1 / GPS_2 / GPS_6 / S1.1_1 / S1.2_1 / E1_1 / E2_1 / E3_1 / E4_1 / PWR_1 / PWR_2 / GND
 | -eMMC_DAT6
@@ -501,6 +513,9 @@
 |-
 | [https://github.com/beagleboard/pocketbeagle PocketBeagle]
 | GHI Electronics
+| PBGL
+| 00A2
+| 50
 | [https://beagleboard.org/pocket production]
 | P1.15 / P1.16 / P1.22 / P2.15 / P2.21 / GND
 | 
@@ -666,6 +681,9 @@
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/CAN_RS485 CAN/RS485 Cape]
 | GHI Electronics
+| BBORG_CAN_RS485
+| 00A2
+| 56
 | prototype
 | GND
 | 
@@ -747,6 +765,9 @@
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Display18 Display 1.8” Cape]
 | GHI Electronics
+| BBORG_DISPLAY18
+| 00A2
+| 57
 | prototype
 | GND
 | 
@@ -823,6 +844,9 @@
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Display43 Display 4.3” Cape]
 | GHI Electronics
+| BBORG_DISPLAY43
+| 00A2
+| 57
 | development
 | GND
 | 
@@ -898,6 +922,9 @@
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Display70 Display 7.0” Cape]
 | GHI Electronics
+| BBORG_DISPLAY70
+| 00A2
+| 57
 | development
 | GND
 | 
@@ -973,6 +1000,9 @@
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Load Load Cape]
 | GHI Electronics
+| BBORG_LOAD
+| 00A2
+| 54
 | prototype
 | GND
 | 
@@ -1062,6 +1092,9 @@
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Motor Motor Cape]
 | GHI Electronics
+| BBORG_MOTOR
+| 00A2
+| 55
 | development
 | GND
 | 
@@ -1127,6 +1160,9 @@
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Power Power Cape]
 | GHI Electronics
+| BBORG_POWER
+| 00A2
+| N/A
 | prototype
 | GND
 | 
@@ -1192,6 +1228,9 @@
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Proto Proto Cape]
 | GHI Electronics
+| BBORG_PROTO
+| 00A2
+| 54
 | prototype
 | GND
 | 
@@ -1257,6 +1296,9 @@
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Relay Relay Cape]
 | GHI Electronics
+| BBORG_RELAY
+| 00A2
+| 54
 | prototype
 | GND
 | 
@@ -1332,6 +1374,9 @@
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Robotics Robotics Cape]
 | Element14
+| BBORG_ROBOTICS
+| 
+| 
 | [http://beagleboard.org/RoboticsCape/ production]
 | GND
 | 
@@ -1419,7 +1464,17 @@
 | -QEP_0A
 | QEP_0A
 |-
+| Servo Cape
+| GHI Electronics
+| BBORG_SERVO
+| 
+| 55
+| development
+|-
 | ZCZ/BSP ball
+| 
+| 
+| 
 | 
 | 
 | 
@@ -1588,6 +1643,9 @@
 | 
 | 
 | 
+| 
+| 
+| 
 | P4
 | R4
 | R1
@@ -1753,6 +1811,9 @@
 | 
 | 
 | 
+| 
+| 
+| 
 | 818
 | 81C
 | 808
@@ -1915,6 +1976,9 @@
 | 8F0
 |-
 | Mux mode 0
+| 
+| 
+| 
 | 
 | 
 | GND
@@ -2083,6 +2147,9 @@
 | 
 | 
 | 
+| 
+| 
+| 
 | mmc 1 d6
 | mmc 1 d7
 | mmc 1 d2
@@ -2245,6 +2312,9 @@
 | gpmc a20
 |-
 | Mux mode 2
+| 
+| 
+| 
 | 
 | 
 | 
@@ -2413,6 +2483,9 @@
 | 
 | 
 | 
+| 
+| 
+| 
 | -
 | -
 | -
@@ -2575,6 +2648,9 @@
 | timer 5
 |-
 | Mux mode 4
+| 
+| 
+| 
 | 
 | 
 | 
@@ -2743,6 +2819,9 @@
 | 
 | 
 | 
+| 
+| 
+| 
 | -
 | -
 | -
@@ -2908,6 +2987,9 @@
 | 
 | 
 | 
+| 
+| 
+| 
 | -
 | -
 | -
@@ -3070,6 +3152,9 @@
 | pru 0 in 8
 |-
 | Mux mode 7
+| 
+| 
+| 
 | 
 | 
 | 
