@@ -432,7 +432,7 @@
 | ADC_4 / AIN1
 | 
 | -MOT_STBY
-| 
+| S1.2_6 / SPI1_SS2
 | E1_3 / EQEP_0A
 | USR0
 | USR1
@@ -450,7 +450,7 @@
 | 
 | WIFI
 | 
-| S1.1_6 / SPI1_SS1
+| 
 | 
 | 
 | 
@@ -470,11 +470,11 @@
 | 
 | -WL_EN / GPIO105
 | -BT_EN / GPIO28
-| 
+| -WLAN_IRQ / GPIO29
 | -WL_SDIO_D2
 | -WL_SDIO_D1
 | -WL_SDIO_CMD
-| -WLAN_IRQ / GPIO29
+| S1.1_6 / SPI1_SS1
 | -JTAG
 | -JTAG
 | -JTAG
