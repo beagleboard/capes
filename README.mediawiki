@@ -412,7 +412,7 @@
 | -I2C2_SDA
 | GPS_4 / UART2_TX
 | GPS_3 / UART2_RX
-| 
+| GP0_4 / GPIO1_17
 | UT1_4 / UART1_TX
 | -IMU-INT
 | UT1_3 / UART1_RX
@@ -430,7 +430,7 @@
 | ADC_6 / AIN3
 | ADC_3 / AIN0
 | ADC_4 / AIN1
-| 
+| GP0_5 / GPIO3_20
 | -MOT_STBY
 | S1.2_6 / SPI1_SS2
 | E1_3 / EQEP_0A
@@ -449,7 +449,7 @@
 | 
 | 
 | WIFI
-| 
+| GP0_3 / GPIO1_25
 | 
 | 
 | 
@@ -460,14 +460,14 @@
 | -BT_RTS
 | -BT_CTS
 | -WL_SDIO_D3
-| 
+| GP1_4 / GPIO3_1
 | -WLBT_BUF_OE / GPIO106
 | 
 | -WL_SDIO_CLK
 | -BT_TX
 | -BT_RX
 | -WL_SDIO_D0
-| 
+| GP1_3 / GPIO3_2
 | -WL_EN / GPIO105
 | -BT_EN / GPIO28
 | -WLAN_IRQ / GPIO21
