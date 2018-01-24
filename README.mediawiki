@@ -94,8 +94,8 @@
 | P9.38
 | P9.39
 | P9.40
-| P9.41 / P9.41a / jtag emu3
 | P9.41 / P9.41b / jtag emu3
+| P9.41 / P9.41a / jtag emu3
 | P9.42 / P9.42a
 | P9.42 / P9.42b
 | user led 0
@@ -262,8 +262,8 @@
 | P9.38
 | P9.39
 | P9.40
-| P9.41 / P9.41a / jtag emu3
 | P9.41 / P9.41b / jtag emu3
+| P9.41 / P9.41a / jtag emu3
 | P9.42 / P9.42a
 | P9.42 / P9.42b
 | user led 0
@@ -416,7 +416,7 @@
 | UT1_4 / UART1_TX
 | -IMU-INT
 | UT1_3 / UART1_RX
-| 
+| E1_4
 | GP0_6
 | S1.1_4 / S1.2_4 / SPI1_MISO
 | S1.1_3 / S1.2_3 / SPI1_MOSI
@@ -1363,14 +1363,27 @@
 | SDA
 | 
 | 
+| 
+| 
+| 
+| 
 | RELAY4
+| 
 | 
 | RELAY3
 | 
-| RELAY2
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
 | 
 | 
 | RELAY1
+| RELAY2
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Robotics Robotics Cape]
 | Element14
@@ -1740,7 +1753,7 @@
 | D7
 | M2
 | P9 / R9 / T9
-| P9 / R9 / T9
+| P8 / R8 / T8
 | N6
 | T16
 | L14
@@ -1753,24 +1766,24 @@
 | M14
 | R15
 | C12
-| 
-| 
-| 
+| D13
+| E13
+| F15
 | F14
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
+| E16
+| E14
+| D16
+| D15
+| D14
+| F16
+| E15
+| H16
+| H15
+| H14
+| G16
+| G15
+| G14
+| J14
 | D2
 | C1
 | C2
@@ -1794,7 +1807,7 @@
 | 
 | 
 | 
-| 
+| J15
 | 
 | P16
 | N16
