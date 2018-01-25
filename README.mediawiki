@@ -1013,14 +1013,14 @@
 | 
 | 
 | 
-| 
-| 
+| SINK6
+| SINK5
 | 
 | 
 | SINK7
-| SINK5
+| 
 | SINK8
-| SINK6
+| 
 | 
 | 
 | 
@@ -1071,22 +1071,22 @@
 | 
 | 
 | 
+| SINK4
+| 
+| 
+| SINK3
 | 
 | 
 | 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| -SINK2
 | SINK2
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
 | SINK1
 | -SINK1
 |-
@@ -1381,9 +1381,10 @@
 | 
 | 
 | 
-| 
+| -RELAY1
 | RELAY1
 | RELAY2
+| -RELAY2
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Robotics Robotics Cape]
 | Element14
