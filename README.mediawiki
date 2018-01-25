@@ -681,7 +681,7 @@
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Comms Comms Cape]
 | GHI Electronics
-| BBORG_CAN_RS485
+| BBORG_COMMS
 | 00A2
 | 56
 | prototype
@@ -844,7 +844,7 @@
 |-
 | [https://github.com/beagleboard/capes/blob/master/designs/Display50 Display 5.0” Cape]
 | GHI Electronics
-| BBORG_DISPLAY43
+| BBORG_DISPLAY50
 | 00A2
 | 57
 | development
