@@ -679,9 +679,9 @@
 | -MMC0_DAT2
 | -MMC0_DAT3
 |-
-| [https://github.com/beagleboard/capes/blob/master/designs/CAN_RS485 CAN/RS485 Cape]
+| [https://github.com/beagleboard/capes/blob/master/designs/Comms Comms Cape]
 | GHI Electronics
-| BBORG_CAN_RS485
+| BBORG_COMMS
 | 00A2
 | 56
 | prototype
@@ -842,9 +842,9 @@
 | SPI1.MOSI
 | SPI1.SCLK
 |-
-| [https://github.com/beagleboard/capes/blob/master/designs/Display43 Display 4.3” Cape]
+| [https://github.com/beagleboard/capes/blob/master/designs/Display50 Display 5.0” Cape]
 | GHI Electronics
-| BBORG_DISPLAY43
+| BBORG_DISPLAY50
 | 00A2
 | 57
 | development
