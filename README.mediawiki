@@ -679,7 +679,7 @@
 | -MMC0_DAT2
 | -MMC0_DAT3
 |-
-| [https://github.com/beagleboard/capes/blob/master/beaglebone/designs/Comms Comms Cape]
+| [https://github.com/beagleboard/capes/blob/master/beaglebone/Comms Comms Cape]
 | GHI Electronics
 | BBORG_COMMS
 | 00A2
@@ -763,7 +763,7 @@
 | LOOP.B / AIN6
 | LOOP.A / AIN5
 |-
-| [https://github.com/beagleboard/capes/blob/master/beaglebone/designs/Display18 Display 1.8” Cape]
+| [https://github.com/beagleboard/capes/blob/master/beaglebone/Display18 Display 1.8” Cape]
 | GHI Electronics
 | BBORG_DISPLAY18
 | 00A2
@@ -842,7 +842,7 @@
 | SPI1.MOSI
 | SPI1.SCLK
 |-
-| [https://github.com/beagleboard/capes/blob/master/beaglebone/designs/Display50 Display 5.0” Cape]
+| [https://github.com/beagleboard/capes/blob/master/beaglebone/Display50 Display 5.0” Cape]
 | GHI Electronics
 | BBORG_DISPLAY50
 | 00A2
@@ -920,7 +920,7 @@
 | 
 | CAP.TOUCH.IRQ
 |-
-| [https://github.com/beagleboard/capes/blob/master/beaglebone/designs/Display70 Display 7.0” Cape]
+| [https://github.com/beagleboard/capes/blob/master/beaglebone/Display70 Display 7.0” Cape]
 | GHI Electronics
 | BBORG_DISPLAY70
 | 00A2
@@ -998,7 +998,7 @@
 | 
 | CAP.TOUCH.IRQ
 |-
-| [https://github.com/beagleboard/capes/blob/master/beaglebone/designs/Load Load Cape]
+| [https://github.com/beagleboard/capes/blob/master/beaglebone/Load Load Cape]
 | GHI Electronics
 | BBORG_LOAD
 | 00A2
@@ -1090,7 +1090,7 @@
 | SINK1
 | -SINK1
 |-
-| [https://github.com/beagleboard/capes/blob/master/beaglebone/designs/Motor Motor Cape]
+| [https://github.com/beagleboard/capes/blob/master/beaglebone/Motor Motor Cape]
 | GHI Electronics
 | BBORG_MOTOR
 | 00A2
@@ -1158,7 +1158,7 @@
 | SCL
 | SDA
 |-
-| [https://github.com/beagleboard/capes/blob/master/beaglebone/designs/Power Power Cape]
+| [https://github.com/beagleboard/capes/blob/master/beaglebone/Power Power Cape]
 | GHI Electronics
 | BBORG_POWER
 | 00A2
@@ -1226,7 +1226,7 @@
 | SCL
 | SDA
 |-
-| [https://github.com/beagleboard/capes/blob/master/beaglebone/designs/Proto Proto Cape]
+| [https://github.com/beagleboard/capes/blob/master/beaglebone/Proto Proto Cape]
 | GHI Electronics
 | BBORG_PROTO
 | 00A2
@@ -1294,7 +1294,7 @@
 | SCL
 | SDA
 |-
-| [https://github.com/beagleboard/capes/blob/master/beaglebone/designs/Relay Relay Cape]
+| [https://github.com/beagleboard/capes/blob/master/beaglebone/Relay Relay Cape]
 | GHI Electronics
 | BBORG_RELAY
 | 00A2
@@ -1386,7 +1386,7 @@
 | RELAY2
 | -RELAY2
 |-
-| [https://github.com/beagleboard/capes/blob/master/beaglebone/designs/Robotics Robotics Cape]
+| [https://github.com/beagleboard/capes/blob/master/beaglebone/Robotics Robotics Cape]
 | Element14
 | BBORG_ROBOTICS
 | 
