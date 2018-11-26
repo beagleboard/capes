@@ -1,5 +1,5 @@
 ==Descriptions==
-[[File:300px-CAN_RS485-Front.jpg|right|border|300px|link=|CAN/RS485 Cape]]
+[[File:300px-Comms-Front.jpg|right|border|300px|link=|Comms Cape]]
 
 TBD
 
@@ -16,7 +16,7 @@ TBD
 | -
 |-
 | Layers
-| -
+|2
 |-
 | PCB Thickness
 | 0.062&quot;
@@ -27,47 +27,47 @@ TBD
 
 
 ==EEPROM==
-[[File:Pin-CAN_RS485.jpg|right|link=|CAN/RS485 Cape Pin Usage]]
+[[File:Pin-CAN_RS485.jpg|right|link=|Comms Cape Pin Usage]]
 {|class="wikitable"
-|EEPROM Suport
-|Yes
+| EEPROM Suport
+| Yes
 |-
-|Board Name
-|CAN/RS485 Cape
+| Board Name
+| Comms Cape
 |-
-|Version
-| -
+| Version
+| A2
 |-
-|Manufacturer
-|GHI
+| Manufacturer
+| GHI
 |-
-|Part Number
-| -
+| Part Number
+| BBORG_COMMS
 |-
-|Pins Used
+| Pins Used
 | -
 |}
 
 
 ==Documentation==
 {|class="wikitable"
-|Open Source
-|Yes
+| Open Source
+| Yes
 |-
-|System Reference Manual
-|Not yet
+| System Reference Manual
+| Not yet
 |-
-|Schematics
-|PDF, EAGLE
+| Schematics
+| PDF, EAGLE
 |-
-|PCB Files
-|PDF, EAGLE
+| PCB Files
+| PDF, EAGLE
 |-
-|Gerber Files
-|Not yet
+| Gerber Files
+| Not yet
 |-
-|Bills of Materials
-|Not yet
+| Bills of Materials
+| Not yet
 |}
 
 
@@ -77,6 +77,6 @@ TBD
 
 
 ==Manufacturer's Link==
-For more information about this cape, please visit https://github.com/beagleboard/capes/tree/master/designs/CAN_RS485 <br />
+For more information about this cape, please visit https://github.com/beagleboard/capes/tree/master/designs/Comms <br />
 
-To go back to the cape list, please click [http://elinux.org/Beagleboard:BeagleBone_Capes BeagleBone Capes]
+To go back to the cape list, please click [http://beagleboard.org/capes BeagleBone Capes]
