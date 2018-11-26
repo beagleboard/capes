@@ -42,7 +42,7 @@ TBD
 | GHI
 |-
 | Part Number
-| BBORG_COMMS
+| COMCPE-BBBCAPE
 |-
 | Pins Used
 | -
