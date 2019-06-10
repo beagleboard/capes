@@ -76,7 +76,7 @@ TBD
 
 
 ==Vendors==
-* [https://TBD TBD]
+* See [https://beagleboard.org/capes/#comms BeagleBoard.org Capes page]
 
 
 ==Manufacturer's Link==
