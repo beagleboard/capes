@@ -7,8 +7,8 @@ TBD
 ==Specifications==
 
 ===Electrical Specifications===
-TBD
-
+* RS485: https://datasheets.maximintegrated.com/en/ds/MAX13487E-MAX13488E.pdf
+* CAN: 
 
 ===Mechanical Specifications===
 {|class="wikitable"
