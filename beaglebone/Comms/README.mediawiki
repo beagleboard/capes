@@ -1,14 +1,17 @@
 ==Descriptions==
 [[File:BeagleBoneCommsCapeA2_Top.png|right|border|300px|link=|Comms Cape]]
 
-TBD
+For industrial communication applications. Provides an array of communication protocols including one RS485, one CAN, two analog 4–20 mA current loops, and two 3A 50V interfaces allowing the control of high current loads.
 
 
 ==Specifications==
 
 ===Electrical Specifications===
-TBD
-
+* RS485: https://datasheets.maximintegrated.com/en/ds/MAX13487E-MAX13488E.pdf
+* CAN: 
+* 2x 4-20ma current loop inputs
+* 2x 3A 50V sinks for high-current loads
+* I2C EEPROM
 
 ===Mechanical Specifications===
 {|class="wikitable"
@@ -76,7 +79,7 @@ TBD
 
 
 ==Vendors==
-* [https://TBD TBD]
+* See [https://beagleboard.org/capes/#comms BeagleBoard.org Capes page]
 
 
 ==Manufacturer's Link==
