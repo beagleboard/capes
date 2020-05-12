@@ -1,5 +1,5 @@
 See https://docs.google.com/spreadsheets/d/1fE-AsDZvJ-bBwzNBj1_sPDrutvEvsmARqFwvbw_HkrE/edit?usp=sharing
-... and https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec
+and https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec
 
 {| class="wikitable" style="white-space:nowrap;"
 | Board or signal detail
