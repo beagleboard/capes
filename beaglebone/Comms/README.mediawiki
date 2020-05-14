@@ -8,7 +8,7 @@ For industrial communication applications. Provides an array of communication pr
 
 ===Electrical Specifications===
 * RS485: https://datasheets.maximintegrated.com/en/ds/MAX13487E-MAX13488E.pdf
-* CAN: 
+* CAN: https://www.ti.com/product/SN65HVD230
 * 2x 4-20ma current loop inputs
 * 2x 3A 50V sinks for high-current loads
 * I2C EEPROM
@@ -75,7 +75,7 @@ For industrial communication applications. Provides an array of communication pr
 
 ===Test Code===
 * [https://github.com/jadonk/beagle-tester beagle-tester]
-
+* [https://groups.google.com/d/msg/beagleboard/f3nr7TicKjE/RKPYXkBeAQAJ usage discussion]
 
 
 ==Vendors==
