@@ -75,6 +75,33 @@ For industrial communication applications. Provides an array of communication pr
 ===Test Code===
 * [https://github.com/jadonk/beagle-tester beagle-tester]
 * [https://groups.google.com/d/msg/beagleboard/f3nr7TicKjE/RKPYXkBeAQAJ usage discussion]
+<pre>
+For the RS485, you just need
+config-pin p9.11 uart
+config-pin p9.13 uart 
+...and then use /dev/ttyS4
+
+For the CAN, you just need
+config-pin p9.24 can
+config-pin p9.26 can
+...and then you can use something like https://gist.github.com/jadonk/90d3462c8569d11fa3f7caf14f4769f1, but replace can0 with can1
+
+For the 4-20mA loop, the ADC overlay should already be loaded and you can
+cat /sys/bus/iio/devices/iio\:device0/in_voltage5_raw
+cat /sys/bus/iio/devices/iio\:device0/in_voltage6_raw
+...but you'll need to do the voltage to data conversion
+
+For the sink drivers, you can do:
+# Sink A
+config-pin p9.15 gpio
+echo out > /sys/class/gpio/gpio48/direction
+echo 1 > /sys/class/gpio/gpio48/value
+# Sink B
+config-pin p9.23 gpio
+echo out > /sys/class/gpio/gpio49/direction
+echo 1 > /sys/class/gpio/gpio49/value
+...and that should turn them on.
+</pre>
 
 
 ==Vendors==
