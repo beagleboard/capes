@@ -30,22 +30,21 @@ For industrial communication applications. Provides an array of communication pr
 
 
 ==EEPROM==
-[[File:Pin-Comms.jpg|right|link=|Comms Cape Pin Usage]]
 {|class="wikitable"
 | EEPROM Suport
 | Yes
 |-
 | Board Name
-| Comms Cape
+| Industrial Comms Cape
 |-
 | Version
 | A2
 |-
 | Manufacturer
-| GHI
+| BeagleBoard.org
 |-
 | Part Number
-| COMCPE-BBBCAPE
+| BBORG_COMMS
 |-
 | Pins Used
 | -
