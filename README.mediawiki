@@ -1481,11 +1481,11 @@ and https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec
 | -QEP_0A
 | QEP_0A
 |-
-| Servo Cape
+| [https://github.com/lorforlinux/capes/tree/master/beaglebone/Servo Servo Cape]
 | GHI Electronics
 | BBORG_SERVO
-| 
-| 55
+| 00A2
+| 54
 | development
 |-
 | ZCZ/BSP ball
