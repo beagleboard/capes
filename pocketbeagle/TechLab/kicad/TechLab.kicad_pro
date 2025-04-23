@@ -580,7 +580,7 @@
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
@@ -613,6 +613,14 @@
     [
       "199e843b-8c9a-4ca8-a6e6-fde18a374d00",
       "Root"
+    ],
+    [
+      "fb8e67e4-f31c-4719-a047-bd24316c146f",
+      "Page1"
+    ],
+    [
+      "4dffbcbf-91b6-4a9c-9fc6-f872a45552ad",
+      "Page2"
     ]
   ],
   "text_variables": {}
