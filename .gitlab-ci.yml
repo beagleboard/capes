@@ -35,7 +35,7 @@ fab:
     - kicad-cli pcb export drill --output fab/${CI_PROJECT_NAME}_drill ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_pcb
     - kicad-cli pcb export gerbers --output fab/gerbers ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_pcb
     - kicad-cli pcb export step --output step/${CI_PROJECT_NAME}.step ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_pcb
-    - cat ${CI_PROJECT_NAME}_drc.txt
+    - cat fab/${CI_PROJECT_NAME}_drc.txt
   artifacts:
     name: "${CI_PROJECT_NAME}-fab"
     paths:
