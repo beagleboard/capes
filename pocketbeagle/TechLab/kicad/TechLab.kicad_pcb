@@ -4677,7 +4677,7 @@
 			(uuid "87a48ead-86e7-47fa-9bad-fb2173b1ca2f")
 		)
 		(fp_text user "AMP 292303-1"
-			(at 0.08 0.635 0)
+			(at 0.08 0.635 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9ba46e93-d5ce-4e9a-83ed-120aed01588f")
@@ -8251,7 +8251,7 @@
 			)
 		)
 		(fp_text user "TX"
-			(at 13.081 -1.27 270)
+			(at 13.081 -1.27 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "23c5fc4c-4269-4518-aa8c-305c7720f41a")
@@ -8329,7 +8329,7 @@
 			)
 		)
 		(fp_text user "GND"
-			(at 13.081 9.017 270)
+			(at 13.081 9.017 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5bd31c05-54ca-4d1c-83e3-2996e6c38938")
@@ -8342,7 +8342,7 @@
 			)
 		)
 		(fp_text user "SDA"
-			(at 13.081 3.937 270)
+			(at 13.081 3.937 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "649227db-0102-4f9a-9658-5a5fb75e14b5")
@@ -8355,7 +8355,7 @@
 			)
 		)
 		(fp_text user "MOSI"
-			(at -9.779 3.937 270)
+			(at -9.779 3.937 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "76a6aed0-e277-402b-9468-bccf7235c0b3")
@@ -8394,7 +8394,7 @@
 			)
 		)
 		(fp_text user "RST"
-			(at -9.8044 -6.096 270)
+			(at -9.8044 -6.096 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "958fa911-76ac-4863-a95e-ea3943e360f5")
@@ -8407,7 +8407,7 @@
 			)
 		)
 		(fp_text user "GND"
-			(at -9.779 8.89 270)
+			(at -9.779 8.89 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ada33694-2fc4-448d-83b1-ec8db67fa817")
@@ -8420,7 +8420,7 @@
 			)
 		)
 		(fp_text user "INT"
-			(at 13.081 -6.223 270)
+			(at 13.081 -6.223 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "aef2f68e-3cbb-4f55-91af-646341c7dfbf")
@@ -8485,7 +8485,7 @@
 			)
 		)
 		(fp_text user "SCK"
-			(at -9.779 -1.143 270)
+			(at -9.779 -1.143 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e763384d-9300-4230-a19b-cb698ad875bb")
@@ -21261,7 +21261,7 @@
 		)
 	)
 	(gr_text "EEPROM\nWP"
-		(at 154.1261 61.0036 0)
+		(at 154.1261 61.0036 -90)
 		(layer "F.SilkS")
 		(uuid "a9a76e53-1fe9-45f7-9216-0a73b48a2f64")
 		(effects
