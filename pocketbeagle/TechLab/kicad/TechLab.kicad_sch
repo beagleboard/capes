@@ -3,8 +3,52 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "199e843b-8c9a-4ca8-a6e6-fde18a374d00")
-	(paper "User" 601.98 254.127)
+	(paper "A")
+	(title_block
+		(title "PocketBeagle TechLab")
+		(date "2025-04-23")
+		(rev "A5")
+		(company "BeagleBoard.org Foundation")
+	)
 	(lib_symbols)
+	(sheet
+		(at 35.56 29.21)
+		(size 36.83 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "288abbbe-f51f-4467-a9d7-89cdf05e44f0")
+		(property "Sheetname" "Page1"
+			(at 35.56 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TechLab_Page1.kicad_sch"
+			(at 35.56 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TechLab"
+				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00"
+					(page "1")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 85.09 30.48)
 		(size 36.83 38.1)
@@ -39,44 +83,6 @@
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 26.67 30.48)
-		(size 35.56 36.83)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "fb8e67e4-f31c-4719-a047-bd24316c146f")
-		(property "Sheetname" "Page1"
-			(at 26.67 29.7684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "TechLab_page1.kicad_sch"
-			(at 26.67 67.8946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "TechLab"
-				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00"
-					(page "1")
 				)
 			)
 		)

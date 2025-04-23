@@ -598,7 +598,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "empty.kicad_wks",
+    "page_layout_descr_file": "beagle.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -615,7 +615,7 @@
       "Root"
     ],
     [
-      "fb8e67e4-f31c-4719-a047-bd24316c146f",
+      "288abbbe-f51f-4467-a9d7-89cdf05e44f0",
       "Page1"
     ],
     [
