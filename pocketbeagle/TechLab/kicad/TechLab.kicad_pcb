@@ -21200,7 +21200,7 @@
 		(layer "Cmts.User")
 		(uuid "c68122c0-fd6a-45bb-96f8-66cc41a0429e")
 	)
-	(gr_text "PocketBeagle TechLab A4"
+	(gr_text "PocketBeagle TechLab A5"
 		(at 236.1261 102.6286 0)
 		(layer "F.SilkS")
 		(uuid "1cde1977-fa46-4ac2-933e-0afc47b23c82")
