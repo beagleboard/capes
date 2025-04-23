@@ -1,0 +1,57 @@
+image: kicad/kicad:8.0.8
+variables:
+  PROJECT_PATH: "pocketbeagle/TechLab/kicad"
+  CI_PROJECT_NAME: "TechLab"
+
+stages:
+  - print
+  - fab
+  - package
+
+print:
+  stage: print
+  script:
+    - kicad-cli sch export pdf --output ${CI_PROJECT_NAME}_sch.pdf ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_sch
+    - kicad-cli sch export bom --format-preset CSV --group-by Value --output ${CI_PROJECT_NAME}_bom.csv ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_sch
+    - kicad-cli pcb export pdf --output ${CI_PROJECT_NAME}_pcb.pdf --layers F.Cu,In1.Cu,In2.Cu,B.Cu,Edge.Cuts,User.Comments,F.Silkscreen --ibt ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_pcb
+    - kicad-cli pcb export pdf --output ${CI_PROJECT_NAME}_pcb_top.pdf --layers F.Cu,Edge.Cuts,User.Comments,F.Silkscreen --ibt ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_pcb
+    - kicad-cli pcb export pdf --output ${CI_PROJECT_NAME}_pcb_bottom.pdf --layers B.Cu,Edge.Cuts,User.Comments,B.Silkscreen --ibt ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_pcb
+    - kicad-cli pcb export pdf --output ${CI_PROJECT_NAME}_pcb_inner1.pdf --layers In1.Cu,Edge.Cuts,User.Comments --ibt ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_pcb
+    - kicad-cli pcb export pdf --output ${CI_PROJECT_NAME}_pcb_inner2.pdf --layers In2.Cu,Edge.Cuts,User.Comments --ibt ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_pcb
+  artifacts:
+    name: "${CI_PROJECT_NAME}-print"
+    paths:
+      - ${CI_PROJECT_NAME}_sch.pdf
+      - ${CI_PROJECT_NAME}_bom.csv
+      - ${CI_PROJECT_NAME}_pcb*.pdf
+
+fab:
+  stage: fab
+  script:
+    - mkdir -p fab/gerbers
+    - kicad-cli sch export bom --format-preset CSV --group-by Value --exclude-dnp --output fab/${CI_PROJECT_NAME}_assy_bom.csv ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_sch
+    - kicad-cli pcb drc --format report --output fab/${CI_PROJECT_NAME}_drc.txt ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_pcb
+    - kicad-cli pcb export pos --output fab/${CI_PROJECT_NAME}_assy_pos.pos ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_pcb
+    - kicad-cli pcb export drill --output fab/${CI_PROJECT_NAME}_drill ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_pcb
+    - kicad-cli pcb export gerbers --output fab/gerbers ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_pcb
+    - kicad-cli pcb export step --output step/${CI_PROJECT_NAME}.step ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_pcb
+    - cat ${CI_PROJECT_NAME}_drc.txt
+  artifacts:
+    name: "${CI_PROJECT_NAME}-fab"
+    paths:
+      - fab
+      - step
+
+package:
+  stage: package
+  script:
+    # Simple collection of only files used with CircuitHub
+    - mkdir -p package
+    - kicad-cli sch export bom --format-preset CSV --group-by Value --exclude-dnp --fields 'Reference,Value,Footprint,${QUANTITY},Manufacturer,MPN' --output package/${CI_PROJECT_NAME}_assy_bom.csv ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_sch
+    - cp *.kicad_sch package/
+    - cp ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_pcb package/
+    - cp ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_pro package/
+  artifacts:
+    name: "${CI_PROJECT_NAME}-package"
+    paths:
+      - package
