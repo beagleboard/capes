@@ -675,7 +675,7 @@
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
