@@ -1,4 +1,4 @@
-image: kicad/kicad:8.0.8
+image: kicad/kicad:9.0.1
 variables:
   PROJECT_PATH: "pocketbeagle/TechLab/kicad"
   CI_PROJECT_NAME: "TechLab"
