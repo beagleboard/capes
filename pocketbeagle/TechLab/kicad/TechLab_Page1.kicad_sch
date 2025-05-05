@@ -9621,7 +9621,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "0d8ac9e8-bd45-4f4b-aae8-9a2cfbe159ae")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 136.652 187.706 0)
 			(effects
 				(font
@@ -9683,7 +9683,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -10722,7 +10722,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "36ee3189-3261-4604-a7fe-62477af06a25")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 131.572 187.706 0)
 			(effects
 				(font
@@ -10784,7 +10784,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -11248,7 +11248,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52f46e06-3ca8-42c6-a8ac-6234a4ae3870")
-		(property "Reference" "SJ2"
+		(property "Reference" "SJ1"
 			(at 71.374 197.612 0)
 			(effects
 				(font
@@ -11311,7 +11311,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "SJ2")
+					(reference "SJ1")
 					(unit 1)
 				)
 			)
@@ -11392,7 +11392,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e3f6cfc-b5f2-42b7-9ea4-05346a224fa5")
-		(property "Reference" "SJ1"
+		(property "Reference" "SJ2"
 			(at 61.214 200.152 0)
 			(effects
 				(font
@@ -11455,7 +11455,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "SJ1")
+					(reference "SJ2")
 					(unit 1)
 				)
 			)
@@ -11846,7 +11846,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7122ef67-7c31-48bf-bf5f-3cd7842eec2c")
-		(property "Reference" "R13"
+		(property "Reference" "R5"
 			(at 131.572 147.066 0)
 			(effects
 				(font
@@ -11918,7 +11918,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "R13")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12294,7 +12294,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75b05f82-8b9e-4eac-a2cb-86033e53de53")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 241.554 88.646 0)
 			(effects
 				(font
@@ -12366,7 +12366,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -13594,7 +13594,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9eb7f748-e9cf-4665-be4d-6df3fc5f8193")
-		(property "Reference" "R16"
+		(property "Reference" "R11"
 			(at 141.732 187.706 0)
 			(effects
 				(font
@@ -13666,7 +13666,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "R16")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -13943,7 +13943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2d49903-9956-49fd-a4b8-dc321c06530e")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 178.054 106.426 0)
 			(effects
 				(font
@@ -14015,7 +14015,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -14161,7 +14161,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c096f409-0f78-48a7-84e6-7ded62f0e452")
-		(property "Reference" "R5"
+		(property "Reference" "R8"
 			(at 18.034 29.972 0)
 			(effects
 				(font
@@ -14223,7 +14223,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "R5")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -14854,7 +14854,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3870cdd-baca-45f0-a192-3f8fcf9f33db")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 167.894 101.346 0)
 			(effects
 				(font
@@ -14926,7 +14926,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -15028,7 +15028,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7ddd8dd-2f05-4d17-b408-523894b1aa74")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 81.788 193.294 0)
 			(effects
 				(font
@@ -15100,7 +15100,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -15115,7 +15115,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e97684f9-ce2c-48df-a555-add51b3f3cc7")
-		(property "Reference" "R8"
+		(property "Reference" "R14"
 			(at 76.708 193.294 0)
 			(effects
 				(font
@@ -15187,7 +15187,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "R8")
+					(reference "R14")
 					(unit 1)
 				)
 			)

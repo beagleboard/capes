@@ -6775,7 +6775,7 @@
 		(layer "F.Cu")
 		(uuid "51c51fbd-84f5-4c90-a823-f8a50bfb244e")
 		(at 229.4 57.6286 180)
-		(property "Reference" "R24"
+		(property "Reference" "R20"
 			(at 0 1.3286 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -12602,6 +12602,7 @@
 		)
 		(sheetname "/Page2/")
 		(sheetfile "TechLab_Page2.kicad_sch")
+		(attr dnp)
 		(fp_line
 			(start -0.35 -0.2)
 			(end 0.35 -0.2)
@@ -14201,7 +14202,7 @@
 		(layer "F.Cu")
 		(uuid "8685ac2c-4544-4599-a11d-568c2c34995c")
 		(at 243.9 57.6)
-		(property "Reference" "R23"
+		(property "Reference" "R19"
 			(at 0.15 -1.25 0)
 			(unlocked yes)
 			(layer "F.SilkS")
