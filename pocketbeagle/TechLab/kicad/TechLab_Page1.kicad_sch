@@ -9409,9 +9409,9 @@
 		(at 149.86 200.66 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "060ffc53-d0f1-4c5b-918b-2f3df2caab85")
 		(property "Reference" "JMP1"
 			(at 149.86 199.136 0)
@@ -11234,9 +11234,9 @@
 		(at 68.58 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "52f46e06-3ca8-42c6-a8ac-6234a4ae3870")
 		(property "Reference" "SJ2"
 			(at 71.374 197.612 0)
@@ -11378,9 +11378,9 @@
 		(at 58.42 200.66 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "5e3f6cfc-b5f2-42b7-9ea4-05346a224fa5")
 		(property "Reference" "SJ1"
 			(at 61.214 200.152 0)
@@ -11522,7 +11522,7 @@
 		(at 10.16 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "69531b8c-680c-4a5c-9361-ef2d9de1bb14")
@@ -13614,7 +13614,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 142.24 190.5 0)
+			(at 145.796 187.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13622,7 +13622,7 @@
 			)
 		)
 		(property "MPN" "1-1622826-8"
-			(at 142.24 190.5 0)
+			(at 148.082 187.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)

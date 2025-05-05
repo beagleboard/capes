@@ -47,7 +47,7 @@ package:
   script:
     # Simple collection of only files used with CircuitHub
     - mkdir -p package
-    - kicad-cli sch export bom --format-preset CSV --group-by Value --exclude-dnp --fields 'Reference,Value,Footprint,${QUANTITY},Manufacturer,MPN' --output package/${CI_PROJECT_NAME}_assy_bom.csv ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_sch
+    - kicad-cli sch export bom --format-preset CSV --group-by Value --fields 'Reference,Value,Footprint,${QUANTITY},MANUFACTURER,MPN,${DNP}' --output package/${CI_PROJECT_NAME}_assy_bom.csv ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_sch
     - cp ${PROJECT_PATH}/*.kicad_sch package/
     - cp ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_pcb package/
     - cp ${PROJECT_PATH}/${CI_PROJECT_NAME}.kicad_pro package/

@@ -627,7 +627,7 @@
           "group_by": false,
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -680,7 +680,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
