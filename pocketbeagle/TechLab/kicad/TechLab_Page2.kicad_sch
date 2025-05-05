@@ -8988,6 +8988,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "TDK"
+			(at 113.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C1005X7R1H104K050BB"
+			(at 113.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "65770403-c753-4382-aaef-d819292b0e0b")
 		)
@@ -9022,7 +9038,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1k, RN"
 			(at 104.14 22.225 0)
 			(effects
 				(font
@@ -9056,6 +9072,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Bourns"
+			(at 100.33 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CAY10-102J4LF"
+			(at 100.33 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9145,6 +9177,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 36.83 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1-1622826-8"
+			(at 36.83 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "59a02245-683a-4e01-a2cc-32d586378a50")
 		)
@@ -9213,6 +9261,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 240.03 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74LV4053ADYYR"
+			(at 240.03 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9326,6 +9390,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Lumex"
+			(at 242.57 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SML-LXT0805GW-TR"
+			(at 242.57 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "b548d701-818a-47df-81bf-4d0c62dbddec")
 		)
@@ -9395,6 +9475,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Dialight"
+			(at 168.91 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "598-8110-107F"
+			(at 168.91 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "e84d7af6-c0f2-4180-a103-62a6cff6b857")
 		)
@@ -9462,6 +9558,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TDK"
+			(at 120.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C1005X7R1H104K050BB"
+			(at 120.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9597,6 +9709,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "GCT"
+			(at 24.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "USB4105-GF-A"
+			(at 24.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A1"
 			(uuid "8677b39c-a3ff-4875-a058-4e018becaa9d")
 		)
@@ -9711,6 +9839,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Lumex"
+			(at 171.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SML-LXT0805GW-TR"
+			(at 171.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "68c7c58e-42f9-4d33-901d-2d3ee2144a09")
 		)
@@ -9811,7 +9955,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1k, RN"
 			(at 104.14 4.445 0)
 			(effects
 				(font
@@ -9845,6 +9989,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Bourns"
+			(at 100.33 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CAY10-102J4LF"
+			(at 100.33 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9934,6 +10094,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "TDK"
+			(at 29.21 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C1005X7R1H104K050BB"
+			(at 29.21 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "709684a4-5532-44e9-92fd-ef3fad31fedb")
 		)
@@ -10001,6 +10177,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 46.99 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10138,6 +10322,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 191.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1-1622826-8"
+			(at 191.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ae55fcaa-b082-4bcc-ad10-756e0bebd0db")
 		)
@@ -10172,7 +10372,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1k, RN"
 			(at 104.14 57.785 0)
 			(effects
 				(font
@@ -10206,6 +10406,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Bourns"
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CAY10-102J4LF"
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10295,6 +10511,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "TDK"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C1005X7R1H104K050BB"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "768c2d4d-b405-4574-aea8-e0ca518b2382")
 		)
@@ -10362,6 +10594,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Everlight"
+			(at 86.36 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "EAALSTIC1708A0"
+			(at 86.36 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10564,6 +10812,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Lumex"
+			(at 224.79 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SML-LXT0805GW-TR"
+			(at 224.79 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "56963595-c790-47b6-ad6f-4ee570959868")
 		)
@@ -10698,6 +10962,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Lumex"
+			(at 209.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SML-LXT0805GW-TR"
+			(at 209.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "c8979cb6-68dd-434d-8c80-b1d1af90ce80")
 		)
@@ -10765,6 +11045,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Microchip"
+			(at 54.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MCP23S18-E/MJ"
+			(at 54.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10905,6 +11201,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Lumex"
+			(at 189.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SML-LXT0805GW-TR"
+			(at 189.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "d91e6ea7-1823-40d1-aa24-24cefcee0bcf")
 		)
@@ -10972,6 +11284,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata"
+			(at 27.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BLM18AG121SN1D"
+			(at 27.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11042,6 +11370,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Yongyin Elec"
+			(at 57.15 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMD-140035H-05027"
+			(at 57.15 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "+"
@@ -11373,6 +11717,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Bourns"
+			(at 142.24 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CR0402-FX-1501GLF"
+			(at 142.24 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "45890e61-4a31-4e75-9b05-31e2d5a2c19b")
 		)
@@ -11573,6 +11933,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Bourns"
+			(at 142.24 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CR0402-FX-1501GLF"
+			(at 142.24 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ece6efdd-8223-4cf0-ae2c-9eb01bc18e72")
 		)
@@ -11707,6 +12083,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Bourns"
+			(at 69.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CR0402-FX-1501GLF"
+			(at 69.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2bac72ee-6456-47e4-b2f0-684cc74b995b")
 		)
@@ -11774,6 +12166,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 142.24 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1-1622826-8"
+			(at 142.24 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11974,6 +12382,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 196.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12306,6 +12722,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Littelfuse"
+			(at 72.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1206L025YR"
+			(at 72.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a16e73e1-cc69-49cb-a99b-208be772f6a0")
 		)
@@ -12373,6 +12805,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 204.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1-1622826-8"
+			(at 204.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12508,6 +12956,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lumex"
+			(at 262.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SML-LXT0805GW-TR"
+			(at 262.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "A"
@@ -12709,6 +13173,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 88.9 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRG0402F100K"
+			(at 88.9 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72c8171c-30d8-40f0-a147-24144b5b0b3f")
 		)
@@ -12776,6 +13256,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lumex"
+			(at 189.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SML-LXT0805GW-TR"
+			(at 189.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "A"
@@ -12977,6 +13473,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Lumex"
+			(at 171.45 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SML-LXT0805GW-TR"
+			(at 171.45 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "62b66765-9e66-4379-8037-a5bea718e0f1")
 		)
@@ -13044,6 +13556,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "FTDI"
+			(at 140.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FT230XQ-R"
+			(at 140.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13158,6 +13686,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lumex"
+			(at 262.89 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SML-LXT0805GW-TR"
+			(at 262.89 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "A"
@@ -13292,6 +13836,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lumex"
+			(at 179.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SML-LXT0805GW-TR"
+			(at 179.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "A"
@@ -13690,6 +14250,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Murata"
+			(at 64.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71H103KA55D"
+			(at 64.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3260ae46-80c0-4bb7-b01f-0bb44c0964d4")
 		)
@@ -13757,6 +14333,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 46.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13893,6 +14477,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Lumex"
+			(at 209.55 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SML-LXT0805GW-TR"
+			(at 209.55 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "d1fe963e-be41-4e21-b220-295c75c792fa")
 		)
@@ -13953,7 +14553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\nConnector Header Surface Mount, Right Angle 3 position 0.039 (1.00mm)\n"
+		(property "Description" "Connector Header Surface Mount, Right Angle 3 position 0.039 (1.00mm)"
 			(at 140.97 196.85 0)
 			(effects
 				(font
@@ -14051,6 +14651,14 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "MPN" "SM03B-SRSS-TB"
+			(at 140.97 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14262,6 +14870,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Murata"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BLM18AG121SN1D"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6b30cc63-ea6b-41fc-9a13-d803d1dfb345")
 		)
@@ -14329,6 +14953,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lumex"
+			(at 224.79 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SML-LXT0805GW-TR"
+			(at 224.79 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "A"
@@ -14465,6 +15105,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lumex"
+			(at 154.94 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMD-LX5050RGB-TR"
+			(at 154.94 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1(+)"
@@ -14614,6 +15270,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Bourns"
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CR0402-FX-1501GLF"
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4167b744-45b2-42dd-a964-682e00974958")
 		)
@@ -14748,6 +15420,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Lumex"
+			(at 242.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SML-LXT0805GW-TR"
+			(at 242.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "9e79a2a9-94a4-45c7-adaa-e6f8c89dd571")
 		)
@@ -14817,6 +15505,14 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 142.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d78d500a-3ce0-4678-b2a6-0ec984196be1")
 		)
@@ -14884,6 +15580,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "MCC"
+			(at 46.99 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MMBT3904-TP"
+			(at 46.99 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14958,6 +15670,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Lumex"
+			(at 242.57 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SML-LXT0805GW-TR"
+			(at 242.57 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "66a5bc0d-487f-4a03-b9bf-283261a4d816")
 		)
@@ -14992,7 +15720,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1k, RN"
 			(at 104.14 40.005 0)
 			(effects
 				(font
@@ -15026,6 +15754,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Bourns"
+			(at 100.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CAY10-102J4LF"
+			(at 100.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15113,6 +15857,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lumex"
+			(at 189.23 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SML-LXT0805GW-TR"
+			(at 189.23 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "A"
