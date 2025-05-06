@@ -10974,7 +10974,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Everlight"
+		(property "MANUFACTURER" "Inolux"
 			(at 86.36 185.42 0)
 			(effects
 				(font
@@ -10983,7 +10983,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "EAALSTIC1708A0"
+		(property "MPN" "IN-S63DTLS"
 			(at 86.36 185.42 0)
 			(effects
 				(font
@@ -11763,7 +11763,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Yongyin Elec"
+		(property "MANUFACTURER" "CUI Devices"
 			(at 57.15 186.69 0)
 			(effects
 				(font
@@ -11772,7 +11772,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SMD-140035H-05027"
+		(property "MPN" "CSS-H5B43-SMT-TR"
 			(at 57.15 186.69 0)
 			(effects
 				(font
