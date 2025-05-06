@@ -39,7 +39,7 @@
         "pads": {
           "drill": 0.0,
           "height": 1.15,
-          "width": 0.3
+          "width": 0.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "shorting_items|240000000|55590000|5c4d6e99-fb64-4347-9375-8cc409792960|b9e99aa7-6595-4197-8cf3-0e8bcb957748",
-          "Symbol/footprint error, OK for layout"
-        ],
-        [
-          "shorting_items|240000000|55590000|5c4d6e99-fb64-4347-9375-8cc409792960|bf42c9b5-67ee-49dd-b2f6-9517554d0bb3",
-          "Symbol/footprint error, OK for layout"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -87,7 +78,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
-        "footprint_symbol_mismatch": "warning",
+        "footprint_symbol_mismatch": "ignore",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "ignore",
         "hole_near_hole": "error",
@@ -98,7 +89,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
+        "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
@@ -117,9 +108,9 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "ignore",
         "starved_thermal": "ignore",
-        "text_height": "ignore",
+        "text_height": "warning",
         "text_on_edge_cuts": "error",
-        "text_thickness": "ignore",
+        "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
