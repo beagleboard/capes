@@ -19499,7 +19499,7 @@
 		(uuid "bf6c1c6f-138b-4566-92be-66a564d9d395")
 		(at 239.7 101.2)
 		(property "Reference" "R25"
-			(at 0 0.6 0)
+			(at 0.3 -1.7 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c1cb7016-76f3-40c3-add9-ae7473bc5d65")
@@ -29214,6 +29214,14 @@
 		(layer "F.Cu")
 		(net 68)
 		(uuid "2454c61f-8bc2-49f5-a242-08c6cbe26150")
+	)
+	(segment
+		(start 216.0636 71.0286)
+		(end 213.9511 71.0286)
+		(width 0.508)
+		(layer "F.Cu")
+		(net 68)
+		(uuid "2553e462-baf0-43f2-93a2-1996440a56e7")
 	)
 	(segment
 		(start 213.9511 71.0286)
