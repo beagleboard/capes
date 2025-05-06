@@ -11859,7 +11859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "32-Kb I2C CMOS Serial EEPROM"
 			(at 99.06 203.2 0)
 			(effects
 				(font
