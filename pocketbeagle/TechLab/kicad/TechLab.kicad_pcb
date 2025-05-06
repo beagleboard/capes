@@ -11772,11 +11772,11 @@
 		(fp_text user "USB\nReference"
 			(at -26.25 0 0)
 			(unlocked yes)
-			(layer "Cmts.User")
+			(layer "F.SilkS")
 			(uuid "da845b0b-1ebf-42ce-ba1e-b031ef2690df")
 			(effects
 				(font
-					(size 0.8 0.7)
+					(size 1 0.8)
 					(thickness 0.1)
 				)
 				(justify top)
