@@ -4189,7 +4189,7 @@
 			(uuid "3167d519-0421-4721-a14a-9828bb7073fb")
 			(effects
 				(font
-					(size 0.8 1.27)
+					(size 1.2 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4795,7 +4795,7 @@
 			(uuid "17a34b4b-4fdc-40e8-9bcd-5b899d46659f")
 			(effects
 				(font
-					(size 0.8 1)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6270,7 +6270,7 @@
 		(fp_text user "AMP 292303-1"
 			(at 0.08 0.635 90)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "9ba46e93-d5ce-4e9a-83ed-120aed01588f")
 			(effects
 				(font
@@ -10349,7 +10349,7 @@
 				(justify right)
 			)
 		)
-		(fp_text user "MISO"
+		(fp_text user "POCI"
 			(at -13.081 1.143 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -10388,7 +10388,7 @@
 				(justify bottom)
 			)
 		)
-		(fp_text user "MOSI"
+		(fp_text user "PICO"
 			(at -9.779 3.937 270)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -11750,7 +11750,7 @@
 			(uuid "53f34a31-5356-483b-93d6-d96d6da7ae85")
 			(effects
 				(font
-					(size 0.8 1.1176)
+					(size 1 1.1176)
 					(thickness 0.1524)
 				)
 				(justify right)
@@ -11763,7 +11763,7 @@
 			(uuid "7ee505af-cbae-46ab-888a-bc9e1f4e4424")
 			(effects
 				(font
-					(size 0.8 1.1176)
+					(size 1 1.1176)
 					(thickness 0.1524)
 				)
 				(justify right)
@@ -15655,7 +15655,7 @@
 			(uuid "0992b091-5718-407b-a159-624eda64bc1b")
 			(effects
 				(font
-					(size 0.8 1.27)
+					(size 1.2 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -21929,7 +21929,7 @@
 			(uuid "5116e9ec-2862-4c65-b3b2-374b5c3c6d0f")
 			(effects
 				(font
-					(size 0.8 1.27)
+					(size 1.2 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -25041,12 +25041,12 @@
 		(uuid "b65b105b-765f-43fd-8bdb-fa5084c4724c")
 	)
 	(gr_text "PocketBeagle TechLab A5"
-		(at 241.7511 103.5 0)
+		(at 241.7511 103 0)
 		(layer "F.SilkS")
 		(uuid "1cde1977-fa46-4ac2-933e-0afc47b23c82")
 		(effects
 			(font
-				(size 0.89408 0.89408)
+				(size 1 0.89408)
 				(thickness 0.12192)
 			)
 			(justify bottom)
