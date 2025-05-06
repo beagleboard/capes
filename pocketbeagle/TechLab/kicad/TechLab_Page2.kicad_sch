@@ -9449,7 +9449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09bf45b5-a1e2-4829-a08a-43622bfb708b")
-		(property "Reference" "RX1"
+		(property "Reference" "RX0"
 			(at 172.212 114.046 90)
 			(effects
 				(font
@@ -9521,7 +9521,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
-					(reference "RX1")
+					(reference "RX0")
 					(unit 1)
 				)
 			)
@@ -10210,7 +10210,15 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-075K1L"
+			(at 46.99 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
 			(at 46.99 93.98 0)
 			(effects
 				(font
@@ -11375,7 +11383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56216ab0-1506-45bf-9080-592dd23cacd3")
-		(property "Reference" "BUZZER1"
+		(property "Reference" "BUZZER0"
 			(at 54.356 180.34 0)
 			(effects
 				(font
@@ -11448,7 +11456,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
-					(reference "BUZZER1")
+					(reference "BUZZER0")
 					(unit 1)
 				)
 			)
@@ -12443,7 +12451,15 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CRG0402F100K"
+			(at 201.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
 			(at 201.93 91.44 0)
 			(effects
 				(font
@@ -13868,7 +13884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b386f108-8a85-43a0-b546-c0707f3aaa8f")
-		(property "Reference" "TX1"
+		(property "Reference" "TX0"
 			(at 182.372 116.586 90)
 			(effects
 				(font
@@ -13940,7 +13956,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
-					(reference "TX1")
+					(reference "TX0")
 					(unit 1)
 				)
 			)
@@ -14414,7 +14430,15 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-075K1L"
+			(at 46.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
 			(at 46.99 91.44 0)
 			(effects
 				(font
