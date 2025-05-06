@@ -17,25 +17,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -10.16 19.05 0)
+			(property "Reference" "J2"
+				(at -11.43 16.51 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "USB_C_Receptacle_USB2.0"
-				(at 19.05 19.05 0)
+				(at -11.43 -4.572 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -53,7 +51,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Receptacle connector"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "GCT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "USB4105-GF-A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -431,63 +447,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 15.24 15.24 180)
 					(length 5.08)
 					(name "VBUS"
@@ -699,6 +658,63 @@
 						)
 					)
 					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -21.59 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -24.13 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -26.67 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9889,7 +9905,11 @@
 			(uuid "4bf8b482-219b-4654-83db-ae2b879546f3")
 		)
 		(instances
-			(project "TechLab"
+			(project ""
+				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
+					(reference "J2")
+					(unit 1)
+				)
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
 					(reference "J2")
 					(unit 1)
@@ -11479,6 +11499,7 @@
 					(size 1.016 0.8636)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Value" "SMD-140035H"
@@ -11534,6 +11555,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field7" "BUZZER"
+			(at 55.88 179.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "+"

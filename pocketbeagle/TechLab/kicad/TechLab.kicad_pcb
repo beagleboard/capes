@@ -13876,8 +13876,8 @@
 		(property "Reference" "BUZZER0"
 			(at -6.1 4.5 0)
 			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "f831ff2f-310f-4de1-afc8-96a8292892ec")
+			(layer "F.Fab")
+			(uuid "b8a8968a-fc8b-485e-bff0-48c0aaefdd56")
 			(effects
 				(font
 					(size 0.70551 0.70551)
@@ -13887,23 +13887,23 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "04a509fd-628e-45d3-8604-64002a80e9f2")
+			(uuid "b6edf4cc-8931-43d7-8c87-2bd8ed493086")
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2c35c112-6be2-4d99-ab39-c9f08a724f1c")
+			(uuid "07aa9f2d-a182-416b-9dfe-627e7ccc945e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13911,11 +13911,10 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 270)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4306a49a-77d9-41e1-8684-1a1d8731d9e0")
+		(property "Description" "BUZZER"
+			(at -7.0036 0 180)
+			(layer "F.SilkS")
+			(uuid "0992b091-5718-407b-a159-624eda64bc1b")
 			(effects
 				(font
 					(size 1.27 1.27)
