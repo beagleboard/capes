@@ -5062,7 +5062,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "PIEZO"
+			(property "Reference" "BUZZER0"
 				(at -2.794 6.35 0)
 				(effects
 					(font
@@ -5071,13 +5071,14 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "SMD-140035H"
 				(at -2.54 -7.366 0)
 				(effects
 					(font
 						(size 1.016 0.8636)
 					)
 					(justify left bottom)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "TechLab:SMD-140035H"
@@ -5098,7 +5099,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "11x14 mm four pin square piezo"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Yongyin Elec"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SMD-140035H-05027"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5265,6 +5284,46 @@
 						)
 					)
 					(number "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SMD-140035H_1_1"
+				(pin no_connect line
+					(at 16.51 -11.43 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "NC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 16.51 -15.24 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "NC2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11482,6 +11541,12 @@
 		)
 		(pin "-"
 			(uuid "ff77cbf4-6846-4916-9d2b-e5e2caae5721")
+		)
+		(pin "NC2"
+			(uuid "01a6c1df-33f0-46d5-b6e7-8018dfd9d276")
+		)
+		(pin "NC1"
+			(uuid "f1b8121b-6d3d-43fd-803e-54c8cc0e09aa")
 		)
 		(instances
 			(project "TechLab"

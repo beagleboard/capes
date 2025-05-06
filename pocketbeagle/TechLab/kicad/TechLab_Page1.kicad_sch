@@ -1158,7 +1158,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
+			(property "Reference" "U1"
 				(at -5.334 8.382 0)
 				(effects
 					(font
@@ -1167,7 +1167,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "CAT24C32"
 				(at -5.08 -7.62 0)
 				(effects
 					(font
@@ -1194,7 +1194,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "32-Kb I2C CMOS Serial EEPROM"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "onsemi"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CAT24C32HU4I-GT3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1397,6 +1415,27 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CAT24C32_1_1"
+				(pin no_connect line
+					(at 11.43 -8.89 0)
+					(length 2.54)
+					(hide yes)
+					(name "P$1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11870,6 +11909,9 @@
 		)
 		(pin "8"
 			(uuid "3d93fe7a-0e1f-4273-92a9-35c89e000681")
+		)
+		(pin "P$1"
+			(uuid "5e2f539a-f7a9-45f9-811c-a2bae036641f")
 		)
 		(instances
 			(project "TechLab"
