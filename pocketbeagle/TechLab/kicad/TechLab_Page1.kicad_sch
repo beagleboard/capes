@@ -6296,6 +6296,7 @@
 		(effects
 			(font
 				(size 1.27 1.0795)
+				(color 64 111 62 1)
 			)
 			(justify left bottom)
 		)
@@ -6430,7 +6431,7 @@
 		(uuid "0ee0b650-ebbe-4e94-a7fd-6aeabf2de8de")
 	)
 	(junction
-		(at 81.28 182.88)
+		(at 80.01 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1015e1c0-f7ce-4ced-90c7-e4c2e36d06f2")
@@ -6442,7 +6443,7 @@
 		(uuid "130375a3-1e91-48bf-9074-e6926779fcfa")
 	)
 	(junction
-		(at 81.28 200.66)
+		(at 80.01 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22761d5e-c531-48fa-b166-706857d735d2")
@@ -6544,7 +6545,7 @@
 		(uuid "99e1713d-7308-44a9-92e9-535132c432f4")
 	)
 	(junction
-		(at 50.8 200.66)
+		(at 49.53 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac4cae07-9085-4cc5-bced-71beebeccf95")
@@ -6568,7 +6569,7 @@
 		(uuid "b59d1c79-f178-4f93-b819-97f4d9868d3e")
 	)
 	(junction
-		(at 86.36 198.12)
+		(at 85.09 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c19a4da2-a209-4f5d-9869-39925eb8f21f")
@@ -6602,6 +6603,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e04e4f3f-bc7c-4819-8ab3-87ee1d6df21a")
+	)
+	(no_connect
+		(at 203.2 101.6)
+		(uuid "47eb2890-95fa-4f3a-855f-91d7ea3578cd")
+	)
+	(no_connect
+		(at 215.9 86.36)
+		(uuid "f03278aa-d0c0-4893-a76b-d68df66906b8")
+	)
+	(no_connect
+		(at 218.44 86.36)
+		(uuid "f9798d02-d8fd-4582-8d50-c11a1970f19a")
 	)
 	(wire
 		(pts
@@ -6785,7 +6798,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 198.12) (xy 73.66 198.12)
+			(xy 85.09 198.12) (xy 72.39 198.12)
 		)
 		(stroke
 			(width 0.1524)
@@ -6885,7 +6898,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 198.12) (xy 50.8 200.66)
+			(xy 49.53 198.12) (xy 49.53 200.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -7005,7 +7018,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 200.66) (xy 50.8 203.2)
+			(xy 49.53 200.66) (xy 49.53 203.2)
 		)
 		(stroke
 			(width 0.1524)
@@ -7155,7 +7168,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 198.12) (xy 86.36 198.12)
+			(xy 85.09 198.12) (xy 88.9 198.12)
 		)
 		(stroke
 			(width 0.1524)
@@ -7275,7 +7288,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 185.42) (xy 81.28 182.88)
+			(xy 80.01 185.42) (xy 80.01 182.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -7505,7 +7518,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 182.88) (xy 81.28 182.88)
+			(xy 74.93 182.88) (xy 80.01 182.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -7545,7 +7558,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 182.88) (xy 86.36 182.88)
+			(xy 80.01 182.88) (xy 85.09 182.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -7635,7 +7648,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 203.2) (xy 76.2 203.2)
+			(xy 74.93 203.2) (xy 88.9 203.2)
 		)
 		(stroke
 			(width 0.1524)
@@ -7645,7 +7658,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 200.66) (xy 81.28 200.66)
+			(xy 80.01 200.66) (xy 88.9 200.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -7755,7 +7768,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 205.74) (xy 86.36 205.74)
+			(xy 85.09 205.74) (xy 88.9 205.74)
 		)
 		(stroke
 			(width 0.1524)
@@ -7785,7 +7798,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 198.12) (xy 86.36 195.58)
+			(xy 85.09 198.12) (xy 85.09 195.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -7815,7 +7828,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 205.74) (xy 86.36 208.28)
+			(xy 85.09 205.74) (xy 85.09 208.28)
 		)
 		(stroke
 			(width 0.1524)
@@ -7825,7 +7838,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 198.12) (xy 50.8 198.12)
+			(xy 62.23 198.12) (xy 49.53 198.12)
 		)
 		(stroke
 			(width 0.1524)
@@ -8085,7 +8098,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 200.66) (xy 81.28 195.58)
+			(xy 80.01 200.66) (xy 80.01 195.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -8105,7 +8118,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 200.66) (xy 63.5 200.66)
+			(xy 80.01 200.66) (xy 62.23 200.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -8165,7 +8178,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 182.88) (xy 81.28 180.34)
+			(xy 80.01 182.88) (xy 80.01 180.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -8245,7 +8258,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 185.42) (xy 76.2 182.88)
+			(xy 74.93 185.42) (xy 74.93 182.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -8415,7 +8428,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 182.88) (xy 86.36 185.42)
+			(xy 85.09 182.88) (xy 85.09 185.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -8595,7 +8608,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 203.2) (xy 76.2 195.58)
+			(xy 74.93 203.2) (xy 74.93 195.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -8635,7 +8648,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 200.66) (xy 50.8 200.66)
+			(xy 52.07 200.66) (xy 49.53 200.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -8692,6 +8705,16 @@
 			(justify left bottom)
 		)
 		(uuid "0be2abef-dfa5-4b75-b017-7b4cd313c96a")
+	)
+	(label "ACC_BYP"
+		(at 180.34 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c15aa1a-f117-48c0-a797-5a0fcc4968bb")
 	)
 	(label "RESET#"
 		(at 223.52 147.32 0)
@@ -9053,6 +9076,16 @@
 		)
 		(uuid "a173a982-9060-42f4-933c-a872a851ccd0")
 	)
+	(label "EEP_A1"
+		(at 80.01 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a374da2d-193e-41c9-83c0-32f14836d4ec")
+	)
 	(label "P1.6/SPI0.CS(EXP1.3)"
 		(at 33.02 88.9 0)
 		(effects
@@ -9102,6 +9135,16 @@
 			(justify left bottom)
 		)
 		(uuid "c0fd55d8-b40a-4151-ad78-0132999f0312")
+	)
+	(label "EEP_A0"
+		(at 85.09 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1a60b34-b7a0-44b8-a889-7d76229d9231")
 	)
 	(label "P2.5/UART4.RX(EXP1.14)"
 		(at 104.14 88.9 0)
@@ -9830,7 +9873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10008da6-4688-4b63-8a34-9246f1a92f77")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 106.68 132.588 0)
 			(effects
 				(font
@@ -9911,7 +9954,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -9926,7 +9969,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15f0e291-a641-470d-9bc9-656509184bb3")
-		(property "Reference" "L.BTN1"
+		(property "Reference" "L.BTN0"
 			(at 236.22 171.958 0)
 			(effects
 				(font
@@ -10005,7 +10048,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "L.BTN1")
+					(reference "L.BTN0")
 					(unit 1)
 				)
 			)
@@ -10013,7 +10056,7 @@
 	)
 	(symbol
 		(lib_id "TechLab-eagle-import:3.3V")
-		(at 81.28 177.8 0)
+		(at 80.01 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10021,7 +10064,7 @@
 		(dnp no)
 		(uuid "19a04b22-1b3a-45d2-8fca-e7a28b4d508b")
 		(property "Reference" "#SUPPLY8"
-			(at 81.28 177.8 0)
+			(at 80.01 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10030,7 +10073,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 81.28 173.736 0)
+			(at 80.01 173.736 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10038,7 +10081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 177.8 0)
+			(at 80.01 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10047,7 +10090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 177.8 0)
+			(at 80.01 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10056,7 +10099,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 177.8 0)
+			(at 80.01 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11088,7 +11131,7 @@
 	)
 	(symbol
 		(lib_id "TechLab-eagle-import:SparkFun-Aesthetics_GND")
-		(at 50.8 205.74 0)
+		(at 49.53 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11096,7 +11139,7 @@
 		(dnp no)
 		(uuid "49ab4ace-c99d-4c96-9bc8-4f8777b94a82")
 		(property "Reference" "#GND4"
-			(at 50.8 205.74 0)
+			(at 49.53 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11105,7 +11148,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 208.28 0)
+			(at 46.99 208.28 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11114,7 +11157,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 205.74 0)
+			(at 49.53 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11123,7 +11166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 205.74 0)
+			(at 49.53 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11132,7 +11175,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 205.74 0)
+			(at 49.53 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11161,7 +11204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a9be0c5-19d4-475f-a0a1-d83867c4ca38")
-		(property "Reference" "C4"
+		(property "Reference" "C7"
 			(at 136.906 134.366 0)
 			(effects
 				(font
@@ -11233,7 +11276,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "C4")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -11241,7 +11284,7 @@
 	)
 	(symbol
 		(lib_id "TechLab-eagle-import:SOLDER.JOINT-(INCH)-0402")
-		(at 68.58 198.12 0)
+		(at 67.31 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11249,7 +11292,7 @@
 		(dnp no)
 		(uuid "52f46e06-3ca8-42c6-a8ac-6234a4ae3870")
 		(property "Reference" "SJ1"
-			(at 71.374 197.612 0)
+			(at 70.104 197.612 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11258,7 +11301,7 @@
 			)
 		)
 		(property "Value" "SOLDER.JOINT-(INCH)-0402"
-			(at 71.374 198.628 0)
+			(at 70.104 198.628 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11268,7 +11311,7 @@
 			)
 		)
 		(property "Footprint" "TechLab:SOLDER.JOINT(0402)"
-			(at 68.58 198.12 0)
+			(at 67.31 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11277,7 +11320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 198.12 0)
+			(at 67.31 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11286,7 +11329,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 198.12 0)
+			(at 67.31 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11295,7 +11338,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 68.58 198.12 0)
+			(at 67.31 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11385,7 +11428,7 @@
 	)
 	(symbol
 		(lib_id "TechLab-eagle-import:SOLDER.JOINT-(INCH)-0402")
-		(at 58.42 200.66 0)
+		(at 57.15 200.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11393,7 +11436,7 @@
 		(dnp no)
 		(uuid "5e3f6cfc-b5f2-42b7-9ea4-05346a224fa5")
 		(property "Reference" "SJ2"
-			(at 61.214 200.152 0)
+			(at 59.944 200.152 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11402,7 +11445,7 @@
 			)
 		)
 		(property "Value" "SOLDER.JOINT-(INCH)-0402"
-			(at 61.214 201.168 0)
+			(at 59.944 201.168 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11412,7 +11455,7 @@
 			)
 		)
 		(property "Footprint" "TechLab:SOLDER.JOINT(0402)"
-			(at 58.42 200.66 0)
+			(at 57.15 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11421,7 +11464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 200.66 0)
+			(at 57.15 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11430,7 +11473,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 200.66 0)
+			(at 57.15 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11439,7 +11482,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 58.42 200.66 0)
+			(at 57.15 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11741,7 +11784,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e7d7667-5fc0-4645-9a19-ac752bbd8c81")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 93.726 194.818 0)
 			(effects
 				(font
@@ -11831,7 +11874,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -12652,7 +12695,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81ffc289-8b93-4ffe-8274-812e939b1f77")
-		(property "Reference" "FB3"
+		(property "Reference" "FB4"
 			(at 17.145 153.035 0)
 			(effects
 				(font
@@ -12724,7 +12767,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "FB3")
+					(reference "FB4")
 					(unit 1)
 				)
 			)
@@ -13022,7 +13065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d1cc08e-7323-40f0-bf79-af91ba23a390")
-		(property "Reference" "RESET.BTN1"
+		(property "Reference" "RESET.BTN0"
 			(at 236.22 151.638 0)
 			(effects
 				(font
@@ -13101,7 +13144,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "RESET.BTN1")
+					(reference "RESET.BTN0")
 					(unit 1)
 				)
 			)
@@ -13378,7 +13421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b216589-738b-4a11-8e19-6a29b60904d4")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 222.758 88.138 0)
 			(effects
 				(font
@@ -13492,7 +13535,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -13507,7 +13550,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e7bbfad-0516-436a-a00b-4c949301582c")
-		(property "Reference" "FB4"
+		(property "Reference" "FB3"
 			(at 67.945 135.255 0)
 			(effects
 				(font
@@ -13579,7 +13622,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "FB4")
+					(reference "FB3")
 					(unit 1)
 				)
 			)
@@ -14212,6 +14255,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "Yageo"
@@ -14220,6 +14264,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14246,7 +14291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2f2c263-a14a-43f5-99e4-a147da13b521")
-		(property "Reference" "R.BTN1"
+		(property "Reference" "R.BTN0"
 			(at 236.22 161.798 0)
 			(effects
 				(font
@@ -14325,7 +14370,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "R.BTN1")
+					(reference "R.BTN0")
 					(unit 1)
 				)
 			)
@@ -14681,7 +14726,7 @@
 	)
 	(symbol
 		(lib_id "TechLab-eagle-import:RESISTOR-(INCH)-0402")
-		(at 86.36 190.5 270)
+		(at 85.09 190.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14689,7 +14734,7 @@
 		(dnp no)
 		(uuid "d4109329-c1a3-4ae3-8525-046c0d0b6b66")
 		(property "Reference" "R12"
-			(at 86.868 193.294 0)
+			(at 85.598 193.294 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -14698,7 +14743,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 85.852 193.294 0)
+			(at 84.582 193.294 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -14707,7 +14752,7 @@
 			)
 		)
 		(property "Footprint" "TechLab:0402"
-			(at 86.36 190.5 0)
+			(at 85.09 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14716,7 +14761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 190.5 0)
+			(at 85.09 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14725,7 +14770,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 190.5 0)
+			(at 85.09 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14734,7 +14779,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 86.36 190.5 0)
+			(at 85.09 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14743,7 +14788,7 @@
 			)
 		)
 		(property "MPN" "1-1622826-8"
-			(at 86.36 190.5 0)
+			(at 85.09 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15029,7 +15074,7 @@
 	)
 	(symbol
 		(lib_id "TechLab-eagle-import:RESISTOR-(INCH)-0402")
-		(at 81.28 190.5 270)
+		(at 80.01 190.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15037,7 +15082,7 @@
 		(dnp no)
 		(uuid "e7ddd8dd-2f05-4d17-b408-523894b1aa74")
 		(property "Reference" "R13"
-			(at 81.788 193.294 0)
+			(at 80.518 193.294 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -15046,7 +15091,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 80.772 193.294 0)
+			(at 79.502 193.294 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -15055,7 +15100,7 @@
 			)
 		)
 		(property "Footprint" "TechLab:0402"
-			(at 81.28 190.5 0)
+			(at 80.01 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15064,7 +15109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 190.5 0)
+			(at 80.01 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15073,7 +15118,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 190.5 0)
+			(at 80.01 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15082,7 +15127,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 81.28 190.5 0)
+			(at 80.01 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15091,7 +15136,7 @@
 			)
 		)
 		(property "MPN" "1-1622826-8"
-			(at 81.28 190.5 0)
+			(at 80.01 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15116,7 +15161,7 @@
 	)
 	(symbol
 		(lib_id "TechLab-eagle-import:RESISTOR-(INCH)-0402")
-		(at 76.2 190.5 270)
+		(at 74.93 190.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15124,7 +15169,7 @@
 		(dnp no)
 		(uuid "e97684f9-ce2c-48df-a555-add51b3f3cc7")
 		(property "Reference" "R14"
-			(at 76.708 193.294 0)
+			(at 75.438 193.294 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -15133,7 +15178,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 75.692 193.294 0)
+			(at 74.422 193.294 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -15142,7 +15187,7 @@
 			)
 		)
 		(property "Footprint" "TechLab:0402"
-			(at 76.2 190.5 0)
+			(at 74.93 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15151,7 +15196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 190.5 0)
+			(at 74.93 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15160,7 +15205,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 190.5 0)
+			(at 74.93 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15169,7 +15214,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 76.2 190.5 0)
+			(at 74.93 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15178,7 +15223,7 @@
 			)
 		)
 		(property "MPN" "1-1622826-8"
-			(at 76.2 190.5 0)
+			(at 74.93 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15210,7 +15255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1a41478-254e-4115-bb36-3a0ed0dc5315")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 71.12 144.018 0)
 			(effects
 				(font
@@ -15294,7 +15339,7 @@
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/288abbbe-f51f-4467-a9d7-89cdf05e44f0"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -15422,7 +15467,7 @@
 	)
 	(symbol
 		(lib_id "TechLab-eagle-import:SparkFun-Aesthetics_GND")
-		(at 86.36 210.82 0)
+		(at 85.09 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15430,7 +15475,7 @@
 		(dnp no)
 		(uuid "fa6673a7-1239-47c2-a944-d0231a67f517")
 		(property "Reference" "#GND6"
-			(at 86.36 210.82 0)
+			(at 85.09 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15439,7 +15484,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 213.36 0)
+			(at 82.55 213.36 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15448,7 +15493,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 210.82 0)
+			(at 85.09 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15457,7 +15502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 210.82 0)
+			(at 85.09 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15466,7 +15511,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 210.82 0)
+			(at 85.09 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

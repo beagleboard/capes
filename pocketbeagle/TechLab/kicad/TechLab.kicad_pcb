@@ -1975,7 +1975,7 @@
 		(uuid "19390aa9-bab7-48c4-b0c3-75b93bbce4e7")
 		(at 253.6886 66.3161)
 		(property "Reference" "U6"
-			(at -2.8125 -0.0625 90)
+			(at 2.8114 -2.3161 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "71b58772-9779-45d1-8242-d6a7c454b3b1")
@@ -3732,9 +3732,9 @@
 		(uuid "22018738-70e8-454a-bfe4-5cc57b82d6f1")
 		(at 234.4386 57.6286 -90)
 		(property "Reference" "TX0"
-			(at 2.2714 0 0)
+			(at -0.6286 0.4386 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "3636b27f-e16a-4b66-96dc-9a4030528358")
 			(effects
 				(font
@@ -3745,7 +3745,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 2.159 1.4732 0)
+			(at 1.8714 1.9386 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "5dbd719e-0bc0-482b-97ac-c91d8a76655d")
@@ -3758,7 +3758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ffd33457-a95d-4197-ac0e-482b9812a89c")
@@ -3769,10 +3769,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 270)
-			(layer "F.Fab")
-			(hide yes)
+		(property "Description" "TX"
+			(at 1.8714 0 180)
+			(layer "F.SilkS")
 			(uuid "3167d519-0421-4721-a14a-9828bb7073fb")
 			(effects
 				(font
@@ -4312,8 +4311,8 @@
 		(layer "F.Cu")
 		(uuid "2c91ef05-85ff-4f83-9050-d646d9eead10")
 		(at 226.9 99.55)
-		(property "Reference" "J5"
-			(at -4 2.15 90)
+		(property "Reference" "DBG0"
+			(at -5.4 2.95 180)
 			(layer "F.SilkS")
 			(uuid "17a34b4b-4fdc-40e8-9bcd-5b899d46659f")
 			(effects
@@ -19234,9 +19233,9 @@
 		(uuid "e152cfcf-63c7-40cc-99fb-a7fe4447c842")
 		(at 238.8761 57.6286 90)
 		(property "Reference" "RX0"
-			(at -2.1714 0 0)
+			(at 0.6286 -0.3761 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "1dda42cc-e7be-4b05-9ad5-064412e597bf")
 			(effects
 				(font
@@ -19247,7 +19246,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 2.159 1.4732 0)
+			(at -0.8714 1.4732 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "30407d6c-1a61-44b2-8f62-815fb6b70043")
@@ -19271,10 +19270,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
+		(property "Description" "RX"
+			(at -1.8714 0 180)
+			(layer "F.SilkS")
 			(uuid "5116e9ec-2862-4c65-b3b2-374b5c3c6d0f")
 			(effects
 				(font
@@ -22196,7 +22194,7 @@
 		(uuid "b65b105b-765f-43fd-8bdb-fa5084c4724c")
 	)
 	(gr_text "PocketBeagle TechLab A5"
-		(at 245.4 76.3 0)
+		(at 241.7511 103.5 0)
 		(layer "F.SilkS")
 		(uuid "1cde1977-fa46-4ac2-933e-0afc47b23c82")
 		(effects
