@@ -1200,6 +1200,32 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" "Samtec"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce8433a8-4735-454b-8d18-1dcf00f0a225")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SSM-108-L-SV"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e14f91c6-28c5-4649-9353-213aa9718302")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/288abbbe-f51f-4467-a9d7-89cdf05e44f0/4de89a45-20b2-48a8-b4f0-b50095fc3e5a")
 		(sheetname "/Page1/")
@@ -12938,6 +12964,32 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" "Würth Elektronik"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "881799ba-1bdd-443d-a566-f3ba30f00f12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "61003621121"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d86443e-91c1-4bf3-aa78-c87774c03181")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/288abbbe-f51f-4467-a9d7-89cdf05e44f0/6846183d-8336-4336-adb4-c08181ea1405")
 		(sheetname "/Page1/")
@@ -16520,6 +16572,32 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" "Samtec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d69d7982-bf30-469a-a763-d87f85b4ea4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SSM-108-L-SV"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f98037f-8d3a-450d-8951-e1114d7dce82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/288abbbe-f51f-4467-a9d7-89cdf05e44f0/adbad4e1-add7-441d-aee1-0deb12774d27")
 		(sheetname "/Page1/")
@@ -17151,6 +17229,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Würth Elektronik"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e20fa12-a0e1-4c0c-9322-f2cc4dc2a531")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "61003621121"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2529039b-88f7-426f-982e-fd7430fb4de3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
