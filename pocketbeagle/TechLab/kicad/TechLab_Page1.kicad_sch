@@ -6922,7 +6922,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 35.56) (xy 59.69 35.56)
+			(xy 53.34 35.56) (xy 59.69 35.56)
 		)
 		(stroke
 			(width 0.1524)
@@ -8539,7 +8539,7 @@
 	)
 	(global_label "P1.19{slash}AIN0(1.8V)(LIGHT.SENSOR)"
 		(shape input)
-		(at 44.45 35.56 180)
+		(at 53.34 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8549,7 +8549,7 @@
 		)
 		(uuid "3a55bd01-4c45-4c13-bef3-a037c3aa653f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.9024 35.56 0)
+			(at 21.7924 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)

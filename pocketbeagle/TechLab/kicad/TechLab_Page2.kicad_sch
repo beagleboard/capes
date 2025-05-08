@@ -7440,7 +7440,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 33.02) (xy 36.83 33.02)
+			(xy 29.21 33.02) (xy 36.83 33.02)
 		)
 		(stroke
 			(width 0.1524)
@@ -7580,7 +7580,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 22.86) (xy 36.83 22.86)
+			(xy 27.94 22.86) (xy 36.83 22.86)
 		)
 		(stroke
 			(width 0.1524)
@@ -8310,7 +8310,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 27.94) (xy 36.83 27.94)
+			(xy 27.94 27.94) (xy 36.83 27.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -8380,7 +8380,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 38.1) (xy 36.83 38.1)
+			(xy 29.21 38.1) (xy 36.83 38.1)
 		)
 		(stroke
 			(width 0.1524)
@@ -9105,7 +9105,7 @@
 	)
 	(global_label "P2.25{slash}SPI1.MOSI(7SEG)"
 		(shape input)
-		(at 26.67 33.02 180)
+		(at 29.21 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9115,7 +9115,7 @@
 		)
 		(uuid "71dd5be1-5f28-4f6e-8a06-7b2c2ef271ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 2.1871 33.02 0)
+			(at 4.7271 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9126,7 +9126,7 @@
 	)
 	(global_label "P2.29{slash}SPI1.CLK(7SEG)"
 		(shape input)
-		(at 25.4 27.94 180)
+		(at 27.94 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9136,7 +9136,7 @@
 		)
 		(uuid "76633d42-d4d7-45ac-8b56-479f71b92890")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1.7231 27.94 0)
+			(at 4.2631 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9168,7 +9168,7 @@
 	)
 	(global_label "P2.31{slash}SPI1.CS(7SEG)"
 		(shape input)
-		(at 24.13 22.86 180)
+		(at 27.94 22.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9178,7 +9178,7 @@
 		)
 		(uuid "c1251200-4fdf-4432-950a-b12a5ab55943")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1.3065 22.86 0)
+			(at 5.1165 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9189,7 +9189,7 @@
 	)
 	(global_label "P2.27{slash}SPI1.MISO(7SEG)"
 		(shape input)
-		(at 26.67 38.1 180)
+		(at 29.21 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9199,7 +9199,7 @@
 		)
 		(uuid "de270bc4-87c0-460c-b251-c2b4f52d1d9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 2.1871 38.1 0)
+			(at 4.7271 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
