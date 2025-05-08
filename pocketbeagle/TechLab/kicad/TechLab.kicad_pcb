@@ -15935,7 +15935,7 @@
 				)
 			)
 		)
-		(property "Description" "11x14 mm four pin square piezo"
+		(property "Description" "BUZZER"
 			(at -7.0036 0 180)
 			(layer "F.SilkS")
 			(uuid "d778a7c3-56e3-414e-8ab4-5bdb54ceb28d")
