@@ -41,3 +41,4 @@ Icon
 *-backups/
 fp-info-cache
 *-bak
+*.lck
