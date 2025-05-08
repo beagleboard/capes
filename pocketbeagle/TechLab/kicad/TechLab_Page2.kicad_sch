@@ -429,42 +429,6 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -22.86 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -22.86 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
 					(name "GND"
@@ -519,28 +483,8 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 15.24 180)
+					(at 15.24 12.7 180)
 					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(hide yes)
 					(name "VBUS"
 						(effects
 							(font
@@ -549,25 +493,6 @@
 						)
 					)
 					(number "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6219,6 +6144,12 @@
 		(uuid "3c27c8a0-1fc8-4415-8f23-ec04dbe358a7")
 	)
 	(junction
+		(at 48.26 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46dded67-0fec-4d10-90bf-5597deebd713")
+	)
+	(junction
 		(at 214.63 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6267,12 +6198,6 @@
 		(uuid "77da1298-e34b-4ca6-823b-72b6072e1d52")
 	)
 	(junction
-		(at 24.13 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c952141-8eda-4553-b595-23b26bc3e9e1")
-	)
-	(junction
 		(at 26.67 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6289,12 +6214,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c11db359-4ac0-4d72-9bf1-76aa66e391e4")
-	)
-	(junction
-		(at 21.59 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c99c115f-35fc-4e8b-bacd-60dad744ab3c")
 	)
 	(junction
 		(at 232.41 118.11)
@@ -6630,7 +6549,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 86.36) (xy 64.77 86.36)
+			(xy 39.37 86.36) (xy 48.26 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6687,6 +6606,16 @@
 			(type solid)
 		)
 		(uuid "1b5c8997-0445-4ce4-9324-e4343478eb1f")
+	)
+	(wire
+		(pts
+			(xy 48.26 86.36) (xy 48.26 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d6f8910-18a9-42ba-90bd-92214f8041b1")
 	)
 	(wire
 		(pts
@@ -6777,6 +6706,16 @@
 			(type solid)
 		)
 		(uuid "22e8e36f-62b0-4599-ad7e-3b54b1e14dd2")
+	)
+	(wire
+		(pts
+			(xy 48.26 88.9) (xy 39.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23ea4faa-0170-4156-a945-69309da1b34e")
 	)
 	(wire
 		(pts
@@ -7270,16 +7209,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 127) (xy 21.59 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d49d18c-7ca1-498c-a1be-32817eaf05a4")
-	)
-	(wire
-		(pts
 			(xy 49.53 109.22) (xy 49.53 106.68)
 		)
 		(stroke
@@ -7600,16 +7529,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 124.46) (xy 21.59 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95a8cbe2-444a-4de2-8a4a-c7e59eabb06b")
-	)
-	(wire
-		(pts
 			(xy 147.32 167.64) (xy 152.4 167.64)
 		)
 		(stroke
@@ -7827,16 +7746,6 @@
 			(type solid)
 		)
 		(uuid "b191431a-381c-489f-8ac5-2bfa3cdf44e3")
-	)
-	(wire
-		(pts
-			(xy 21.59 127) (xy 24.13 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2dde200-9928-444d-a38c-40734f0264d3")
 	)
 	(wire
 		(pts
@@ -8260,6 +8169,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 86.36) (xy 64.77 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de5782b8-f7d5-4899-b44b-1a0c686cdb24")
+	)
+	(wire
+		(pts
 			(xy 194.31 96.52) (xy 194.31 99.06)
 		)
 		(stroke
@@ -8567,16 +8486,6 @@
 			(type default)
 		)
 		(uuid "fc350290-fbf3-41e3-925f-48f1b26168d0")
-	)
-	(wire
-		(pts
-			(xy 19.05 124.46) (xy 19.05 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc9d2317-b01e-476a-bd88-fb82b785723c")
 	)
 	(wire
 		(pts
@@ -10080,9 +9989,6 @@
 		(pin "A1"
 			(uuid "8677b39c-a3ff-4875-a058-4e018becaa9d")
 		)
-		(pin "A12"
-			(uuid "0ccfa7a8-3697-4946-bd6d-8554a6413334")
-		)
 		(pin "A4"
 			(uuid "16fa0c92-d3da-4be9-a03a-48fb4eba699e")
 		)
@@ -10098,14 +10004,8 @@
 		(pin "A8"
 			(uuid "b7620ba3-a22c-4760-bdaa-14b0012d6d38")
 		)
-		(pin "A9"
-			(uuid "6db6135b-0778-4d13-a0b5-19c703c37691")
-		)
 		(pin "B1"
 			(uuid "c8ac085a-4570-4fa0-bbf4-8e601f6cf6f9")
-		)
-		(pin "B12"
-			(uuid "307c51d2-9bee-48fb-833d-6336d9b6043d")
 		)
 		(pin "B4"
 			(uuid "bff73434-4cce-4f29-98bc-304c482d4ebc")
@@ -10121,9 +10021,6 @@
 		)
 		(pin "B8"
 			(uuid "6d85f884-73b0-41f1-b153-55482901cf66")
-		)
-		(pin "B9"
-			(uuid "47fd0345-5d53-4db5-84ad-d41bd6ea802f")
 		)
 		(pin "S1"
 			(uuid "4bf8b482-219b-4654-83db-ae2b879546f3")

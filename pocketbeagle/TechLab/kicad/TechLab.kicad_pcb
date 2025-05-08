@@ -15935,9 +15935,10 @@
 				)
 			)
 		)
-		(property "Description" "BUZZER"
-			(at -7.0036 0 180)
+		(property "Description" "11x14 mm four pin square piezo"
+			(at -7.0036 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d778a7c3-56e3-414e-8ab4-5bdb54ceb28d")
 			(effects
 				(font
@@ -15973,10 +15974,9 @@
 			)
 		)
 		(property "Field7" "BUZZER"
-			(at 0 0 270)
+			(at -6.8036 0.4511 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "dd064fad-edd2-43a1-9e83-ce56c3b39ef0")
 			(effects
 				(font
@@ -21397,16 +21397,6 @@
 			(pintype "passive")
 			(uuid "3ed66fc4-e2e5-492e-a846-63d7863bccbe")
 		)
-		(pad "A4" smd roundrect
-			(at 2.4 -3.68 180)
-			(size 0.6 1.15)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 2 "/Page2/VBUS")
-			(pinfunction "VBUS")
-			(pintype "passive")
-			(uuid "e5e9453e-e593-4b2e-94d9-06a749968996")
-		)
 		(pad "A5" smd roundrect
 			(at -1.25 -3.68 180)
 			(size 0.3 1.15)
@@ -21446,16 +21436,6 @@
 			(pinfunction "SBU1")
 			(pintype "bidirectional+no_connect")
 			(uuid "2dc89690-ab21-444c-82e0-3d36910ba4e7")
-		)
-		(pad "A12" smd roundrect
-			(at 3.2 -3.68 180)
-			(size 0.6 1.15)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "284bd1ee-28aa-4461-bcf8-47625cccd630")
 		)
 		(pad "B1" smd roundrect
 			(at 3.2 -3.68 180)
@@ -21517,26 +21497,6 @@
 			(pintype "bidirectional+no_connect")
 			(uuid "380290ea-4135-4649-b0a7-bbe337ec5f01")
 		)
-		(pad "B9" smd roundrect
-			(at -2.4 -3.68 180)
-			(size 0.6 1.15)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 2 "/Page2/VBUS")
-			(pinfunction "VBUS")
-			(pintype "passive")
-			(uuid "062d6324-33c7-4b6d-a4dc-944e6c36dac9")
-		)
-		(pad "B12" smd roundrect
-			(at -3.2 -3.68 180)
-			(size 0.6 1.15)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "passive")
-			(uuid "5c4d6e99-fb64-4347-9375-8cc409792960")
-		)
 		(pad "S1" thru_hole oval
 			(at -4.32 -3.105 180)
 			(size 1 2.1)
@@ -21559,7 +21519,7 @@
 			(net 39 "CGND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "4425b96a-912e-41dd-a2f0-5213ed4fd66e")
+			(uuid "e8cbd1eb-31c0-48b3-97b6-b91e78caddf9")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.105 180)
@@ -21571,7 +21531,7 @@
 			(net 39 "CGND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "aa235bbf-57c8-47fe-86b9-37994a003240")
+			(uuid "e8cbd1eb-31c0-48b3-97b6-b91e78caddf9")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075 180)
@@ -21583,7 +21543,7 @@
 			(net 39 "CGND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "8262b5ac-61d6-4807-a8a3-f58d982e1711")
+			(uuid "e8cbd1eb-31c0-48b3-97b6-b91e78caddf9")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.wrl"
