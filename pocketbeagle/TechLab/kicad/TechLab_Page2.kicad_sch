@@ -647,6 +647,2181 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Seeed_libdb:Diode/304010026"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.524 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "1N4148W"
+				(at -1.524 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Diode:SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Diode;100V-150mA-SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "长电"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "1N4148W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SKU" "304010026"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "150mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Status" "BeagleBone Carrier Board"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Priority" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Diode:SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Diode/304010026_0_0"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Diode/304010026_1_0"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Seeed_libdb:Diode/304091456"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LTST-G563EGBW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode:LED6P-5x5x1.6MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD LED Red Green Blue RGB;6P-L5*W5*H1.6mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Lite-On	"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "LTST-G563EGBW	"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SKU" "304091456"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "LED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Status" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature" "-40°C to  85°C	"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Priority" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Diode:LED6P-5x5x1.6MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Diode/304091456_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -19.05) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -1.27 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy 1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -10.16) (xy -1.27 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -10.16) (xy 1.27 -11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -15.24) (xy -1.27 -17.78)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -17.78) (xy 1.27 -16.51)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 1.27 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -6.35) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -10.16) (xy 1.27 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -11.43) (xy -1.27 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -15.24) (xy 1.27 -16.51)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -16.51) (xy -1.27 -15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -16.51) (xy 1.27 -17.78)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 2.54 -19.05)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -19.05) (xy -2.54 -19.05)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "B"
+					(at -0.508 -16.51 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -6.35 0)
+					(length 2.54)
+					(name "4(+)"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4(+)"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -11.43 0)
+					(length 2.54)
+					(name "5(+)"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5(+)"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -16.51 0)
+					(length 2.54)
+					(name "6(+)"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6(+)"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -6.35 180)
+					(length 2.54)
+					(name "3(-)"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3(-)"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -11.43 180)
+					(length 2.54)
+					(name "2(-)"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2(-)"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -16.51 180)
+					(length 2.54)
+					(name "1(-)"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1(-)"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Diode/304091456_1_1"
+				(text "R"
+					(at -0.508 -6.35 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+					)
+				)
+				(text "G"
+					(at -0.508 -11.43 0)
+					(effects
+						(font
+							(size 0.8128 0.6908)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Seeed_libdb:Misc/312020383"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BUZ"
+				(at 12.7 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify right top)
+				)
+			)
+			(property "Value" "MLT-8530"
+				(at 13.97 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify right top)
+				)
+			)
+			(property "Footprint" "Misc:BZ4-SMD-8.5X8.5X3.0MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Buzzer 3.6V Vop=2.5-4.5V;4P-8.5*8.5*3.0mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "JIANGSUHUANENG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MLT-8530"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SKU" "312020383"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "Buzzer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Status" "R2 E1001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature" "-20°C to 70°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Priority" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Misc:BZ4-SMD-8.5X8.5X3.0MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Misc/312020383_0_0"
+				(polyline
+					(pts
+						(xy 2.54 1.778) (xy 2.54 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.778) (xy 5.08 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.778) (xy 5.08 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.778) (xy 5.08 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.778) (xy 7.366 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.366 3.81) (xy 5.08 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.366 3.81) (xy 7.366 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Misc/312020383_1_0"
+				(pin passive line
+					(at 0 1.27 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -1.27 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 -5.08 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -5.08 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Seeed_libdb:Resistors/301010004"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -1.905 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "10K"
+				(at 0.635 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Resistor:R0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD RES 10K-5%-1/16W;0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RC0402JR-0710KL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SKU" "301010004"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance" "10K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "RES"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power Rating" "5%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Status" "BeagleBone Carrier Board"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature" "-55°C to 155°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Priority" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor:R0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistors/301010004_0_0"
+				(rectangle
+					(start -1.27 -0.508)
+					(end 1.27 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Seeed_libdb:Resistors/301010292"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -1.905 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "0R"
+				(at 0.635 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Resistor:R0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD RES 0R-5%-1/10W;0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RC0603JR-070RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SKU" "301010292"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance" "0R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "RES"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power Rating" "5%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Status" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature" "-55°C to 155°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Priority" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor:R0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistors/301010292_0_0"
+				(rectangle
+					(start -1.27 -0.508)
+					(end 1.27 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Seeed_libdb:Resistors/301030393"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor:R0804"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD RES Array 1K-5%-1/16W;0804(4 x 0402)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "YC124-JR-071KL	"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SKU" "301030393"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance" "1K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "RES"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power Rating" "5%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Status" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature" "-55°C to 155°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Priority" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor:R0804"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistors/301030393_1_0"
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -15.24) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -2.2225 -4.1275)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -7.62) (xy -2.2225 -6.6675)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -10.16) (xy -2.2225 -9.2075)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -12.7) (xy -2.2225 -11.7475)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.2225 -4.1275) (xy -1.5875 -6.0325)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.2225 -6.6675) (xy -1.5875 -8.5725)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.2225 -9.2075) (xy -1.5875 -11.1125)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.2225 -11.7475) (xy -1.5875 -13.6525)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.5875 -6.0325) (xy -0.9525 -4.1275)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.5875 -8.5725) (xy -0.9525 -6.6675)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.5875 -11.1125) (xy -0.9525 -9.2075)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.5875 -13.6525) (xy -0.9525 -11.7475)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.9525 -4.1275) (xy -0.3175 -6.0325)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.9525 -6.6675) (xy -0.3175 -8.5725)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.9525 -9.2075) (xy -0.3175 -11.1125)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.9525 -11.7475) (xy -0.3175 -13.6525)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3175 -6.0325) (xy 0.3175 -4.1275)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3175 -8.5725) (xy 0.3175 -6.6675)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3175 -11.1125) (xy 0.3175 -9.2075)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3175 -13.6525) (xy 0.3175 -11.7475)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.3175 -4.1275) (xy 0.9525 -6.0325)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.3175 -6.6675) (xy 0.9525 -8.5725)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.3175 -9.2075) (xy 0.9525 -11.1125)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.3175 -11.7475) (xy 0.9525 -13.6525)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9525 -6.0325) (xy 1.5875 -4.1275)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9525 -8.5725) (xy 1.5875 -6.6675)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9525 -11.1125) (xy 1.5875 -9.2075)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9525 -13.6525) (xy 1.5875 -11.7475)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.5875 -4.1275) (xy 2.2225 -6.0325)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.5875 -6.6675) (xy 2.2225 -8.5725)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.5875 -9.2075) (xy 2.2225 -11.1125)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.5875 -11.7475) (xy 2.2225 -13.6525)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.2225 -6.0325) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.2225 -8.5725) (xy 2.54 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.2225 -11.1125) (xy 2.54 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.2225 -13.6525) (xy 2.54 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 -15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -15.24) (xy -3.81 -15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -12.7 180)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TechLab-eagle-import:3.3V"
 			(power)
 			(exclude_from_sim no)
@@ -2573,403 +4748,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TechLab-eagle-import:JNS-5050RGB"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -2.54 10.16 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -10.16 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "TechLab:LED_RGB_5050"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "JNS-5050RGB_1_0"
-				(polyline
-					(pts
-						(xy -1.27 7.62) (xy 3.81 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -7.62) (xy -1.27 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -6.35) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 6.35) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 0 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -3.81) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -5.08) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -5.08) (xy 2.54 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 7.62) (xy 3.81 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -7.62) (xy -1.27 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "G"
-					(at 0.762 5.08 0)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-					)
-				)
-				(text "R"
-					(at 0.762 0 0)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-					)
-				)
-				(text "B"
-					(at 0.762 -5.08 0)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 5.08 0)
-					(length 2.54)
-					(name "3(+)"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3(+)"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "2(+)"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2(+)"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "1(+)"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1(+)"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "4(-)"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4(-)"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "5(-)"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5(-)"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "6(-)"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6(-)"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TechLab-eagle-import:LED-(INCH)-0805"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3191,7 +4969,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
+			(property "Reference" "U5"
 				(at -15.24 24.13 0)
 				(effects
 					(font
@@ -3200,7 +4978,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "MCP23S18-E/MJ"
 				(at -15.24 -24.13 0)
 				(effects
 					(font
@@ -3227,7 +5005,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SPI BUS 16-Bit I/O Expander with Open-Drain Outputs from Microchip"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Microchip"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MCP23S18-E/MJ"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3304,24 +5100,6 @@
 				)
 				(text "SCLK"
 					(at -7.112 10.16 0)
-					(effects
-						(font
-							(size 1.016 0.8636)
-						)
-						(justify left)
-					)
-				)
-				(text "MOSI"
-					(at -7.112 5.08 0)
-					(effects
-						(font
-							(size 1.016 0.8636)
-						)
-						(justify left)
-					)
-				)
-				(text "MISO"
-					(at -7.112 0 0)
 					(effects
 						(font
 							(size 1.016 0.8636)
@@ -3795,6 +5573,26 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "MCP23S18_1_1"
+				(text "COPI"
+					(at -7.112 5.08 0)
+					(effects
+						(font
+							(size 1.016 0.8636)
+						)
+						(justify left)
+					)
+				)
+				(text "CIPO"
+					(at -7.112 0 0)
+					(effects
+						(font
+							(size 1.016 0.8636)
+						)
+						(justify left)
 					)
 				)
 			)
@@ -4304,967 +6102,6 @@
 						(effects
 							(font
 								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TechLab-eagle-import:RESISTOR.NETWORK-(4)"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RN"
-				(at -3.81 9.525 0)
-				(effects
-					(font
-						(size 1.016 0.8636)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -3.81 8.255 0)
-				(effects
-					(font
-						(size 1.016 0.8636)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "TechLab:RN0804"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RESISTOR.NETWORK-(4)_1_0"
-				(polyline
-					(pts
-						(xy -3.81 7.62) (xy 3.81 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -5.08) (xy -3.81 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.2225 6.0325)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.2225 3.4925)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.2225 0.9525)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -2.2225 -1.5875)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.2225 6.0325) (xy -1.5875 4.1275)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.2225 3.4925) (xy -1.5875 1.5875)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.2225 0.9525) (xy -1.5875 -0.9525)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.2225 -1.5875) (xy -1.5875 -3.4925)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.5875 4.1275) (xy -0.9525 6.0325)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.5875 1.5875) (xy -0.9525 3.4925)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.5875 -0.9525) (xy -0.9525 0.9525)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.5875 -3.4925) (xy -0.9525 -1.5875)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.9525 6.0325) (xy -0.3175 4.1275)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.9525 3.4925) (xy -0.3175 1.5875)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.9525 0.9525) (xy -0.3175 -0.9525)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.9525 -1.5875) (xy -0.3175 -3.4925)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3175 4.1275) (xy 0.3175 6.0325)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3175 1.5875) (xy 0.3175 3.4925)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3175 -0.9525) (xy 0.3175 0.9525)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3175 -3.4925) (xy 0.3175 -1.5875)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.3175 6.0325) (xy 0.9525 4.1275)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.3175 3.4925) (xy 0.9525 1.5875)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.3175 0.9525) (xy 0.9525 -0.9525)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.3175 -1.5875) (xy 0.9525 -3.4925)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.9525 4.1275) (xy 1.5875 6.0325)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.9525 1.5875) (xy 1.5875 3.4925)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.9525 -0.9525) (xy 1.5875 0.9525)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.9525 -3.4925) (xy 1.5875 -1.5875)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.5875 6.0325) (xy 2.2225 4.1275)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.5875 3.4925) (xy 2.2225 1.5875)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.5875 0.9525) (xy 2.2225 -0.9525)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.5875 -1.5875) (xy 2.2225 -3.4925)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.2225 4.1275) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.2225 1.5875) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.2225 -0.9525) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.2225 -3.4925) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 7.62) (xy 3.81 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -5.08) (xy -3.81 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "8"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TechLab-eagle-import:SMD-140035H"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BUZZER0"
-				(at -2.794 6.35 0)
-				(effects
-					(font
-						(size 1.016 0.8636)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SMD-140035H"
-				(at -2.54 -7.366 0)
-				(effects
-					(font
-						(size 1.016 0.8636)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "TechLab:SMD-140035H"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Yongyin Elec"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "SMD-140035H-05027"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SMD-140035H_1_0"
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 5.08 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.874 5.08)
-					(mid 10.16 -0.0001)
-					(end 7.8739 -5.0801)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.112 3.81)
-					(mid 8.8901 -0.0001)
-					(end 7.1119 -3.8101)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 6.35 2.54)
-					(mid 7.62 0)
-					(end 6.35 -2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SMD-140035H_1_1"
-				(pin no_connect line
-					(at 16.51 -11.43 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "NC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 16.51 -15.24 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "NC2"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -6114,7 +6951,7 @@
 		(uuid "056fdf66-4fd3-4096-b844-7110d5b98861")
 	)
 	(junction
-		(at 167.64 167.64)
+		(at 175.26 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fd64c7c-ebaa-4460-ac2d-a4050e303bbe")
@@ -6126,7 +6963,7 @@
 		(uuid "151733ed-b3cf-45fa-b947-e6b0ef1adeb9")
 	)
 	(junction
-		(at 149.86 162.56)
+		(at 149.86 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15d3cf5a-4336-4c9f-99e3-63287244fcaf")
@@ -6168,6 +7005,12 @@
 		(uuid "52ebf334-7584-432b-ad11-aa9054469151")
 	)
 	(junction
+		(at 49.53 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "591d2156-223e-4268-8a57-d288e966a804")
+	)
+	(junction
 		(at 43.18 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6196,6 +7039,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77da1298-e34b-4ca6-823b-72b6072e1d52")
+	)
+	(junction
+		(at 40.64 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f70ebb6-2372-4252-9a2f-8205fa653df6")
+	)
+	(junction
+		(at 49.53 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "938bad33-d6ee-4135-a97b-c4bcbde796a7")
 	)
 	(junction
 		(at 26.67 127)
@@ -6238,6 +7093,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0a1e701-b441-43bd-a6f3-64942392cba3")
+	)
+	(junction
+		(at 49.53 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4f05f6e-1019-4d14-9bdd-07629557284b")
 	)
 	(no_connect
 		(at 95.25 33.02)
@@ -6292,6 +7153,14 @@
 		(uuid "886c6acb-3fea-4a16-a22c-72482b96936f")
 	)
 	(no_connect
+		(at 59.69 191.77)
+		(uuid "9085f0e6-8218-4919-b246-4d18fa050b22")
+	)
+	(no_connect
+		(at 58.42 191.77)
+		(uuid "977f16d4-890d-49d2-b9bc-6f8da934bd86")
+	)
+	(no_connect
 		(at 158.75 111.76)
 		(uuid "9e6093e4-9077-4634-90de-7b4015a9404d")
 	)
@@ -6309,6 +7178,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 156.21) (xy 152.4 162.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "002baea7-95eb-4afa-b7b3-0372e2483152")
+	)
+	(wire
+		(pts
 			(xy 262.89 13.97) (xy 262.89 16.51)
 		)
 		(stroke
@@ -6319,7 +7198,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 167.64) (xy 137.16 167.64)
+			(xy 125.73 156.21) (xy 137.16 156.21)
 		)
 		(stroke
 			(width 0.1524)
@@ -6489,7 +7368,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 162.56) (xy 160.02 162.56)
+			(xy 175.26 162.56) (xy 167.64 162.56)
 		)
 		(stroke
 			(width 0.1524)
@@ -6509,7 +7388,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 172.72) (xy 152.4 172.72)
+			(xy 147.32 172.72) (xy 160.02 172.72)
 		)
 		(stroke
 			(width 0.1524)
@@ -6539,7 +7418,17 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 199.39) (xy 31.75 199.39)
+			(xy 43.18 173.99) (xy 49.53 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "157ac9c4-46ee-4a65-9976-7be37afa38dd")
+	)
+	(wire
+		(pts
+			(xy 26.67 199.39) (xy 27.94 199.39)
 		)
 		(stroke
 			(width 0.1524)
@@ -6579,7 +7468,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 162.56) (xy 149.86 162.56)
+			(xy 147.32 167.64) (xy 149.86 167.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -6629,6 +7518,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 181.61) (xy 43.18 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f1a7c9e-7559-4194-90ca-63ed4cf010dd")
+	)
+	(wire
+		(pts
 			(xy 140.97 129.54) (xy 140.97 127)
 		)
 		(stroke
@@ -6669,7 +7568,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 167.64) (xy 167.64 167.64)
+			(xy 167.64 167.64) (xy 175.26 167.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -6749,7 +7648,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 167.64) (xy 170.18 167.64)
+			(xy 175.26 167.64) (xy 177.8 167.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -6759,7 +7658,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 176.53) (xy 49.53 184.15)
+			(xy 49.53 171.45) (xy 49.53 173.99)
 		)
 		(stroke
 			(width 0.1524)
@@ -6829,6 +7728,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 185.42) (xy 54.61 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "317b4089-7dec-412c-baf5-803937cb63c7")
+	)
+	(wire
+		(pts
 			(xy 85.09 48.26) (xy 85.09 50.8)
 		)
 		(stroke
@@ -6879,6 +7788,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 199.39) (xy 40.64 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3999c04b-0fa4-47e0-8cc6-0804ee14c8d4")
+	)
+	(wire
+		(pts
 			(xy 105.41 12.7) (xy 120.65 12.7)
 		)
 		(stroke
@@ -6906,16 +7825,6 @@
 			(type solid)
 		)
 		(uuid "3c66d714-81f0-494a-8a02-a6ba5671a89f")
-	)
-	(wire
-		(pts
-			(xy 255.27 135.89) (xy 266.7 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e08c623-5255-496a-9884-c81ca3292724")
 	)
 	(wire
 		(pts
@@ -6979,7 +7888,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 162.56) (xy 152.4 162.56)
+			(xy 149.86 167.64) (xy 160.02 167.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -7036,6 +7945,16 @@
 			(type default)
 		)
 		(uuid "4ae661ff-94f7-46e2-a2c8-d7984cea942e")
+	)
+	(wire
+		(pts
+			(xy 232.41 154.94) (xy 233.68 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b23390c-0c71-4ebd-98f1-22ab340c019c")
 	)
 	(wire
 		(pts
@@ -7129,7 +8048,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 207.01) (xy 49.53 204.47)
+			(xy 49.53 210.82) (xy 49.53 209.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -7176,6 +8095,16 @@
 			(type solid)
 		)
 		(uuid "58a7481c-e904-49f1-a803-6dd61c7646e6")
+	)
+	(wire
+		(pts
+			(xy 40.64 208.28) (xy 40.64 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59260918-bef2-4ab2-a1b6-512c544d5421")
 	)
 	(wire
 		(pts
@@ -7236,6 +8165,26 @@
 			(type solid)
 		)
 		(uuid "5e9cbf8b-db92-4ac2-8293-4280343999c6")
+	)
+	(wire
+		(pts
+			(xy 49.53 189.23) (xy 49.53 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f2643d5-8428-492e-a815-245a0ef71d46")
+	)
+	(wire
+		(pts
+			(xy 49.53 187.96) (xy 49.53 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa94ece-0029-4958-b284-31f9c0e976f7")
 	)
 	(wire
 		(pts
@@ -7339,7 +8288,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 157.48) (xy 137.16 157.48)
+			(xy 129.54 162.56) (xy 137.16 162.56)
 		)
 		(stroke
 			(width 0.1524)
@@ -7359,13 +8308,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 184.15) (xy 52.07 184.15)
+			(xy 40.64 199.39) (xy 44.45 199.39)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "7dfca66e-6159-474b-bdbd-3adf8c707a78")
+		(uuid "7a6c0b2a-4498-438e-902e-5c02537031cf")
 	)
 	(wire
 		(pts
@@ -7509,6 +8458,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 173.99) (xy 49.53 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8f0ae763-c704-480e-93cb-57c9f836e857")
+	)
+	(wire
+		(pts
 			(xy 27.94 22.86) (xy 36.83 22.86)
 		)
 		(stroke
@@ -7529,7 +8488,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 167.64) (xy 152.4 167.64)
+			(xy 49.53 184.15) (xy 49.53 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "967dc1cb-3582-4ce4-82d3-1b7a9a456e6e")
+	)
+	(wire
+		(pts
+			(xy 147.32 156.21) (xy 152.4 156.21)
 		)
 		(stroke
 			(width 0.1524)
@@ -7609,6 +8578,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 173.99) (xy 43.18 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c9cd563-cba8-44b2-a477-cd60ee1d76e0")
+	)
+	(wire
+		(pts
 			(xy 194.31 67.31) (xy 199.39 67.31)
 		)
 		(stroke
@@ -7679,13 +8658,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 157.48) (xy 149.86 157.48)
+			(xy 147.32 162.56) (xy 149.86 162.56)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "a4ff4c03-5e70-45ee-b115-0864e76168e0")
+	)
+	(wire
+		(pts
+			(xy 54.61 187.96) (xy 49.53 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a54bf656-dd1d-491b-b1b7-7dbd59ce8a4b")
 	)
 	(wire
 		(pts
@@ -7709,7 +8698,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 172.72) (xy 167.64 167.64)
+			(xy 175.26 172.72) (xy 175.26 167.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -7739,7 +8728,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 157.48) (xy 149.86 162.56)
+			(xy 149.86 162.56) (xy 149.86 167.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -7759,7 +8748,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 172.72) (xy 160.02 172.72)
+			(xy 175.26 172.72) (xy 167.64 172.72)
 		)
 		(stroke
 			(width 0.1524)
@@ -7776,6 +8765,16 @@
 			(type solid)
 		)
 		(uuid "b401b4c8-343c-4ccf-bd1e-3ba400e26352")
+	)
+	(wire
+		(pts
+			(xy 43.18 189.23) (xy 49.53 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b422371e-d2d1-453c-af07-745bf5556e88")
 	)
 	(wire
 		(pts
@@ -7796,6 +8795,16 @@
 			(type solid)
 		)
 		(uuid "b51a309a-b7b3-40de-b4a0-533b6f55dc1e")
+	)
+	(wire
+		(pts
+			(xy 49.53 209.55) (xy 49.53 204.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b59c5517-9774-416c-8ef8-453781e1f231")
 	)
 	(wire
 		(pts
@@ -7889,7 +8898,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 162.56) (xy 137.16 162.56)
+			(xy 132.08 167.64) (xy 137.16 167.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -8009,7 +9018,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 162.56) (xy 167.64 167.64)
+			(xy 175.26 162.56) (xy 175.26 167.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -8056,6 +9065,16 @@
 			(type solid)
 		)
 		(uuid "d419d874-fad7-41ad-8433-ee33f1e34091")
+	)
+	(wire
+		(pts
+			(xy 232.41 158.75) (xy 232.41 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d51d95c5-5a92-4afa-aa76-461ee17d45e7")
 	)
 	(wire
 		(pts
@@ -8129,6 +9148,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 182.88) (xy 49.53 184.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d98db73a-f4bd-46b1-901f-786c70a71081")
+	)
+	(wire
+		(pts
 			(xy 120.65 99.06) (xy 120.65 114.3)
 		)
 		(stroke
@@ -8146,16 +9175,6 @@
 			(type solid)
 		)
 		(uuid "db77ca46-e938-4015-a903-c4b1b0980b55")
-	)
-	(wire
-		(pts
-			(xy 266.7 135.89) (xy 266.7 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dce8925b-287a-480d-8b8c-ae81c84c220c")
 	)
 	(wire
 		(pts
@@ -8239,6 +9258,26 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 209.55) (xy 49.53 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e41c14a6-9ad8-40bf-acc1-738898203e36")
+	)
+	(wire
+		(pts
+			(xy 152.4 162.56) (xy 160.02 162.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e42dad11-6b9a-40ad-a774-47fcead7caba")
+	)
+	(wire
+		(pts
 			(xy 219.71 99.06) (xy 199.39 99.06)
 		)
 		(stroke
@@ -8269,7 +9308,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 199.39) (xy 44.45 199.39)
+			(xy 38.1 199.39) (xy 40.64 199.39)
 		)
 		(stroke
 			(width 0.1524)
@@ -8286,16 +9325,6 @@
 			(type solid)
 		)
 		(uuid "e74a32aa-b4e5-49a5-bb10-7915bcaf549b")
-	)
-	(wire
-		(pts
-			(xy 49.53 194.31) (xy 49.53 189.23)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e7d810f3-d4d2-440c-83dc-fe1b05a45517")
 	)
 	(wire
 		(pts
@@ -8419,16 +9448,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 189.23) (xy 52.07 189.23)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f6995ae9-2bf1-414f-80eb-7da8da91503e")
-	)
-	(wire
-		(pts
 			(xy 26.67 124.46) (xy 26.67 127)
 		)
 		(stroke
@@ -8537,16 +9556,6 @@
 		)
 		(uuid "0b48e62c-701e-4278-9c1c-3d3af2c7c4be")
 	)
-	(label "JST-TX"
-		(at 255.27 140.97 0)
-		(effects
-			(font
-				(size 0.9957 0.9957)
-			)
-			(justify left bottom)
-		)
-		(uuid "11948e62-8200-4a84-bd4e-736f4f85b41f")
-	)
 	(label "LDF2"
 		(at 224.79 34.29 90)
 		(effects
@@ -8568,7 +9577,7 @@
 		(uuid "15aa4471-9fcd-4c6a-bf25-40a132cc2abf")
 	)
 	(label "JST-RX"
-		(at 246.38 92.71 0)
+		(at 246.38 99.06 0)
 		(effects
 			(font
 				(size 0.9957 0.9957)
@@ -8677,6 +9686,16 @@
 		)
 		(uuid "6c75745b-39bf-4c1a-a726-59482696a46b")
 	)
+	(label "JST-RX"
+		(at 233.68 149.86 180)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "7465c604-bdd2-4512-a80e-7433969f5d8c")
+	)
 	(label "LDE2"
 		(at 120.65 25.4 0)
 		(effects
@@ -8696,16 +9715,6 @@
 			(justify left bottom)
 		)
 		(uuid "771e6630-9d30-4173-928c-df3bd65e1588")
-	)
-	(label "JST-GND"
-		(at 255.27 143.51 0)
-		(effects
-			(font
-				(size 0.9957 0.9957)
-			)
-			(justify left bottom)
-		)
-		(uuid "85cd3ba9-24c7-4e00-8adb-f8bce08f942e")
 	)
 	(label "LDG1"
 		(at 120.65 66.04 0)
@@ -8777,6 +9786,16 @@
 		)
 		(uuid "bac53047-ffe3-4c06-89d4-42fccf7ad972")
 	)
+	(label "JST-GND"
+		(at 233.68 147.32 180)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf66156f-3888-4989-908c-fea1d1492ba2")
+	)
 	(label "LDA2"
 		(at 120.65 7.62 0)
 		(effects
@@ -8798,7 +9817,7 @@
 		(uuid "c804842a-2326-4ffd-b155-2e3f49af4183")
 	)
 	(label "JST-TX"
-		(at 246.38 99.06 0)
+		(at 246.38 92.71 0)
 		(effects
 			(font
 				(size 0.9957 0.9957)
@@ -8816,6 +9835,16 @@
 			(justify left bottom)
 		)
 		(uuid "cf1a6959-317d-4ef8-b1ef-7475912de2d4")
+	)
+	(label "JST-TX"
+		(at 233.68 144.78 180)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "d680cfa7-f838-437c-b157-d213678af549")
 	)
 	(label "VBUS"
 		(at 39.37 86.36 0)
@@ -8836,16 +9865,6 @@
 			(justify left bottom)
 		)
 		(uuid "e787fdf6-1a8e-4ffe-a02e-77805c041896")
-	)
-	(label "JST-RX"
-		(at 255.27 146.05 0)
-		(effects
-			(font
-				(size 0.9957 0.9957)
-			)
-			(justify left bottom)
-		)
-		(uuid "ebfd1f9c-4ef3-4bcc-942d-da6538be2bfb")
 	)
 	(label "LDA1"
 		(at 199.39 8.89 0)
@@ -8909,7 +9928,7 @@
 	)
 	(global_label "P2.1{slash}PWM1A(RGB.G{slash}EXP1.16)"
 		(shape input)
-		(at 132.08 162.56 180)
+		(at 132.08 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8919,7 +9938,7 @@
 		)
 		(uuid "1ce617df-862f-4452-836e-d99e13eb0030")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.8254 162.56 0)
+			(at 98.8254 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9012,7 +10031,7 @@
 			)
 		)
 	)
-	(global_label "P2.25{slash}SPI1.MOSI(7SEG)"
+	(global_label "P2.25{slash}SPI1.COPI(7SEG)"
 		(shape input)
 		(at 29.21 33.02 180)
 		(fields_autoplaced yes)
@@ -9024,7 +10043,7 @@
 		)
 		(uuid "71dd5be1-5f28-4f6e-8a06-7b2c2ef271ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 4.7271 33.02 0)
+			(at 9.0418 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9056,7 +10075,7 @@
 	)
 	(global_label "P1.33{slash}PRU0.1(RGB.R)"
 		(shape input)
-		(at 125.73 167.64 180)
+		(at 125.73 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9066,7 +10085,7 @@
 		)
 		(uuid "94c53b11-3e46-450d-9a40-1d20d91adf1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.6221 167.64 0)
+			(at 102.6221 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9096,7 +10115,7 @@
 			)
 		)
 	)
-	(global_label "P2.27{slash}SPI1.MISO(7SEG)"
+	(global_label "P2.27{slash}SPI1.CIPO(7SEG)"
 		(shape input)
 		(at 29.21 38.1 180)
 		(fields_autoplaced yes)
@@ -9108,7 +10127,7 @@
 		)
 		(uuid "de270bc4-87c0-460c-b251-c2b4f52d1d9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 4.7271 38.1 0)
+			(at 9.0418 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9119,7 +10138,7 @@
 	)
 	(global_label "P1.35{slash}PRU1.10(RGB.G.ALT)"
 		(shape input)
-		(at 129.54 157.48 180)
+		(at 129.54 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9129,7 +10148,7 @@
 		)
 		(uuid "e5fb3dc5-c449-48ef-80c1-2cbe2e1e80a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.5916 157.48 0)
+			(at 102.5916 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9268,114 +10287,8 @@
 		)
 	)
 	(symbol
-		(lib_id "TechLab-eagle-import:RESISTOR.NETWORK-(4)")
-		(at 100.33 30.48 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "01936ad7-8c96-4fd1-aa96-2e08d5bee643")
-		(property "Reference" "RN2"
-			(at 104.14 20.955 0)
-			(effects
-				(font
-					(size 1.016 0.8636)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1k, RN"
-			(at 104.14 22.225 0)
-			(effects
-				(font
-					(size 1.016 0.8636)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "TechLab:RN0804"
-			(at 100.33 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Bourns"
-			(at 100.33 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CAY10-102J4LF"
-			(at 100.33 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c0b14e0-2d56-4049-b067-27931cab9c17")
-		)
-		(pin "2"
-			(uuid "d8236338-dfe7-4a98-ab46-444d80674254")
-		)
-		(pin "3"
-			(uuid "fb7c8981-9aeb-4126-8efa-1b9c4a65ca39")
-		)
-		(pin "4"
-			(uuid "1c70410e-fdcf-4343-931f-c95f6dde01e4")
-		)
-		(pin "5"
-			(uuid "e68036f3-8a92-4781-b9c6-73cd1ed0f155")
-		)
-		(pin "6"
-			(uuid "75ba4bae-9634-4e85-8cdd-cecc4ad539f7")
-		)
-		(pin "7"
-			(uuid "b89a6598-f6ba-49a7-9d14-132c85a9bebc")
-		)
-		(pin "8"
-			(uuid "251f724b-6081-49f5-984d-232a0e0be535")
-		)
-		(instances
-			(project "TechLab"
-				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
-					(reference "RN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "TechLab-eagle-import:RESISTOR-(INCH)-0402")
-		(at 36.83 199.39 0)
+		(at 33.02 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9383,7 +10296,7 @@
 		(dnp no)
 		(uuid "025ca563-f126-490f-a156-8d097eea34a2")
 		(property "Reference" "R4"
-			(at 39.624 198.882 0)
+			(at 35.814 198.882 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -9392,7 +10305,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 39.624 199.898 0)
+			(at 35.814 199.898 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -9401,7 +10314,7 @@
 			)
 		)
 		(property "Footprint" "TechLab:0402"
-			(at 36.83 199.39 0)
+			(at 33.02 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9410,7 +10323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 199.39 0)
+			(at 33.02 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9419,7 +10332,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 199.39 0)
+			(at 33.02 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9428,7 +10341,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 36.83 199.39 0)
+			(at 33.02 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9437,7 +10350,7 @@
 			)
 		)
 		(property "MPN" "1-1622826-8"
-			(at 36.83 199.39 0)
+			(at 33.02 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10126,6 +11039,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Seeed_libdb:Resistors/301010292")
+		(at 49.53 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fecdc13-648e-4548-9b63-2757ffebd23f")
+		(property "Reference" "R26"
+			(at 50.8 176.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 50.8 179.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor:R0603"
+			(at 49.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD RES 0R-5%-1/10W;0603"
+			(at 49.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 49.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-070RL"
+			(at 49.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "301010292"
+			(at 49.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "0R"
+			(at 49.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 49.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "RES"
+			(at 49.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "5%"
+			(at 50.8 181.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Status" ""
+			(at 49.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "-55°C to 155°C"
+			(at 49.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Priority" ""
+			(at 49.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32be4b2e-5fbc-41f2-86d8-7c881273ff19")
+		)
+		(pin "2"
+			(uuid "82a8d6a0-f59a-4c2e-aec9-db4b4d3711ba")
+		)
+		(instances
+			(project ""
+				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TechLab-eagle-import:GND")
 		(at 21.59 17.78 270)
 		(unit 1)
@@ -10186,112 +11259,6 @@
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
 					(reference "#GND7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TechLab-eagle-import:RESISTOR.NETWORK-(4)")
-		(at 100.33 12.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "225e4ea8-b02d-4376-875d-de81bc963f00")
-		(property "Reference" "RN1"
-			(at 104.14 3.175 0)
-			(effects
-				(font
-					(size 1.016 0.8636)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1k, RN"
-			(at 104.14 4.445 0)
-			(effects
-				(font
-					(size 1.016 0.8636)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "TechLab:RN0804"
-			(at 100.33 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Bourns"
-			(at 100.33 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CAY10-102J4LF"
-			(at 100.33 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a58eabe-74dc-4a79-8c48-60ee83f7e25b")
-		)
-		(pin "2"
-			(uuid "17993173-d9ae-4f03-90d4-8e6f97d6b6c0")
-		)
-		(pin "3"
-			(uuid "2d9079ed-fa46-4df4-aa24-233c69b4f558")
-		)
-		(pin "4"
-			(uuid "f9824af1-664b-43e6-be87-efb262311e08")
-		)
-		(pin "5"
-			(uuid "7f83b614-6970-4283-b3ca-649fd9d1a0c6")
-		)
-		(pin "6"
-			(uuid "85d4d871-7f9b-431e-9a3a-a405a31f50e1")
-		)
-		(pin "7"
-			(uuid "0e7b92db-cd8a-4a8d-b76b-b13c01bc7d6f")
-		)
-		(pin "8"
-			(uuid "44f76238-9f7e-4761-9957-b0d292802b0c")
-		)
-		(instances
-			(project "TechLab"
-				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
-					(reference "RN1")
 					(unit 1)
 				)
 			)
@@ -10619,112 +11586,6 @@
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TechLab-eagle-import:RESISTOR.NETWORK-(4)")
-		(at 100.33 66.04 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e39f099-2d57-4328-9023-2637ea321562")
-		(property "Reference" "RN4"
-			(at 104.14 56.515 0)
-			(effects
-				(font
-					(size 1.016 0.8636)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1k, RN"
-			(at 104.14 57.785 0)
-			(effects
-				(font
-					(size 1.016 0.8636)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "TechLab:RN0804"
-			(at 100.33 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Bourns"
-			(at 100.33 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CAY10-102J4LF"
-			(at 100.33 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43fc1555-ebb2-4313-bc06-8e73541fabb4")
-		)
-		(pin "2"
-			(uuid "c65bba64-6d31-417c-b9d8-798864a87722")
-		)
-		(pin "3"
-			(uuid "d63d8a0a-5ca5-4c47-a2c5-cf37a313cf8e")
-		)
-		(pin "4"
-			(uuid "de56e533-e016-4183-beff-030f01a5dbb2")
-		)
-		(pin "5"
-			(uuid "1fcd251e-1cc9-4042-bdc0-ab3e62e3ddaf")
-		)
-		(pin "6"
-			(uuid "29c7fd51-e445-47a6-83cd-fac97a2ee1e5")
-		)
-		(pin "7"
-			(uuid "56ce0d4c-0444-4905-8cce-fb15b9221dbb")
-		)
-		(pin "8"
-			(uuid "d731802c-c4c1-44d5-bb82-3464d84dc457")
-		)
-		(instances
-			(project "TechLab"
-				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
-					(reference "RN4")
 					(unit 1)
 				)
 			)
@@ -11117,6 +11978,157 @@
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
 					(reference "LD9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seeed_libdb:Diode/304091456")
+		(at 163.83 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4713b2a3-92cb-4439-a2f8-e39a3fe4c976")
+		(property "Reference" "LD1"
+			(at 163.83 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-G563EGBW"
+			(at 163.83 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode:LED6P-5x5x1.6MM"
+			(at 163.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD LED Red Green Blue RGB;6P-L5*W5*H1.6mm"
+			(at 163.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On	"
+			(at 163.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-G563EGBW	"
+			(at 163.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "304091456"
+			(at 163.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "LED"
+			(at 163.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 163.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 163.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "-40°C to  85°C	"
+			(at 163.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Priority" ""
+			(at 163.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1(-)"
+			(uuid "e6f8c151-2bfa-43a7-afd4-4b91000674a7")
+		)
+		(pin "4(+)"
+			(uuid "74466a4f-308b-44cc-8e35-8ea504116f63")
+		)
+		(pin "5(+)"
+			(uuid "83e98d2a-22eb-4e37-aee9-45c9cc724c05")
+		)
+		(pin "3(-)"
+			(uuid "cadf7cba-d41f-48c5-a342-a9083d944dd4")
+		)
+		(pin "2(-)"
+			(uuid "9b945892-f6f3-440e-8774-983e16dcaa4e")
+		)
+		(pin "6(+)"
+			(uuid "44fe00c0-d545-404d-bc6c-5e2c799c22db")
+		)
+		(instances
+			(project ""
+				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
+					(reference "LD1")
 					(unit 1)
 				)
 			)
@@ -11605,36 +12617,33 @@
 		)
 	)
 	(symbol
-		(lib_id "TechLab-eagle-import:SMD-140035H")
-		(at 57.15 186.69 0)
+		(lib_id "Seeed_libdb:Resistors/301030393")
+		(at 100.33 55.88 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "56216ab0-1506-45bf-9080-592dd23cacd3")
-		(property "Reference" "BUZZER0"
-			(at 54.356 180.34 0)
+		(uuid "4eefa985-8203-4a6d-8013-e877c23cc58e")
+		(property "Reference" "RN4"
+			(at 103.632 57.15 0)
 			(effects
 				(font
-					(size 1.016 0.8636)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Value" "SMD-140035H"
-			(at 54.61 194.056 0)
+		(property "Value" "1K"
+			(at 100.33 56.896 0)
 			(effects
 				(font
-					(size 1.016 0.8636)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "TechLab:SMD-140035H"
-			(at 57.15 186.69 0)
+		(property "Footprint" "Resistor:R0804"
+			(at 100.33 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11643,7 +12652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 186.69 0)
+			(at 100.33 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11651,8 +12660,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "11x14 mm four pin square piezo"
-			(at 57.15 186.69 0)
+		(property "Description" "SMD RES Array 1K-5%-1/16W;0804(4 x 0402)"
+			(at 100.33 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11660,8 +12669,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "PUI Audio"
-			(at 57.15 186.69 0)
+		(property "Manufacturer" "YAGEO"
+			(at 100.33 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11669,8 +12678,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SMT-1427-S-5V-HT-R"
-			(at 57.15 186.69 0)
+		(property "MPN" "YC124-JR-071KL	"
+			(at 100.33 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11678,30 +12687,105 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "BUZZER"
-			(at 55.88 179.832 0)
+		(property "SKU" "301030393"
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "1K"
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "RES"
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "5%"
+			(at 97.282 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "+"
-			(uuid "d33d96af-2a80-442a-b554-8e423088e86f")
+		(property "Status" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "-"
-			(uuid "ff77cbf4-6846-4916-9d2b-e5e2caae5721")
+		(property "Temperature" "-55°C to 155°C"
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "NC2"
-			(uuid "01a6c1df-33f0-46d5-b6e7-8018dfd9d276")
+		(property "Priority" ""
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "NC1"
-			(uuid "f1b8121b-6d3d-43fd-803e-54c8cc0e09aa")
+		(pin "8"
+			(uuid "0bc1ea7c-64ae-48ff-ab00-b5fafd824f82")
+		)
+		(pin "1"
+			(uuid "658c67f6-8538-4eca-864e-be8855305b30")
+		)
+		(pin "2"
+			(uuid "80f722ee-0f43-4c0d-a2e8-1f541b976a6f")
+		)
+		(pin "3"
+			(uuid "cf0838d9-b6e7-47a4-a196-fde50647f550")
+		)
+		(pin "4"
+			(uuid "874d8dfc-09d4-4f4a-99a3-9d221fbe5267")
+		)
+		(pin "5"
+			(uuid "186d692d-3770-4689-82dc-027ac34dcb99")
+		)
+		(pin "6"
+			(uuid "088ed2f2-123a-4f09-b023-753aa96cd354")
+		)
+		(pin "7"
+			(uuid "40c6caa6-6ec9-4a2e-92be-0db1a8238bb9")
 		)
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
-					(reference "BUZZER0")
+					(reference "RN4")
 					(unit 1)
 				)
 			)
@@ -11969,7 +13053,7 @@
 	)
 	(symbol
 		(lib_id "TechLab-eagle-import:RESISTOR-(INCH)-0402")
-		(at 142.24 167.64 0)
+		(at 142.24 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11977,7 +13061,7 @@
 		(dnp no)
 		(uuid "64314be2-d886-4265-9c55-dc1457b2a3b6")
 		(property "Reference" "R2"
-			(at 145.034 167.132 0)
+			(at 145.034 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11986,7 +13070,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 145.034 168.148 0)
+			(at 145.034 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11995,7 +13079,7 @@
 			)
 		)
 		(property "Footprint" "TechLab:0402"
-			(at 142.24 167.64 0)
+			(at 142.24 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12004,7 +13088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 167.64 0)
+			(at 142.24 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12013,7 +13097,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 167.64 0)
+			(at 142.24 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12022,7 +13106,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Bourns"
-			(at 142.24 167.64 0)
+			(at 142.24 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12031,7 +13115,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1501GLF"
-			(at 142.24 167.64 0)
+			(at 142.24 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12049,6 +13133,181 @@
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seeed_libdb:Resistors/301030393")
+		(at 100.33 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "653d6272-5acd-4de7-bcb0-3cd86a6cbe17")
+		(property "Reference" "RN3"
+			(at 103.632 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 100.33 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor:R0804"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD RES Array 1K-5%-1/16W;0804(4 x 0402)"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "YC124-JR-071KL	"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "301030393"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "1K"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "RES"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "5%"
+			(at 97.282 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "-55°C to 155°C"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Priority" ""
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "f2d0ff1e-9653-4a1b-a77a-864c471f7de6")
+		)
+		(pin "1"
+			(uuid "fb9821e7-6b2c-46db-91bc-97a4a310af42")
+		)
+		(pin "2"
+			(uuid "1ebd5254-69bf-4858-9d07-70661b78808a")
+		)
+		(pin "3"
+			(uuid "dac46a8d-7b38-41e6-b9b3-8103cea37e46")
+		)
+		(pin "4"
+			(uuid "f073847e-2118-4f59-b3df-20a7086ce334")
+		)
+		(pin "5"
+			(uuid "032d92ca-7be3-43fe-a6dd-a6d3795dbffe")
+		)
+		(pin "6"
+			(uuid "0fb2acb5-8fdc-4cee-a93f-78c67ca6ef77")
+		)
+		(pin "7"
+			(uuid "cd2e543f-a3ae-4b13-82e5-562dafc88655")
+		)
+		(instances
+			(project "TechLab"
+				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
+					(reference "RN3")
 					(unit 1)
 				)
 			)
@@ -12187,7 +13446,7 @@
 	)
 	(symbol
 		(lib_id "TechLab-eagle-import:RESISTOR-(INCH)-0402")
-		(at 142.24 162.56 0)
+		(at 142.24 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12195,7 +13454,7 @@
 		(dnp no)
 		(uuid "68d9927b-2c2b-498a-9e69-be497e33354a")
 		(property "Reference" "R1"
-			(at 145.034 162.052 0)
+			(at 145.034 167.132 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12204,7 +13463,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 145.034 163.068 0)
+			(at 145.034 168.148 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12213,7 +13472,7 @@
 			)
 		)
 		(property "Footprint" "TechLab:0402"
-			(at 142.24 162.56 0)
+			(at 142.24 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12222,7 +13481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 162.56 0)
+			(at 142.24 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12231,7 +13490,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 162.56 0)
+			(at 142.24 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12240,7 +13499,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Bourns"
-			(at 142.24 162.56 0)
+			(at 142.24 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12249,7 +13508,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1501GLF"
-			(at 142.24 162.56 0)
+			(at 142.24 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12513,7 +13772,7 @@
 	)
 	(symbol
 		(lib_id "TechLab-eagle-import:GND")
-		(at 172.72 167.64 90)
+		(at 180.34 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12521,7 +13780,7 @@
 		(dnp no)
 		(uuid "71184cec-0897-4c01-baaa-553a4c36f19d")
 		(property "Reference" "#GND25"
-			(at 172.72 167.64 0)
+			(at 180.34 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12530,7 +13789,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 170.18 0)
+			(at 182.88 170.18 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12539,7 +13798,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 167.64 0)
+			(at 180.34 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12548,7 +13807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 167.64 0)
+			(at 180.34 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12557,7 +13816,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 167.64 0)
+			(at 180.34 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12572,6 +13831,153 @@
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
 					(reference "#GND25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seeed_libdb:Misc/312020383")
+		(at 54.61 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "714d2ce5-aed0-4a91-a397-148f66029126")
+		(property "Reference" "BUZ1"
+			(at 63.5 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MLT-8530"
+			(at 63.5 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Misc:BZ4-SMD-8.5X8.5X3.0MM"
+			(at 54.61 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Buzzer 3.6V Vop=2.5-4.5V;4P-8.5*8.5*3.0mm"
+			(at 54.61 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JIANGSUHUANENG"
+			(at 54.61 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MLT-8530"
+			(at 54.61 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "312020383"
+			(at 54.61 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "Buzzer"
+			(at 54.61 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 54.61 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" "R2 E1001"
+			(at 54.61 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "-20°C to 70°C"
+			(at 54.61 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Priority" ""
+			(at 54.61 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7aa04025-e7af-458e-9a38-3ddba56e77c3")
+		)
+		(pin "2"
+			(uuid "e34bc58a-cf2c-4e91-b0b9-84282f9f9ac7")
+		)
+		(pin "4"
+			(uuid "408da69b-24b8-4fb3-b1e7-6f8f1d84f94a")
+		)
+		(pin "3"
+			(uuid "43642ab0-26ed-4502-b6ab-62a7684d4bf6")
+		)
+		(instances
+			(project ""
+				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
+					(reference "BUZ1")
 					(unit 1)
 				)
 			)
@@ -12731,7 +14137,7 @@
 	)
 	(symbol
 		(lib_id "TechLab-eagle-import:3.3V")
-		(at 49.53 173.99 0)
+		(at 49.53 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12739,7 +14145,7 @@
 		(dnp no)
 		(uuid "79413425-a12e-43dd-a65a-33e15573e2a6")
 		(property "Reference" "#SUPPLY40"
-			(at 49.53 173.99 0)
+			(at 49.53 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12748,7 +14154,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 49.53 169.926 0)
+			(at 49.53 164.846 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12756,7 +14162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 173.99 0)
+			(at 49.53 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12765,7 +14171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 173.99 0)
+			(at 49.53 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12774,7 +14180,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 173.99 0)
+			(at 49.53 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13000,7 +14406,7 @@
 		(dnp no)
 		(uuid "8ed25f6a-d774-48cb-9a1b-236b76d19bed")
 		(property "Reference" "F2"
-			(at 70.104 88.646 0)
+			(at 76.454 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -13009,7 +14415,7 @@
 			)
 		)
 		(property "Value" "1206L025YR"
-			(at 67.564 83.312 0)
+			(at 76.454 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -13442,6 +14848,181 @@
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
 					(reference "#SUPPLY5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seeed_libdb:Resistors/301030393")
+		(at 100.33 2.54 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c796219-feda-4363-a57e-ce19ee756d53")
+		(property "Reference" "RN1"
+			(at 103.632 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 100.33 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor:R0804"
+			(at 100.33 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD RES Array 1K-5%-1/16W;0804(4 x 0402)"
+			(at 100.33 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 100.33 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "YC124-JR-071KL	"
+			(at 100.33 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "301030393"
+			(at 100.33 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "1K"
+			(at 100.33 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 100.33 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "RES"
+			(at 100.33 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "5%"
+			(at 97.282 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 100.33 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "-55°C to 155°C"
+			(at 100.33 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Priority" ""
+			(at 100.33 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "23fef530-dbe1-4561-8af6-dbafe9e24507")
+		)
+		(pin "1"
+			(uuid "764953e0-1042-414d-9bfa-30e666e8f6b6")
+		)
+		(pin "2"
+			(uuid "d50a3feb-c567-47d5-b04f-b3b8d7a9c896")
+		)
+		(pin "3"
+			(uuid "ced204af-68a9-4355-a2cf-406d96e9be48")
+		)
+		(pin "4"
+			(uuid "78f03ed5-7c1e-4586-90c5-af6814226906")
+		)
+		(pin "5"
+			(uuid "9d598393-85ea-4733-8fc5-5ef3dd434435")
+		)
+		(pin "6"
+			(uuid "4de79468-ac05-42de-bb04-a8204bda94c2")
+		)
+		(pin "7"
+			(uuid "f23b6d09-5260-4c85-a093-048f67e798dc")
+		)
+		(instances
+			(project "TechLab"
+				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
+					(reference "RN1")
 					(unit 1)
 				)
 			)
@@ -14340,34 +15921,35 @@
 		)
 	)
 	(symbol
-		(lib_id "TechLab-eagle-import:GND")
-		(at 266.7 151.13 0)
+		(lib_id "Seeed_libdb:Resistors/301010004")
+		(at 40.64 204.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bab0b1cd-b038-4261-a403-e60de43a3377")
-		(property "Reference" "#GND034"
-			(at 266.7 151.13 0)
+		(fields_autoplaced yes)
+		(uuid "ba81b663-4e14-48ba-a945-2ce87cfea535")
+		(property "Reference" "R24"
+			(at 41.91 201.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 264.16 153.67 0)
+		(property "Value" "10K"
+			(at 41.91 204.4699 90)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 266.7 151.13 0)
+		(property "Footprint" "Resistor:R0402"
+			(at 40.64 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14376,7 +15958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 151.13 0)
+			(at 40.64 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14384,22 +15966,115 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 266.7 151.13 0)
+		(property "Description" "SMD RES 10K-5%-1/16W;0402"
+			(at 40.64 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 40.64 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402JR-0710KL"
+			(at 40.64 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "301010004"
+			(at 40.64 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "10K"
+			(at 40.64 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 40.64 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "RES"
+			(at 40.64 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "5%"
+			(at 41.91 207.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Status" "BeagleBone Carrier Board"
+			(at 40.64 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "-55°C to 155°C"
+			(at 40.64 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Priority" ""
+			(at 40.64 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2339de8f-af1a-4e7b-889f-6cd5b0652f11")
 		)
 		(pin "1"
-			(uuid "84aeca14-7dd0-41c3-b783-198f232bf5e0")
+			(uuid "c3f48ef3-cccf-4f4a-ba51-5117313f34b9")
 		)
 		(instances
-			(project "TechLab"
+			(project ""
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
-					(reference "#GND034")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -14407,7 +16082,7 @@
 	)
 	(symbol
 		(lib_id "TechLab-eagle-import:GND")
-		(at 49.53 209.55 0)
+		(at 49.53 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14415,7 +16090,7 @@
 		(dnp no)
 		(uuid "bbac390d-86b1-4896-b53b-87bdc6e52c05")
 		(property "Reference" "#GND32"
-			(at 49.53 209.55 0)
+			(at 49.53 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14424,7 +16099,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 212.09 0)
+			(at 46.99 215.9 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14433,7 +16108,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 209.55 0)
+			(at 49.53 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14442,7 +16117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 209.55 0)
+			(at 49.53 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14451,7 +16126,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 209.55 0)
+			(at 49.53 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14531,6 +16206,147 @@
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
 					(reference "#SUPPLY38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seeed_libdb:Diode/304010026")
+		(at 43.18 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c359b213-30cc-447f-8d76-40ac8b81c5bf")
+		(property "Reference" "D1"
+			(at 33.274 175.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 33.274 178.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:SOD-123"
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Diode;100V-150mA-SOD-123"
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "长电"
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "304010026"
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "Diode"
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "150mA"
+			(at 33.274 180.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Status" "BeagleBone Carrier Board"
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" ""
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Priority" ""
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36911003-25db-4873-845e-2511377a1e95")
+		)
+		(pin "2"
+			(uuid "72858260-6c20-489a-8f65-7447a1c930f5")
+		)
+		(instances
+			(project ""
+				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -14618,6 +16434,177 @@
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Upside Down Labs:JST-SH-3P")
+		(at 243.84 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6f5dc88-7f6a-4a3b-83e4-9bb5948518fd")
+		(property "Reference" "J3"
+			(at 250.19 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST-SH-3P"
+			(at 250.19 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Upside Down Labs:JST-SH-3P"
+			(at 243.84 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount, Right Angle 3 position 0.039 (1.00mm)"
+			(at 243.84 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "JST Sales"
+			(at 243.84 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 243.84 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 243.84 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SM03B-SRSS-TB(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"
+			(at 243.84 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendation"
+			(at 243.84 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SM03B-SRSS-TB(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"
+			(at 243.84 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SM03B-SRSS-TB(LF)(SN)"
+			(at 243.84 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 243.84 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 243.84 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcba780f-26ee-4775-a122-bc174f59ee04")
+		)
+		(pin "2"
+			(uuid "af0a6d1e-4688-4cc1-bdb8-fc3c53b8736f")
+		)
+		(pin "S2"
+			(uuid "fb5f8c36-4803-4836-af9d-9d6046d75490")
+		)
+		(pin "S1"
+			(uuid "556bd0f9-53a3-48e6-aebf-67de9eac53fa")
+		)
+		(pin "3"
+			(uuid "bc48a9b1-418f-4dd3-967a-b5ad8b592724")
+		)
+		(instances
+			(project ""
+				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -14863,184 +16850,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Upside Down Labs:JST-SH-3P")
-		(at 245.11 140.97 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf3379b4-8be8-4215-8f01-f5bcf555c560")
-		(property "Reference" "DBG0"
-			(at 245.11 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JST-SH-3P"
-			(at 245.11 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Upside Down Labs:JST-SH-3P"
-			(at 245.11 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 3 position 0.039 (1.00mm)"
-			(at 245.11 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "JST Sales"
-			(at 245.11 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 245.11 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 245.11 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SM03B-SRSS-TB(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"
-			(at 245.11 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendation"
-			(at 245.11 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SM03B-SRSS-TB(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"
-			(at 245.11 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SM03B-SRSS-TB(LF)(SN)"
-			(at 245.11 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 245.11 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "JST"
-			(at 245.11 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SM03B-SRSS-TB"
-			(at 245.11 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53a63d92-c406-498e-b735-81dca5dcbfc0")
-		)
-		(pin "2"
-			(uuid "6ed2a8b2-887b-42dd-a06a-519ff817feeb")
-		)
-		(pin "3"
-			(uuid "2da0b7bb-e711-45a5-9c8f-58f19df6b14c")
-		)
-		(pin "S1"
-			(uuid "46137141-1676-42e2-bf53-480165c0e912")
-		)
-		(pin "S2"
-			(uuid "0bb1e891-fd05-4f50-b718-46804143cf93")
-		)
-		(instances
-			(project "TechLab"
-				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
-					(reference "DBG0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "TechLab-eagle-import:3.3V")
 		(at 171.45 11.43 0)
 		(unit 1)
@@ -15190,7 +16999,7 @@
 			)
 		)
 		(property "Value" "120 Ohm (BLM18AG121SN1D)"
-			(at 77.978 90.424 0)
+			(at 74.168 91.186 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15253,6 +17062,181 @@
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
 					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seeed_libdb:Resistors/301030393")
+		(at 100.33 20.32 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9e71176-5bb4-4d1d-9de3-76dc7cd72bf9")
+		(property "Reference" "RN2"
+			(at 103.632 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 100.33 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor:R0804"
+			(at 100.33 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD RES Array 1K-5%-1/16W;0804(4 x 0402)"
+			(at 100.33 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 100.33 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "YC124-JR-071KL	"
+			(at 100.33 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "301030393"
+			(at 100.33 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "1K"
+			(at 100.33 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 100.33 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "RES"
+			(at 100.33 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "5%"
+			(at 97.282 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 100.33 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "-55°C to 155°C"
+			(at 100.33 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Priority" ""
+			(at 100.33 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "086daab9-612f-4062-9434-c4b0e65eeba4")
+		)
+		(pin "1"
+			(uuid "94aa3cf6-aec1-4454-a552-1ea83a4f6272")
+		)
+		(pin "2"
+			(uuid "fd1a5f98-221a-46b7-9dd0-c658d4e5b80f")
+		)
+		(pin "3"
+			(uuid "86736b91-2c72-46a4-81be-e03cef57f36b")
+		)
+		(pin "4"
+			(uuid "923ad35e-ab6d-4d49-b994-e4c96ba05e81")
+		)
+		(pin "5"
+			(uuid "78e3f302-45c0-4029-a398-d657115e0cb8")
+		)
+		(pin "6"
+			(uuid "b95ec61b-87e0-4a79-a68f-0a4a9f995be5")
+		)
+		(pin "7"
+			(uuid "71410b42-ce33-44bc-9369-e8eeafbd93e6")
+		)
+		(instances
+			(project "TechLab"
+				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
+					(reference "RN2")
 					(unit 1)
 				)
 			)
@@ -15406,106 +17390,6 @@
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
 					(reference "#GND26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TechLab-eagle-import:JNS-5050RGB")
-		(at 154.94 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e52a7594-97bf-475d-9049-1209a0598f0d")
-		(property "Reference" "LD1"
-			(at 152.4 157.48 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "JNS-5050RGB"
-			(at 152.4 177.8 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TechLab:LED_RGB_5050"
-			(at 154.94 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Lumex"
-			(at 154.94 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SMD-LX5050RGB-TR"
-			(at 154.94 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1(+)"
-			(uuid "3371ba0c-2f33-43e3-8684-b6e9acdd0499")
-		)
-		(pin "2(+)"
-			(uuid "6e5b9004-9130-468c-bced-18a9f5d2c845")
-		)
-		(pin "3(+)"
-			(uuid "dcc4ff70-9b5b-4940-b6f2-03a73c4974ce")
-		)
-		(pin "4(-)"
-			(uuid "dab4e09f-246c-4e3d-97f3-3f780833c645")
-		)
-		(pin "5(-)"
-			(uuid "8e2eeda5-31f6-47f2-a738-f0d4dc74ee5d")
-		)
-		(pin "6(-)"
-			(uuid "c00a0975-6939-4dad-b005-af06935f724e")
-		)
-		(instances
-			(project "TechLab"
-				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
-					(reference "LD1")
 					(unit 1)
 				)
 			)
@@ -15818,7 +17702,7 @@
 	)
 	(symbol
 		(lib_id "TechLab-eagle-import:RESISTOR-(INCH)-0402")
-		(at 142.24 157.48 0)
+		(at 142.24 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15826,7 +17710,7 @@
 		(dnp yes)
 		(uuid "f24778ea-e777-4d42-9a11-cb886b421a0c")
 		(property "Reference" "R7"
-			(at 145.034 156.972 0)
+			(at 145.034 162.052 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -15835,7 +17719,7 @@
 			)
 		)
 		(property "Value" "DNP(1.5k)"
-			(at 145.034 157.988 0)
+			(at 145.034 163.068 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -15844,7 +17728,7 @@
 			)
 		)
 		(property "Footprint" "TechLab:0402"
-			(at 142.24 157.48 0)
+			(at 142.24 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15853,7 +17737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 157.48 0)
+			(at 142.24 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15862,7 +17746,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 157.48 0)
+			(at 142.24 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15871,7 +17755,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 142.24 157.48 0)
+			(at 142.24 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16071,35 +17955,34 @@
 		)
 	)
 	(symbol
-		(lib_id "TechLab-eagle-import:RESISTOR.NETWORK-(4)")
-		(at 100.33 48.26 0)
-		(mirror y)
+		(lib_id "TechLab-eagle-import:GND")
+		(at 232.41 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f823b38b-e2fa-4c13-882c-85d13484974b")
-		(property "Reference" "RN3"
-			(at 104.14 38.735 0)
+		(uuid "f880ded4-6b23-4e77-b581-7a0e81e8aeb2")
+		(property "Reference" "#GND05"
+			(at 232.41 161.29 0)
 			(effects
 				(font
-					(size 1.016 0.8636)
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 163.83 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1k, RN"
-			(at 104.14 40.005 0)
-			(effects
-				(font
-					(size 1.016 0.8636)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "TechLab:RN0804"
-			(at 100.33 48.26 0)
+		(property "Footprint" ""
+			(at 232.41 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16108,7 +17991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 48.26 0)
+			(at 232.41 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16117,25 +18000,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Bourns"
-			(at 100.33 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CAY10-102J4LF"
-			(at 100.33 48.26 0)
+			(at 232.41 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16144,33 +18009,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "43bfce4c-5183-4439-8173-efb90308f1fd")
-		)
-		(pin "2"
-			(uuid "36325bf2-e553-469c-ac34-7b6b39365508")
-		)
-		(pin "3"
-			(uuid "1f4d1856-0bd6-4b6e-a220-55a936a9a65b")
-		)
-		(pin "4"
-			(uuid "b815abcd-3141-4093-a391-fc0dd290c212")
-		)
-		(pin "5"
-			(uuid "59b4fc44-521e-4bb4-9e18-5afaaab8c737")
-		)
-		(pin "6"
-			(uuid "ff014ff7-083c-4f8e-bb12-189f20770e42")
-		)
-		(pin "7"
-			(uuid "bcac2591-3840-4b23-9a44-4e731538bc8f")
-		)
-		(pin "8"
-			(uuid "8b766599-59bb-46dd-ae92-67aaebadf80f")
+			(uuid "e2190378-3015-4eb1-96da-23c0e7a4ab2a")
 		)
 		(instances
 			(project "TechLab"
 				(path "/199e843b-8c9a-4ca8-a6e6-fde18a374d00/4dffbcbf-91b6-4a9c-9fc6-f872a45552ad"
-					(reference "RN3")
+					(reference "#GND05")
 					(unit 1)
 				)
 			)
