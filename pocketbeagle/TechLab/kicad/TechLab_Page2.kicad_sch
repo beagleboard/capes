@@ -4969,7 +4969,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
+			(property "Reference" "U5"
 				(at -15.24 24.13 0)
 				(effects
 					(font
@@ -4978,7 +4978,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "MCP23S18-E/MJ"
 				(at -15.24 -24.13 0)
 				(effects
 					(font
@@ -5005,7 +5005,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SPI BUS 16-Bit I/O Expander with Open-Drain Outputs from Microchip"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Microchip"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MCP23S18-E/MJ"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5082,24 +5100,6 @@
 				)
 				(text "SCLK"
 					(at -7.112 10.16 0)
-					(effects
-						(font
-							(size 1.016 0.8636)
-						)
-						(justify left)
-					)
-				)
-				(text "MOSI"
-					(at -7.112 5.08 0)
-					(effects
-						(font
-							(size 1.016 0.8636)
-						)
-						(justify left)
-					)
-				)
-				(text "MISO"
-					(at -7.112 0 0)
 					(effects
 						(font
 							(size 1.016 0.8636)
@@ -5573,6 +5573,26 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "MCP23S18_1_1"
+				(text "COPI"
+					(at -7.112 5.08 0)
+					(effects
+						(font
+							(size 1.016 0.8636)
+						)
+						(justify left)
+					)
+				)
+				(text "CIPO"
+					(at -7.112 0 0)
+					(effects
+						(font
+							(size 1.016 0.8636)
+						)
+						(justify left)
 					)
 				)
 			)
@@ -10011,7 +10031,7 @@
 			)
 		)
 	)
-	(global_label "P2.25{slash}SPI1.MOSI(7SEG)"
+	(global_label "P2.25{slash}SPI1.COPI(7SEG)"
 		(shape input)
 		(at 29.21 33.02 180)
 		(fields_autoplaced yes)
@@ -10023,7 +10043,7 @@
 		)
 		(uuid "71dd5be1-5f28-4f6e-8a06-7b2c2ef271ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 4.7271 33.02 0)
+			(at 9.0418 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10095,7 +10115,7 @@
 			)
 		)
 	)
-	(global_label "P2.27{slash}SPI1.MISO(7SEG)"
+	(global_label "P2.27{slash}SPI1.CIPO(7SEG)"
 		(shape input)
 		(at 29.21 38.1 180)
 		(fields_autoplaced yes)
@@ -10107,7 +10127,7 @@
 		)
 		(uuid "de270bc4-87c0-460c-b251-c2b4f52d1d9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 4.7271 38.1 0)
+			(at 9.0418 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)

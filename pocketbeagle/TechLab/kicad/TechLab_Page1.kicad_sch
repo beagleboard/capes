@@ -245,8 +245,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J1"
-				(at 4.064 10.16 0)
+			(property "Reference" "MKB-1"
+				(at -0.762 9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -261,9 +261,10 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Right"
 				(at 0 0 0)
 				(effects
 					(font
@@ -282,6 +283,24 @@
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Samtec"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SSM-108-L-SV"
 				(at 0 0 0)
 				(effects
 					(font
@@ -395,7 +414,7 @@
 				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 3.81)
-					(name "MISO"
+					(name "CIPO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -413,7 +432,7 @@
 				(pin passive line
 					(at -5.08 -5.08 0)
 					(length 3.81)
-					(name "MOSI"
+					(name "COPI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10299,7 +10318,7 @@
 			)
 		)
 	)
-	(global_label "P1.10{slash}SPI0.MISO(EXP1.5)"
+	(global_label "P1.10{slash}SPI0.CIPO(EXP1.5)"
 		(shape input)
 		(at 40.64 87.63 180)
 		(fields_autoplaced yes)
@@ -10311,7 +10330,7 @@
 		)
 		(uuid "0cc88f16-2cdd-4242-8872-3a9ed36fb8ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.7347 87.63 0)
+			(at 19.0494 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10530,7 +10549,7 @@
 			)
 		)
 	)
-	(global_label "P1.12{slash}SPI0.MOSI(EXP1.6)"
+	(global_label "P1.12{slash}SPI0.COPI(EXP1.6)"
 		(shape input)
 		(at 40.64 90.17 180)
 		(fields_autoplaced yes)
@@ -10542,7 +10561,7 @@
 		)
 		(uuid "2ac4e608-5f98-4d8a-b8e4-ddc4864fe705")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.7347 90.17 0)
+			(at 19.0494 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11139,7 +11158,7 @@
 			)
 		)
 	)
-	(global_label "P1.12{slash}SPI0.MOSI(EXP1.6)"
+	(global_label "P1.12{slash}SPI0.COPI(EXP1.6)"
 		(shape input)
 		(at 118.11 25.4 0)
 		(fields_autoplaced yes)
@@ -11151,7 +11170,7 @@
 		)
 		(uuid "ae8f65e4-0d10-42ef-8a30-8f0645c6cd6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7954 25.4 0)
+			(at 139.7006 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11160,7 +11179,7 @@
 			)
 		)
 	)
-	(global_label "P2.27{slash}SPI1.MISO(7SEG)"
+	(global_label "P2.27{slash}SPI1.CIPO(7SEG)"
 		(shape input)
 		(at 187.96 48.26 180)
 		(fields_autoplaced yes)
@@ -11172,7 +11191,7 @@
 		)
 		(uuid "bd18fbb1-8c75-46fe-b070-0394406d0a9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.4771 48.26 0)
+			(at 167.7918 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11370,7 +11389,7 @@
 			)
 		)
 	)
-	(global_label "P2.25{slash}SPI1.MOSI(7SEG)"
+	(global_label "P2.25{slash}SPI1.COPI(7SEG)"
 		(shape input)
 		(at 187.96 45.72 180)
 		(fields_autoplaced yes)
@@ -11382,7 +11401,7 @@
 		)
 		(uuid "e3074072-fb28-4dd9-a4d6-ca51425808e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.4771 45.72 0)
+			(at 167.7918 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11454,7 +11473,7 @@
 			)
 		)
 	)
-	(global_label "P1.10{slash}SPI0.MISO(EXP1.5)"
+	(global_label "P1.10{slash}SPI0.CIPO(EXP1.5)"
 		(shape input)
 		(at 118.11 22.86 0)
 		(fields_autoplaced yes)
@@ -11466,7 +11485,7 @@
 		)
 		(uuid "f6df985e-cf74-4fed-962b-6b9377e4caef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7954 22.86 0)
+			(at 139.7006 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
